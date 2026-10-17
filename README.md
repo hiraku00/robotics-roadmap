@@ -7,6 +7,7 @@
 - 分からない言葉：[用語集（GLOSSARY.md）](GLOSSARY.md)
 - 教材の一覧と、URLをどこまで確認したか：[MATERIALS.md](MATERIALS.md)
 - ROS 2の演習（フェーズ4の一部を先に進めている）：[hiraku00/ros2_ws](https://github.com/hiraku00/ros2_ws)
+- 同じ内容のドキュメント版（チェックリストに印を付けながら読む用）：[ロボティクス 6ヶ月ロードマップ](https://claude.ai/code/artifact/41f3799d-f169-466c-9195-da13ce74d1a2)
 
 ## 全体像
 
