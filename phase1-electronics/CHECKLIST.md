@@ -8,11 +8,11 @@
 
 **1日目（月）回路と記号**
 
-- [ ] 読む：[回路と電気記号](https://chugaku.manabihiroba.net/rika/kairo.html)と[回路を流れる電流と電圧の性質](https://chugaku.manabihiroba.net/rika/denryudenatus.html)（30分）
-- [ ] Tinkercadにアカウントを作る：[Tinkercad Circuits](https://www.tinkercad.com/circuits)
-- [ ] 演習：[SunFounder「2. 初めての回路」](https://docs.sunfounder.com/projects/inventor-lab-kit/ja/latest/lessons/2_first_circuit.html)を読み、同じ回路（Arduinoの5V → 220Ω → LED → GND）をTinkercadのブレッドボードで組んで光らせる（60分）
-- [ ] 観察：[Falstad オームの法則](https://www.falstad.com/circuit/e-ohms.html)で、電圧を変えると電流の点の速さが変わることを見る（英語ですが、見るだけで分かります）
-- [ ] 記録：今日組んだ回路を紙に回路図として描く
+- [x] 読む：[回路と電気記号](https://chugaku.manabihiroba.net/rika/kairo.html)と[回路を流れる電流と電圧の性質](https://chugaku.manabihiroba.net/rika/denryudenatus.html)（30分）
+- [x] Tinkercadにアカウントを作る：[Tinkercad Circuits](https://www.tinkercad.com/circuits)
+- [x] 演習：[SunFounder「2. 初めての回路」](https://docs.sunfounder.com/projects/inventor-lab-kit/ja/latest/lessons/2_first_circuit.html)を読み、同じ回路（Arduinoの5V → 220Ω → LED → GND）をTinkercadのブレッドボードで組んで光らせる（60分）
+- [x] 観察：[Falstad オームの法則](https://www.falstad.com/circuit/e-ohms.html)で、電圧を変えると電流の点の速さが変わることを見る（英語ですが、見るだけで分かります）
+- [x] 記録：今日組んだ回路を紙に回路図として描く
 
 **2日目（火）オームの法則**
 
