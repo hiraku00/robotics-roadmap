@@ -27,8 +27,8 @@
 
 - [ ] 読む：[直列回路、並列回路の計算](https://chugaku.manabihiroba.net/rika/tyokuretuheiretukeisann.html)の直列部分（15分）
 - [ ] 解く：同ページのPDF 1-1、1-2（40分）
-- [ ] 演習：[SunFounder「3. マルチメーターの使い方を学ぶ」](https://docs.sunfounder.com/projects/inventor-lab-kit/ja/latest/lessons/3_multimeter.html)の手順を、1日目の回路とTinkercadのマルチメーターで再現する。電圧を測る → 電流計を回路の途中に入れて電流を測る → R = V ÷ I で回路全体の抵抗を出し、220Ωを引いてLED分を求める（50分）
-- [ ] 記録：SunFounderの測定例（約5.13V、約13.5mA）と自分のTinkercadの値を並べ、違いの理由を1行
+- [x] 演習：[SunFounder「3. マルチメーターの使い方を学ぶ」](https://docs.sunfounder.com/projects/inventor-lab-kit/ja/latest/lessons/3_multimeter.html)の手順を、1日目の回路とTinkercadのマルチメーターで再現する。電圧を測る → 電流計を回路の途中に入れて電流を測る → R = V ÷ I で回路全体の抵抗を出し、220Ωを引いてLED分を求める（50分）
+- [x] 記録：SunFounderの測定例（約5.13V、約13.5mA）と自分のTinkercadの値を並べ、違いの理由を1行
 
 **4日目（木）並列回路と合成抵抗** → [記録](week1/README.md#4日目木並列回路と合成抵抗)
 
