@@ -32,10 +32,10 @@
 
 **4日目（木）並列回路と合成抵抗** → [記録](week1/README.md#4日目木並列回路と合成抵抗)
 
-- [ ] 読む：[回路全体の抵抗](https://chugaku.manabihiroba.net/rika/kairoteiko.html)と[MONOist 電子工作“超”入門(4) キルヒホッフの法則](https://monoist.itmedia.co.jp/mn/articles/1501/26/news020.html)の合成抵抗の部分（40分）
-- [ ] 演習：[SunFounder「4. オームの法則」](https://docs.sunfounder.com/projects/inventor-lab-kit/ja/latest/lessons/4_ohm%27s_law.html)の実験をTinkercadで行う。抵抗を100Ω→1kΩ→10kΩ→1MΩと替えてLEDの明るさと電流を記録し、電源を5Vから3.3Vに替えた場合も試す（30分）
-- [ ] 演習：[SunFounder「5. 直列回路と並列回路」](https://docs.sunfounder.com/projects/inventor-lab-kit/ja/latest/lessons/5_parallel_series_circuit.html)の回路をTinkercadで組み、直列と並列でLEDにかかる電圧を比べる（30分）
-- [ ] 記録：「直列で1個壊れると全部消え、並列だと残りが光る」理由を自分の言葉で2行
+- [x] 読む：[回路全体の抵抗](https://chugaku.manabihiroba.net/rika/kairoteiko.html)と[MONOist 電子工作“超”入門(4) キルヒホッフの法則](https://monoist.itmedia.co.jp/mn/articles/1501/26/news020.html)の合成抵抗の部分（40分）
+- [x] 演習：[SunFounder「4. オームの法則」](https://docs.sunfounder.com/projects/inventor-lab-kit/ja/latest/lessons/4_ohm%27s_law.html)の実験をTinkercadで行う。抵抗を100Ω→1kΩ→10kΩ→1MΩと替えてLEDの明るさと電流を記録し、電源を5Vから3.3Vに替えた場合も試す（30分）
+- [x] 演習：[SunFounder「5. 直列回路と並列回路」](https://docs.sunfounder.com/projects/inventor-lab-kit/ja/latest/lessons/5_parallel_series_circuit.html)の回路をTinkercadで組み、直列と並列でLEDにかかる電圧を比べる（30分）
+- [x] 記録：「直列で1個壊れると全部消え、並列だと残りが光る」理由を自分の言葉で2行
 
 **5日目（金）電力** → [記録](week1/README.md#5日目金電力)
 
