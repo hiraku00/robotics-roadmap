@@ -8,4 +8,4 @@
 | 2 | 9V + 1kΩ の電流測定 | | `images/day2-tinkercad.png` |
 | 3 | 直列回路と電圧・電流測定（5.00V、2.02V、13.5mA） | | `images/day3-tinkercad.png` |
 | 4 | 抵抗の取り替え／直列と並列 | | `images/day4-resistor-*.png`、`images/day4-series-*.png`、`images/day4-parallel-*.png`、`images/day4-3v3-220.png` |
-| 5 | 抵抗の消費電力 | | `images/day5-tinkercad.png` |
+| 5 | Falstad 抵抗の例題（電力は計算のみ） | [Falstad](https://www.falstad.com/circuit/circuitjs.html?startCircuit=resistors.txt) | `images/day5-falstad-*.png` |
