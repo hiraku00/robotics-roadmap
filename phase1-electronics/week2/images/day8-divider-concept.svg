@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" width="980" height="520" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+  <rect width="980" height="520" fill="#ffffff"/>
+  <text x="490" y="40" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">分圧回路：電圧を抵抗の「比」で分け合う</text>
+
+  <!-- left: circuit -->
+  <g stroke="#222" stroke-width="3" fill="none">
+    <path d="M90,110 H240 V150"/>
+    <rect x="225" y="150" width="30" height="80" fill="#fff"/>
+    <path d="M240,230 V290"/>
+    <rect x="225" y="290" width="30" height="80" fill="#fff"/>
+    <path d="M240,370 V430 H90"/>
+    <path d="M90,110 V235"/><path d="M90,305 V430"/>
+    <line x1="65" y1="235" x2="115" y2="235" stroke-width="4"/>
+    <line x1="77" y1="252" x2="103" y2="252" stroke-width="7"/>
+    <line x1="65" y1="270" x2="115" y2="270" stroke-width="4"/>
+    <line x1="77" y1="287" x2="103" y2="287" stroke-width="7"/>
+    <path d="M240,260 H330" stroke="#c62828"/>
+  </g>
+  <circle cx="240" cy="260" r="6" fill="#c62828"/>
+  <g font-size="18" fill="#222">
+    <text x="20" y="262" font-weight="bold">9V</text>
+    <text x="268" y="196" font-weight="bold">R1 5kΩ</text>
+    <text x="268" y="336" font-weight="bold">R2 10kΩ</text>
+    <text x="340" y="266" fill="#c62828" font-weight="bold">出力 Vout</text>
+    <text x="110" y="458" fill="#555">GND（0V）</text>
+  </g>
+
+  <!-- right: voltage "height" bar -->
+  <text x="720" y="88" font-size="19" font-weight="bold" text-anchor="middle" fill="#222">電圧を「高さ」で見ると</text>
+  <rect x="600" y="110" width="80" height="320" fill="#eef2f8" stroke="#888"/>
+  <rect x="600" y="110" width="80" height="107" fill="#ffcc80" stroke="#888"/>
+  <rect x="600" y="217" width="80" height="213" fill="#90caf9" stroke="#888"/>
+  <g font-size="17" fill="#222">
+    <text x="595" y="116" text-anchor="end">9V</text>
+    <text x="595" y="223" text-anchor="end" fill="#c62828" font-weight="bold">6V</text>
+    <text x="595" y="436" text-anchor="end">0V</text>
+    <text x="695" y="160">R1 が 3V 使う</text>
+    <text x="695" y="182" fill="#555" font-size="15">（全体の 5/15 = 1/3）</text>
+    <text x="695" y="320">R2 が 6V 使う</text>
+    <text x="695" y="342" fill="#555" font-size="15">（全体の 10/15 = 2/3）</text>
+    <text x="695" y="223" fill="#c62828" font-weight="bold">← ここが出力</text>
+  </g>
+
+  <rect x="60" y="476" width="860" height="36" fill="#f4f6fb" stroke="#c5cbe0"/>
+  <text x="490" y="500" font-size="18" text-anchor="middle" fill="#222">出力 = 電源 × R2 の割合 = 9V × 10 ÷ (5 + 10) = <tspan font-weight="bold" fill="#c62828">6V</tspan></text>
+</svg>
