@@ -62,10 +62,10 @@
 
 **8日目 分圧の式** → [記録](week2/README.md#8日目-分圧の式)
 
-- [ ] 読む：[DigiKey「分圧器の基礎」](https://forum.digikey.com/t/topic/44004)の「分圧器を理解する」まで。電卓ツールは使わず、式の導き方を追う（30分）
-- [ ] 解く：同記事末の問題3、4、5（手計算）（30分）
-- [ ] 観察：[Falstad 分圧の例題](https://www.falstad.com/circuit/e-voltdivide.html)。10Vから5V、7.5V・5V・2.5Vを作る回路の電圧を確認（20分）
-- [ ] 検証：Tinkercadで9V＋R1＋R2を組み、問題で解いた値を設定して測る（30分）
+- [x] 読む：[DigiKey「分圧器の基礎」](https://forum.digikey.com/t/topic/44004)の「分圧器を理解する」まで。電卓ツールは使わず、式の導き方を追う（30分）
+- [x] 解く：同記事末の問題3、4、5（手計算）（30分）
+- [x] 観察：[Falstad 分圧の例題](https://www.falstad.com/circuit/e-voltdivide.html)。10Vから5V、7.5V・5V・2.5Vを作る回路の電圧を確認（20分）
+- [x] 検証：Tinkercadで9V＋R1＋R2を組み、問題で解いた値を設定して測る（30分）
 
 **9日目 負荷で電圧が下がる** → [記録](week2/README.md#9日目-負荷で電圧が下がる)
 

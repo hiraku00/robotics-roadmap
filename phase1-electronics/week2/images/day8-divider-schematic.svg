@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" width="980" height="560" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+  <rect width="980" height="560" fill="#ffffff"/>
+  <text x="490" y="40" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">8日目 検証：分圧回路（問題3・4）</text>
+
+  <g stroke="#222" stroke-width="3" fill="none">
+    <!-- top rail: + to R1 -->
+    <path d="M140,120 H300"/>
+    <!-- R1 horizontal -->
+    <rect x="300" y="105" width="110" height="30" fill="#fff"/>
+    <!-- R1 to node X -->
+    <path d="M410,120 H560"/>
+    <!-- node X down to R2 and over to RL -->
+    <path d="M560,120 V200"/>
+    <path d="M560,120 H760 V200"/>
+    <!-- R2 vertical -->
+    <rect x="545" y="200" width="30" height="110" fill="#fff"/>
+    <!-- RL vertical (dashed outline = 3B only) -->
+    <rect x="745" y="200" width="30" height="110" fill="#fff" stroke-dasharray="7 5"/>
+    <!-- bottom rail -->
+    <path d="M560,310 V440"/>
+    <path d="M760,310 V440 H140"/>
+    <!-- supply vertical -->
+    <path d="M140,120 V255"/>
+    <path d="M140,295 V440"/>
+    <!-- battery symbol -->
+    <line x1="110" y1="255" x2="170" y2="255" stroke-width="4"/>
+    <line x1="125" y1="270" x2="155" y2="270" stroke-width="7"/>
+    <line x1="110" y1="280" x2="170" y2="280" stroke-width="4"/>
+    <line x1="125" y1="295" x2="155" y2="295" stroke-width="7"/>
+  </g>
+  <!-- junction dots -->
+  <g fill="#222">
+    <circle cx="560" cy="120" r="6"/>
+    <circle cx="560" cy="440" r="6"/>
+  </g>
+
+  <!-- voltmeter across R2 -->
+  <g stroke="#1565c0" stroke-width="2.5" fill="none">
+    <path d="M560,160 H660"/>
+    <path d="M560,360 H660"/>
+    <path d="M660,160 V230"/>
+    <path d="M660,290 V360"/>
+    <circle cx="660" cy="260" r="28" fill="#fff"/>
+  </g>
+  <g fill="#1565c0"><circle cx="560" cy="160" r="5"/><circle cx="560" cy="360" r="5"/></g>
+  <text x="660" y="270" font-size="26" font-weight="bold" text-anchor="middle" fill="#1565c0">V</text>
+  <text x="660" y="225" font-size="14" text-anchor="middle" fill="#1565c0">赤</text>
+  <text x="660" y="308" font-size="14" text-anchor="middle" fill="#1565c0">黒</text>
+
+  <!-- labels -->
+  <g font-size="19" fill="#222">
+    <text x="22" y="250">電源</text>
+    <text x="22" y="276" font-weight="bold">13.8V</text>
+    <text x="178" y="252" font-size="18">＋</text>
+    <text x="178" y="302" font-size="18">−</text>
+    <text x="355" y="95" text-anchor="middle" font-weight="bold">R1 5Ω</text>
+    <text x="500" y="262" text-anchor="end" font-weight="bold">R2 10Ω</text>
+    <text x="790" y="250" font-weight="bold">RL 15Ω</text>
+    <text x="790" y="275" font-size="15" fill="#555">（負荷：3B だけ</text>
+    <text x="790" y="295" font-size="15" fill="#555">　つなぐ）</text>
+    <text x="575" y="108" font-size="16" fill="#c62828">出力 Vout</text>
+    <text x="440" y="470" font-size="16" fill="#555">GND（0V）</text>
+  </g>
+
+  <!-- results table -->
+  <g font-size="17" fill="#222">
+    <rect x="60" y="490" width="860" height="56" fill="#f4f6fb" stroke="#c5cbe0"/>
+    <text x="80" y="514">負荷なし：Vout = 13.8 × 10 ÷ (5 + 10) = <tspan font-weight="bold" fill="#c62828">9.20V</tspan>（電流 0.92A）</text>
+    <text x="80" y="537">RL 15Ω あり：R2‖RL = 6Ω → Vout = 13.8 × 6 ÷ (5 + 6) ≒ <tspan font-weight="bold" fill="#c62828">7.53V</tspan>（電流 1.25A）</text>
+  </g>
+</svg>
