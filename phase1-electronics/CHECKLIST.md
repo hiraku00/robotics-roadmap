@@ -46,11 +46,11 @@
 
 **6日目 まとめと遅れの取り戻し** → [記録](week1/README.md#6日目-まとめと遅れの取り戻し)
 
-- [ ] 解く：[いろいろな回路の計算](https://chugaku.manabihiroba.net/rika/iroiron.html)と[まとめ、総合問題](https://chugaku.manabihiroba.net/rika/denryukairomatome.html)
-- [ ] 間違えた問題だけTinkercadで組んで確かめる
-- [ ] 読む：[Arrow「抵抗のカラーコードの読み方」](https://www.arrow.com/ja/resources/articles/2023/11/how-to-read-resistor-color-code.html)。抵抗の胴体に巻かれた色の帯から抵抗値を読む方法（15分）
-- [ ] 練習：Tinkercadで抵抗を5本置き、値を見ないで色の帯だけから抵抗値を当てる。そのあと設定値を見て答え合わせ。元記事の課題「抵抗5本を色の帯と照らし合わせる」の代わりです（20分）
-- [ ] `week1/README.md` に比較表と回路図の写真を置く
+- [x] 解く：[いろいろな回路の計算](https://chugaku.manabihiroba.net/rika/iroiron.html)と[まとめ、総合問題](https://chugaku.manabihiroba.net/rika/denryukairomatome.html)
+- [x] 間違えた問題だけTinkercadで組んで確かめる
+- [x] 読む：[Arrow「抵抗のカラーコードの読み方」](https://www.arrow.com/ja/resources/articles/2023/11/how-to-read-resistor-color-code.html)。抵抗の胴体に巻かれた色の帯から抵抗値を読む方法（15分）
+- [x] 練習：Tinkercadで抵抗を5本置き、値を見ないで色の帯だけから抵抗値を当てる。そのあと設定値を見て答え合わせ。元記事の課題「抵抗5本を色の帯と照らし合わせる」の代わりです（20分）
+- [x] `week1/README.md` に比較表と回路図の写真を置く
 
 **7日目 休み**
 

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 600" width="1060" height="600" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+  <rect width="1060" height="600" fill="#ffffff"/>
+  <text x="530" y="44" font-size="28" font-weight="bold" text-anchor="middle" fill="#222">よく使う抵抗 4本（これだけ覚える）</text>
+
+  <defs>
+    <g id="body">
+      <line x1="40" y1="0" x2="160" y2="0" stroke="#999" stroke-width="6" stroke-linecap="round"/>
+      <line x1="440" y1="0" x2="560" y2="0" stroke="#999" stroke-width="6" stroke-linecap="round"/>
+      <rect x="150" y="-38" width="300" height="76" rx="32" fill="#e9cf9b" stroke="#b8975a" stroke-width="3"/>
+      <rect x="400" y="-38" width="22" height="76" fill="#c9a227"/>
+    </g>
+  </defs>
+
+  <!-- 100Ω: brown black brown -->
+  <g transform="translate(0,130)">
+    <use href="#body"/>
+    <rect x="190" y="-38" width="22" height="76" fill="#7b4a26"/>
+    <rect x="232" y="-38" width="22" height="76" fill="#000"/>
+    <rect x="274" y="-38" width="22" height="76" fill="#7b4a26"/>
+    <text x="590" y="-6" font-size="30" font-weight="bold" fill="#222">100Ω</text>
+    <text x="590" y="24" font-size="17" fill="#555">茶(1)・黒(0)・茶(0を1個)</text>
+  </g>
+
+  <!-- 220Ω: red red brown -->
+  <g transform="translate(0,250)">
+    <use href="#body"/>
+    <rect x="190" y="-38" width="22" height="76" fill="#d32f2f"/>
+    <rect x="232" y="-38" width="22" height="76" fill="#d32f2f"/>
+    <rect x="274" y="-38" width="22" height="76" fill="#7b4a26"/>
+    <text x="590" y="-6" font-size="30" font-weight="bold" fill="#c62828">220Ω</text>
+    <text x="590" y="24" font-size="17" fill="#555">赤(2)・赤(2)・茶(0を1個)　LED用</text>
+  </g>
+
+  <!-- 1kΩ: brown black red -->
+  <g transform="translate(0,370)">
+    <use href="#body"/>
+    <rect x="190" y="-38" width="22" height="76" fill="#7b4a26"/>
+    <rect x="232" y="-38" width="22" height="76" fill="#000"/>
+    <rect x="274" y="-38" width="22" height="76" fill="#d32f2f"/>
+    <text x="590" y="-6" font-size="30" font-weight="bold" fill="#222">1kΩ</text>
+    <text x="590" y="24" font-size="17" fill="#555">茶(1)・黒(0)・赤(0を2個)</text>
+  </g>
+
+  <!-- 10kΩ: brown black orange -->
+  <g transform="translate(0,490)">
+    <use href="#body"/>
+    <rect x="190" y="-38" width="22" height="76" fill="#7b4a26"/>
+    <rect x="232" y="-38" width="22" height="76" fill="#000"/>
+    <rect x="274" y="-38" width="22" height="76" fill="#f57c00"/>
+    <text x="590" y="-6" font-size="30" font-weight="bold" fill="#222">10kΩ</text>
+    <text x="590" y="24" font-size="17" fill="#555">茶(1)・黒(0)・橙(0を3個)　センサー用</text>
+  </g>
+
+  <text x="530" y="580" font-size="16" fill="#555" text-anchor="middle">右端の金は誤差 ±5%。茶・黒で始まる3本は「10 に 0 を何個つけるか」だけが違う</text>
+</svg>

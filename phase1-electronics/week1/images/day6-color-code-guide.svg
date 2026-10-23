@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" width="900" height="760" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+  <rect width="900" height="760" fill="#ffffff"/>
+  <text x="450" y="44" font-size="28" font-weight="bold" text-anchor="middle" fill="#222">抵抗のカラーコードの読み方（4本帯）</text>
+
+  <!-- leads -->
+  <line x1="90" y1="190" x2="250" y2="190" stroke="#999" stroke-width="8" stroke-linecap="round"/>
+  <line x1="650" y1="190" x2="810" y2="190" stroke="#999" stroke-width="8" stroke-linecap="round"/>
+  <!-- body -->
+  <rect x="240" y="135" width="420" height="110" rx="45" fill="#e9cf9b" stroke="#b8975a" stroke-width="3"/>
+  <!-- bands: red red brown ... gold -->
+  <rect x="300" y="135" width="30" height="110" fill="#d32f2f"/>
+  <rect x="360" y="135" width="30" height="110" fill="#d32f2f"/>
+  <rect x="420" y="135" width="30" height="110" fill="#7b4a26"/>
+  <rect x="570" y="135" width="30" height="110" fill="#c9a227"/>
+
+  <!-- labels -->
+  <g font-size="18" fill="#222" text-anchor="middle">
+    <text x="315" y="290">1本目</text>
+    <text x="375" y="290">2本目</text>
+    <text x="435" y="290">3本目</text>
+    <text x="585" y="290">4本目</text>
+  </g>
+  <g font-size="16" fill="#555" text-anchor="middle">
+    <text x="315" y="314">数字</text>
+    <text x="375" y="314">数字</text>
+    <text x="435" y="314">0の数</text>
+    <text x="585" y="314">誤差</text>
+  </g>
+  <text x="510" y="120" font-size="15" fill="#c62828" text-anchor="middle">← すき間が広い</text>
+  <text x="140" y="110" font-size="16" fill="#1565c0">ここから読む →</text>
+  <text x="700" y="110" font-size="15" fill="#555">金・銀の帯が右端</text>
+
+  <!-- worked example -->
+  <rect x="90" y="345" width="720" height="70" rx="10" fill="#f4f6fb" stroke="#c5cbe0"/>
+  <text x="450" y="375" font-size="20" text-anchor="middle" fill="#222">赤(2)・赤(2)・茶(0を1個)・金(±5%)</text>
+  <text x="450" y="402" font-size="20" text-anchor="middle" fill="#222">→ 22 に 0 を1個 = <tspan font-weight="bold" fill="#c62828">220Ω ±5%</tspan></text>
+
+  <!-- color table -->
+  <text x="90" y="455" font-size="20" font-weight="bold" fill="#222">色と数字</text>
+  <g font-size="17" fill="#222">
+    <!-- row 1: 0-4 -->
+    <rect x="90"  y="470" width="40" height="40" fill="#000000" stroke="#888"/><text x="140" y="497">黒 0</text>
+    <rect x="235" y="470" width="40" height="40" fill="#7b4a26" stroke="#888"/><text x="285" y="497">茶 1</text>
+    <rect x="380" y="470" width="40" height="40" fill="#d32f2f" stroke="#888"/><text x="430" y="497">赤 2</text>
+    <rect x="525" y="470" width="40" height="40" fill="#f57c00" stroke="#888"/><text x="575" y="497">橙 3</text>
+    <rect x="670" y="470" width="40" height="40" fill="#fbc02d" stroke="#888"/><text x="720" y="497">黄 4</text>
+    <!-- row 2: 5-9 -->
+    <rect x="90"  y="525" width="40" height="40" fill="#2e7d32" stroke="#888"/><text x="140" y="552">緑 5</text>
+    <rect x="235" y="525" width="40" height="40" fill="#1565c0" stroke="#888"/><text x="285" y="552">青 6</text>
+    <rect x="380" y="525" width="40" height="40" fill="#7b1fa2" stroke="#888"/><text x="430" y="552">紫 7</text>
+    <rect x="525" y="525" width="40" height="40" fill="#9e9e9e" stroke="#888"/><text x="575" y="552">灰 8</text>
+    <rect x="670" y="525" width="40" height="40" fill="#ffffff" stroke="#888"/><text x="720" y="552">白 9</text>
+  </g>
+
+  <text x="90" y="605" font-size="20" font-weight="bold" fill="#222">4本目（誤差）</text>
+  <g font-size="17" fill="#222">
+    <rect x="90"  y="620" width="40" height="40" fill="#c9a227" stroke="#888"/><text x="140" y="647">金 ±5%（いちばんよく見る）</text>
+    <rect x="460" y="620" width="40" height="40" fill="#bdbdbd" stroke="#888"/><text x="510" y="647">銀 ±10%</text>
+  </g>
+  <text x="90" y="705" font-size="16" fill="#555">3本目は「0 をいくつつけるか」：茶 = 0を1個、赤 = 2個、橙 = 3個、黄 = 4個、緑 = 5個</text>
+  <text x="90" y="732" font-size="16" fill="#555">3本目が1色ずれると10倍ずつ変わる（赤赤茶 220Ω と 赤赤黄 220kΩ は1000倍違う）</text>
+</svg>
