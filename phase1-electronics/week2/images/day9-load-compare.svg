@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" width="980" height="560" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+  <rect width="980" height="560" fill="#ffffff"/>
+  <text x="490" y="40" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">同じ 1kΩ の負荷でも、下がり方がまったく違う</text>
+
+  <!-- ===== left: 1k pair ===== -->
+  <text x="245" y="85" font-size="21" font-weight="bold" text-anchor="middle" fill="#222">1kΩ ペア</text>
+  <g stroke="#222" stroke-width="3" fill="none">
+    <path d="M150,105 V125"/><rect x="135" y="125" width="30" height="60" fill="#fff"/>
+    <path d="M150,185 V210 H230 V225"/><path d="M150,210 V225"/>
+    <rect x="135" y="225" width="30" height="60" fill="#fff"/>
+    <rect x="215" y="225" width="30" height="60" fill="#fff" stroke="#1565c0"/>
+    <path d="M150,285 V300 H230 V285"/><path d="M150,300 V315"/>
+  </g>
+  <circle cx="150" cy="210" r="5" fill="#c62828"/>
+  <g font-size="15" fill="#222">
+    <text x="175" y="160">R1 1k</text>
+    <text x="80" y="260">R2 1k</text>
+    <text x="255" y="260" fill="#1565c0">負荷 1k</text>
+  </g>
+  <text x="245" y="345" font-size="16" text-anchor="middle" fill="#222">下側：1k と 1k の並列 = <tspan font-weight="bold">0.5k</tspan></text>
+  <text x="245" y="368" font-size="15" text-anchor="middle" fill="#555">（半分になる）</text>
+
+  <!-- bar -->
+  <rect x="105" y="390" width="180" height="26" fill="#eef2f8" stroke="#888"/>
+  <rect x="105" y="390" width="90" height="26" fill="#90caf9"/>
+  <text x="293" y="409" font-size="15" fill="#555">4.50V 負荷なし</text>
+  <rect x="105" y="424" width="180" height="26" fill="#eef2f8" stroke="#888"/>
+  <rect x="105" y="424" width="60" height="26" fill="#1565c0"/>
+  <text x="293" y="443" font-size="15" fill="#1565c0" font-weight="bold">3.00V 負荷あり</text>
+  <text x="245" y="482" font-size="20" text-anchor="middle" font-weight="bold" fill="#222">約 33% 下がる</text>
+
+  <!-- divider -->
+  <line x1="490" y1="70" x2="490" y2="500" stroke="#ddd" stroke-width="2"/>
+
+  <!-- ===== right: 100k pair ===== -->
+  <text x="735" y="85" font-size="21" font-weight="bold" text-anchor="middle" fill="#222">100kΩ ペア</text>
+  <g stroke="#222" stroke-width="3" fill="none">
+    <path d="M640,105 V125"/><rect x="625" y="125" width="30" height="60" fill="#fff"/>
+    <path d="M640,185 V210 H720 V225"/><path d="M640,210 V225"/>
+    <rect x="625" y="225" width="30" height="60" fill="#fff"/>
+    <rect x="705" y="225" width="30" height="60" fill="#fff" stroke="#1565c0"/>
+    <path d="M640,285 V300 H720 V285"/><path d="M640,300 V315"/>
+  </g>
+  <circle cx="640" cy="210" r="5" fill="#c62828"/>
+  <g font-size="15" fill="#222">
+    <text x="665" y="160">R1 100k</text>
+    <text x="555" y="260">R2 100k</text>
+    <text x="745" y="260" fill="#1565c0">負荷 1k</text>
+  </g>
+  <text x="735" y="345" font-size="16" text-anchor="middle" fill="#222">下側：100k と 1k の並列 ≒ <tspan font-weight="bold">0.99k</tspan></text>
+  <text x="735" y="368" font-size="15" text-anchor="middle" fill="#555">（100k が 1k 以下に激減）</text>
+
+  <rect x="595" y="390" width="180" height="26" fill="#eef2f8" stroke="#888"/>
+  <rect x="595" y="390" width="90" height="26" fill="#90caf9"/>
+  <text x="783" y="409" font-size="15" fill="#555">4.49V 負荷なし</text>
+  <rect x="595" y="424" width="180" height="26" fill="#eef2f8" stroke="#888"/>
+  <rect x="595" y="424" width="3" height="26" fill="#c62828"/>
+  <text x="783" y="443" font-size="15" fill="#c62828" font-weight="bold">0.088V 負荷あり</text>
+  <text x="735" y="482" font-size="20" text-anchor="middle" font-weight="bold" fill="#c62828">約 98% 下がる</text>
+
+  <rect x="60" y="505" width="860" height="44" fill="#f4f6fb" stroke="#c5cbe0"/>
+  <text x="490" y="533" font-size="17" text-anchor="middle" fill="#222">並列では<tspan font-weight="bold">小さいほうの抵抗が勝つ</tspan>。負荷が R2 より小さいと、下側がほぼ負荷の値になる</text>
+</svg>
