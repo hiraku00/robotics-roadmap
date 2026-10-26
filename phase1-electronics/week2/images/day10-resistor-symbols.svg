@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 430" width="980" height="430" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+  <rect width="980" height="430" fill="#ffffff"/>
+  <text x="490" y="40" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">抵抗の記号は2種類。どちらも同じ部品</text>
+
+  <!-- IEC rectangle -->
+  <rect x="60" y="70" width="400" height="270" rx="12" fill="#f4f6fb" stroke="#c5cbe0"/>
+  <text x="260" y="105" font-size="21" font-weight="bold" text-anchor="middle" fill="#222">四角（IEC 式・日本式）</text>
+  <g stroke="#8b0000" stroke-width="4" fill="none">
+    <line x1="110" y1="180" x2="190" y2="180"/>
+    <rect x="190" y="160" width="140" height="40" fill="#fff"/>
+    <line x1="330" y1="180" x2="410" y2="180"/>
+  </g>
+  <g font-size="16" fill="#222">
+    <text x="90" y="240">使われる場所：日本の教科書、JIS、ヨーロッパ</text>
+    <text x="90" y="266">KiCad の記号名：<tspan font-weight="bold">Device:R</tspan></text>
+    <text x="90" y="292">（KiCad の標準。ガイドの図もこちら）</text>
+  </g>
+
+  <!-- ANSI zigzag -->
+  <rect x="520" y="70" width="400" height="270" rx="12" fill="#fff8f0" stroke="#e0c9a6"/>
+  <text x="720" y="105" font-size="21" font-weight="bold" text-anchor="middle" fill="#222">ギザギザ（ANSI 式・米国式）</text>
+  <polyline points="570,180 650,180 662,160 686,200 710,160 734,200 758,160 782,200 790,180 870,180"
+            stroke="#8b0000" stroke-width="4" fill="none" stroke-linejoin="round"/>
+  <g font-size="16" fill="#222">
+    <text x="550" y="240">使われる場所：米国、Tinkercad、Falstad</text>
+    <text x="550" y="266">KiCad の記号名：<tspan font-weight="bold">Device:R_US</tspan></text>
+    <text x="550" y="292">（今回の回路図はこちらを選んだ）</text>
+  </g>
+
+  <rect x="60" y="360" width="860" height="52" fill="#eef7ee" stroke="#b9d8b9"/>
+  <text x="490" y="392" font-size="18" text-anchor="middle" fill="#222">KiCad では<tspan font-weight="bold">どちらも選べる</tspan>。部品を探すときに「R」なら四角、「R_US」ならギザギザ</text>
+</svg>

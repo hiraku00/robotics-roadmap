@@ -1,0 +1,4 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Exclude from Simulation","Exclude from Position Files","Footprint","Datasheet"
+"BT2","1","3V","","","","","${EXCLUDE_FROM_POS_FILES}","",""
+"D1","1","red","","","","","${EXCLUDE_FROM_POS_FILES}","",""
+"R1","1","1k","","","","","${EXCLUDE_FROM_POS_FILES}","",""

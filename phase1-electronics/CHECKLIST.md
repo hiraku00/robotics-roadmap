@@ -76,9 +76,9 @@
 
 **10日目 回路図の読み方とKiCad** → [記録](week2/README.md#10日目-回路図の読み方とkicad)
 
-- [ ] 読む：[KiCad 入門ガイド（日本語）](https://docs.kicad.org/8.0/ja/getting_started_in_kicad/)の「基本概念とワークフロー」と「チュートリアル パート1・2（回路図）」（40分）
-- [ ] KiCadをインストールし、ガイドに沿って最初の回路図を描く（50分）
-- [ ] 注意：TinkercadとFalstadの抵抗はギザギザ記号（米国式）、KiCadや日本の教科書は四角記号です。同じ部品だと覚える
+- [x] 読む：[KiCad 10.0 入門ガイド](https://docs.kicad.org/10.0/ja/getting_started_in_kicad/getting_started_in_kicad.html)（中身は英語。Chrome の翻訳で読む）の「基本概念とワークフロー」と「チュートリアル パート1・2（回路図）」（40分）
+- [x] KiCad 10.0 をインストールし、ガイドに沿って最初の回路図を描く（50分）
+- [x] 注意：抵抗の記号は四角（IEC 式・日本の教科書）とギザギザ（米国式・Tinkercad と Falstad）の2種類。KiCad はどちらも選べる（Device:R が四角、Device:R_US がギザギザ）。同じ部品だと覚える
 
 **11日目 回路図を自分で描く** → [記録](week2/README.md#11日目-回路図を自分で描く)
 
