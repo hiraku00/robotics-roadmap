@@ -11,7 +11,7 @@
     <line x1="330" y1="180" x2="410" y2="180"/>
   </g>
   <g font-size="16" fill="#222">
-    <text x="90" y="240">使われる場所：日本の教科書、JIS、ヨーロッパ</text>
+    <text x="90" y="240">使われる場所：日本の教科書、Tinkercad の回路図</text>
     <text x="90" y="266">KiCad の記号名：<tspan font-weight="bold">Device:R</tspan></text>
     <text x="90" y="292">（KiCad の標準。ガイドの図もこちら）</text>
   </g>
@@ -22,7 +22,7 @@
   <polyline points="570,180 650,180 662,160 686,200 710,160 734,200 758,160 782,200 790,180 870,180"
             stroke="#8b0000" stroke-width="4" fill="none" stroke-linejoin="round"/>
   <g font-size="16" fill="#222">
-    <text x="550" y="240">使われる場所：米国、Tinkercad、Falstad</text>
+    <text x="550" y="240">使われる場所：米国の資料、Falstad</text>
     <text x="550" y="266">KiCad の記号名：<tspan font-weight="bold">Device:R_US</tspan></text>
     <text x="550" y="292">（今回の回路図はこちらを選んだ）</text>
   </g>
