@@ -88,9 +88,9 @@
 
 **12日目 コンデンサの基礎** → [記録](week2/README.md#12日目-コンデンサの基礎)
 
-- [ ] 読む：[MONOist 電子工作“超”入門(3) コンデンサを知ろう](https://monoist.itmedia.co.jp/mn/articles/1412/16/news026.html)（30分）
-- [ ] 観察：[Falstad コンデンサの例題](https://www.falstad.com/circuit/e-cap.html)。スイッチで放電・充電を繰り返し、電圧（緑）と電流（黄）の波形の形を見る（30分）
-- [ ] 実験：同じ例題で抵抗を2倍にし、充電にかかる時間がどう変わるか見る。時定数τ = R × C で予想してから確かめる（30分）
+- [x] 読む：[MONOist 電子工作“超”入門(3) コンデンサを知ろう](https://monoist.itmedia.co.jp/mn/articles/1412/16/news026.html)（30分）
+- [x] 観察：[Falstad コンデンサの例題](https://www.falstad.com/circuit/e-cap.html)。スイッチで放電・充電を繰り返し、電圧（緑）と電流（黄）の波形の形を見る（30分）
+- [x] 実験：同じ例題で抵抗を2倍にし、充電にかかる時間がどう変わるか見る。時定数τ = R × C で予想してから確かめる（30分）
 
 **13日目 コンデンサの計算とフィルタ** → [記録](week2/README.md#13日目-コンデンサの計算とフィルタ)
 
