@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 605" width="980" height="605" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+  <rect width="980" height="605" fill="#ffffff"/>
+  <text x="490" y="38" font-size="25" font-weight="bold" text-anchor="middle" fill="#222">パスコン：IC のすぐ横に置く「小さな電気の貯金箱」</text>
+
+  <!-- ===== left: without ===== -->
+  <text x="245" y="82" font-size="20" font-weight="bold" text-anchor="middle" fill="#c62828">パスコンなし</text>
+  <!-- supply -->
+  <rect x="40" y="110" width="80" height="70" rx="6" fill="#eef2f8" stroke="#888"/>
+  <text x="80" y="140" font-size="15" text-anchor="middle" fill="#222">電源</text>
+  <text x="80" y="162" font-size="13" text-anchor="middle" fill="#555">（遠く）</text>
+  <!-- long wavy wire -->
+  <path d="M120,130 C150,100 170,160 200,130 S250,100 280,130 S330,160 360,130" fill="none" stroke="#222" stroke-width="3"/>
+  <text x="240" y="185" font-size="14" text-anchor="middle" fill="#555">長い配線（コイルのように働き、</text>
+  <text x="240" y="203" font-size="14" text-anchor="middle" fill="#555">急な電流の変化に追いつけない）</text>
+  <!-- IC -->
+  <rect x="360" y="105" width="90" height="70" rx="6" fill="#333"/>
+  <text x="405" y="146" font-size="20" font-weight="bold" text-anchor="middle" fill="#fff">IC</text>
+  <!-- graph -->
+  <text x="245" y="250" font-size="15" text-anchor="middle" fill="#222">IC の電源ピンの電圧</text>
+  <line x1="60" y1="300" x2="440" y2="300" stroke="#bbb" stroke-dasharray="5 4"/>
+  <text x="56" y="304" font-size="13" text-anchor="end" fill="#555">5V</text>
+  <path d="M60,300 H150 L160,360 L175,312 L185,330 L200,300 H260 L270,365 L285,310 L295,328 L310,300 H440" fill="none" stroke="#c62828" stroke-width="3"/>
+  <text x="245" y="400" font-size="15" text-anchor="middle" fill="#c62828">IC が電気を使う瞬間に、電圧がガクッと下がる</text>
+  <text x="245" y="420" font-size="15" text-anchor="middle" fill="#c62828">→ 誤作動やリセットの原因</text>
+
+  <line x1="490" y1="70" x2="490" y2="440" stroke="#ddd" stroke-width="2"/>
+
+  <!-- ===== right: with ===== -->
+  <text x="735" y="82" font-size="20" font-weight="bold" text-anchor="middle" fill="#2e7d32">パスコンあり（IC のすぐ横）</text>
+  <rect x="530" y="110" width="80" height="70" rx="6" fill="#eef2f8" stroke="#888"/>
+  <text x="570" y="140" font-size="15" text-anchor="middle" fill="#222">電源</text>
+  <text x="570" y="162" font-size="13" text-anchor="middle" fill="#555">（遠く）</text>
+  <path d="M610,130 C640,100 660,160 690,130 S740,100 770,130 H800" fill="none" stroke="#222" stroke-width="3"/>
+  <!-- capacitor next to IC -->
+  <line x1="790" y1="130" x2="790" y2="190" stroke="#222" stroke-width="3"/>
+  <line x1="770" y1="190" x2="810" y2="190" stroke="#1565c0" stroke-width="4"/>
+  <line x1="770" y1="202" x2="810" y2="202" stroke="#1565c0" stroke-width="4"/>
+  <line x1="790" y1="202" x2="790" y2="225" stroke="#222" stroke-width="3"/>
+  <text x="790" y="244" font-size="13" text-anchor="middle" fill="#555">GND</text>
+  <text x="745" y="200" font-size="15" text-anchor="end" fill="#1565c0" font-weight="bold">0.1µF</text>
+  <rect x="800" y="105" width="90" height="70" rx="6" fill="#333"/>
+  <text x="845" y="146" font-size="20" font-weight="bold" text-anchor="middle" fill="#fff">IC</text>
+  <path d="M790,185 C800,170 805,160 812,150" fill="none" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#arr)"/>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker></defs>
+  <text x="900" y="215" font-size="13" text-anchor="end" fill="#2e7d32">すぐ近くから</text>
+  <text x="900" y="232" font-size="13" text-anchor="end" fill="#2e7d32">電気を渡す</text>
+  <!-- graph -->
+  <text x="735" y="270" font-size="15" text-anchor="middle" fill="#222">IC の電源ピンの電圧</text>
+  <line x1="550" y1="300" x2="930" y2="300" stroke="#bbb" stroke-dasharray="5 4"/>
+  <text x="546" y="304" font-size="13" text-anchor="end" fill="#555">5V</text>
+  <path d="M550,300 H640 L648,308 L660,300 H750 L758,308 L770,300 H930" fill="none" stroke="#2e7d32" stroke-width="3"/>
+  <text x="735" y="400" font-size="15" text-anchor="middle" fill="#2e7d32">足りない分をパスコンがすぐ渡すので、</text>
+  <text x="735" y="420" font-size="15" text-anchor="middle" fill="#2e7d32">電圧がほとんど下がらない</text>
+
+  <!-- analogy -->
+  <rect x="40" y="455" width="900" height="135" rx="10" fill="#f4f6fb" stroke="#c5cbe0"/>
+  <text x="60" y="483" font-size="17" font-weight="bold" fill="#222">たとえ：遠くの給水塔（電源）と、シャワーの横の水がめ（パスコン）</text>
+  <text x="60" y="508" font-size="15" fill="#222">・シャワー（IC）を急に全開にすると、長い水道管では水が追いつかず、勢いが一瞬落ちる</text>
+  <text x="60" y="531" font-size="15" fill="#222">・すぐ横に水がめがあれば、足りない分をすぐ足せる（水がめは、あとで水道からゆっくり満たされる）</text>
+  <text x="60" y="554" font-size="15" fill="#222">・水がめが遠いと、そこからの管がまた長くなり意味がない → だから IC の電源ピンのすぐ近くに置く</text>
+</svg>

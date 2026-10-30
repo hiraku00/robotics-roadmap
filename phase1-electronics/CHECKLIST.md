@@ -94,11 +94,11 @@
 
 **13日目 コンデンサの計算とフィルタ** → [記録](week2/README.md#13日目-コンデンサの計算とフィルタ)
 
-- [ ] 読む：[MONOist 電子工作“超”入門(5) コンデンサを知る](https://monoist.itmedia.co.jp/mn/articles/1502/27/news035.html)（30分）
-- [ ] 観察：[Falstad ローパスフィルタ（RC）](https://www.falstad.com/circuit/e-filt-lopass.html)。ノイズを消すフィルタの原型で、Month 2の移動平均と同じ考え方です（20分）
-- [ ] 読む：[MONOist 俺流！組み込み用語解説(11) コンデンサー活用術](https://monoist.itmedia.co.jp/mn/spv/2502/06/news039.html)と[RSコンポーネンツ「バイパスコンデンサとは？」](https://jp.rs-online.com/web/content/discovery/ideas-and-advice/bypass-capacitor-guide)。IC（マイコンなどの部品）の電源ピンのすぐそばに置く小さなコンデンサ「パスコン（デカップリングコンデンサ）」の役割（30分）
-- [ ] 記録：「なぜ0.1μFのパスコンを、ICの電源ピンの近くに置くのか」を2行（元記事が名指しで求めている知識です）
-- [ ] 遅れの取り戻し
+- [x] 読む：[MONOist 電子工作“超”入門(5) コンデンサを知る](https://monoist.itmedia.co.jp/mn/articles/1502/27/news035.html)（30分）
+- [x] 観察：[Falstad ローパスフィルタ（RC）](https://www.falstad.com/circuit/e-filt-lopass.html)。ノイズを消すフィルタの原型で、Month 2の移動平均と同じ考え方です（20分）
+- [x] 読む：[MONOist 俺流！組み込み用語解説(11) コンデンサー活用術](https://monoist.itmedia.co.jp/mn/spv/2502/06/news039.html)と[RSコンポーネンツ「バイパスコンデンサとは？」](https://jp.rs-online.com/web/content/discovery/ideas-and-advice/bypass-capacitor-guide)。IC（マイコンなどの部品）の電源ピンのすぐそばに置く小さなコンデンサ「パスコン（デカップリングコンデンサ）」の役割（30分）
+- [x] 記録：「なぜ0.1μFのパスコンを、ICの電源ピンの近くに置くのか」を2行（元記事が名指しで求めている知識です）
+- [x] 遅れの取り戻し
 
 **14日目 休み**
 
