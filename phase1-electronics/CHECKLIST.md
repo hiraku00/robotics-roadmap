@@ -117,9 +117,9 @@
 
 **16日目 トランジスタの仕組み** → [記録](week3/README.md#16日目-トランジスタの仕組み)
 
-- [ ] 読む：[MONOist 俺流！組み込み用語解説(2) トランジスタ](https://monoist.itmedia.co.jp/mn/articles/2406/26/news018.html)（2ページ、30分）
-- [ ] 観察：[Falstad NPNトランジスタ](https://www.falstad.com/circuit/e-npn.html)と[Falstad トランジスタのスイッチ](https://www.falstad.com/circuit/e-transswitch.html)。小さいベース電流で大きいコレクタ電流が流れること、抵抗が電流を制限して「飽和」している状態を見る（40分）
-- [ ] 記録：ベース・コレクタ・エミッタの役割を自分の言葉で3行（10分）
+- [x] 読む：[MONOist 俺流！組み込み用語解説(2) トランジスタ](https://monoist.itmedia.co.jp/mn/articles/2406/26/news018.html)（2ページ、30分）
+- [x] 観察：[Falstad NPNトランジスタ](https://www.falstad.com/circuit/e-npn.html)と[Falstad トランジスタのスイッチ](https://www.falstad.com/circuit/e-transswitch.html)。小さいベース電流で大きいコレクタ電流が流れること、抵抗が電流を制限して「飽和」している状態を見る（40分）
+- [x] 記録：ベース・コレクタ・エミッタの役割を自分の言葉で3行（10分）
 
 **17日目 トランジスタスイッチを設計する（筆者の課題）** → [記録](week3/README.md#17日目-トランジスタスイッチを設計する筆者の課題)
 
