@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 590" width="980" height="590" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="590" fill="#fff"/>
+<defs><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+<text x="490" y="38" font-size="25" font-weight="bold" text-anchor="middle" fill="#222">NPN トランジスタの記号と、3本の足の役割</text>
+<circle cx="250" cy="280" r="105" fill="none" stroke="#222" stroke-width="3"/>
+<line x1="70" y1="280" x2="220" y2="280" stroke="#222" stroke-width="3"/>
+<circle cx="70" cy="280" r="6" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<line x1="220" y1="232" x2="220" y2="328" stroke="#222" stroke-width="5"/>
+<path d="M220,258 L285,210 V110" fill="none" stroke="#222" stroke-width="3"/>
+<circle cx="285" cy="104" r="6" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<line x1="220" y1="302" x2="283" y2="348" stroke="#222" stroke-width="3" marker-end="url(#ak)"/>
+<path d="M285,350 V450" fill="none" stroke="#222" stroke-width="3"/>
+<circle cx="285" cy="456" r="6" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="255" y="112" font-size="30" font-weight="bold" text-anchor="end" fill="#2e7d32">C</text>
+<text x="58" y="264" font-size="30" font-weight="bold" fill="#1565c0">B</text>
+<text x="255" y="466" font-size="30" font-weight="bold" text-anchor="end" fill="#c62828">E</text>
+<line x1="95" y1="308" x2="160" y2="308" stroke="#1565c0" stroke-width="3.5" marker-end="url(#ab)"/>
+<text x="40" y="342" font-size="20" font-weight="bold" fill="#1565c0">IB（小）</text>
+<line x1="310" y1="125" x2="310" y2="180" stroke="#2e7d32" stroke-width="3.5" marker-end="url(#ag)"/>
+<text x="322" y="160" font-size="20" font-weight="bold" fill="#2e7d32">IC（大）</text>
+<line x1="310" y1="385" x2="310" y2="440" stroke="#c62828" stroke-width="3.5" marker-end="url(#ar)"/>
+<text x="322" y="420" font-size="20" font-weight="bold" fill="#c62828">IE = IB + IC</text>
+<text x="40" y="500" font-size="15" fill="#555">・E 側の矢印 ＝ 電流が出ていく向き（外向き＝NPN）</text>
+<text x="40" y="522" font-size="15" fill="#555">・電流の向きは C → E だけ（逆には流れない）</text>
+<rect x="490" y="70" width="460" height="132" rx="10" fill="#e8f0fb" stroke="#1565c0" stroke-width="2"/>
+<text x="510" y="102" font-size="20" font-weight="bold" fill="#1565c0">B ベース ＝ 蛇口のハンドル</text>
+<text x="520" y="132" font-size="16" fill="#222">・小さい電流 IB を入れる（例 0.43mA）</text>
+<text x="520" y="157" font-size="16" fill="#222">・約 0.6V を超えると流れ始める（ダイオードと同じ）</text>
+<text x="520" y="182" font-size="16" fill="#222">・IB が 0 なら C → E にも流れない（OFF）</text>
+<rect x="490" y="220" width="460" height="132" rx="10" fill="#eaf5ea" stroke="#2e7d32" stroke-width="2"/>
+<text x="510" y="252" font-size="20" font-weight="bold" fill="#2e7d32">C コレクタ ＝ 大きい電流の入口</text>
+<text x="520" y="282" font-size="16" fill="#222">・IC ≒ IB × 約 100（この倍率が hFE）</text>
+<text x="520" y="307" font-size="16" fill="#222">・ただし上限は外の抵抗で決まる</text>
+<text x="520" y="332" font-size="16" fill="#222">・上限に張り付いた状態 ＝ 飽和（スイッチの ON）</text>
+<rect x="490" y="370" width="460" height="132" rx="10" fill="#fbeaea" stroke="#c62828" stroke-width="2"/>
+<text x="510" y="402" font-size="20" font-weight="bold" fill="#c62828">E エミッタ ＝ 出口</text>
+<text x="520" y="432" font-size="16" fill="#222">・IB と IC が合流して出ていく</text>
+<text x="520" y="457" font-size="16" fill="#222">・IE = IB + IC（例 0.43 + 16 ≒ 16.4mA）</text>
+<text x="520" y="482" font-size="16" fill="#222">・ふつうは GND につなぐ</text>
+<text x="490" y="568" font-size="17" font-weight="bold" text-anchor="middle" fill="#222">読み方：B に小さい電流を入れる → C から E へ大きい電流が流れる</text>
+</svg>
