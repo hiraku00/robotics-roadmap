@@ -36,11 +36,13 @@
 
 **成果物**（電圧の低い順）
 
-| −1V（逆向き） | 0.363V | 0.54V |
-| --- | --- | --- |
-| ![-1V](images/day15-falstad-diode-minus1V.png) | ![0.363V](images/day15-falstad-diode-0363V.png) | ![0.54V](images/day15-falstad-diode-054V.png) |
-| **0.611V** | **0.717V** | **0.77V** |
-| ![0.611V](images/day15-falstad-diode-0611V.png) | ![0.717V](images/day15-falstad-diode-max.png) | ![0.77V](images/day15-falstad-diode-077V.png) |
+| −1V（逆向き） | 0.363V |
+| --- | --- |
+| ![-1V](images/day15-falstad-diode-minus1V.png) | ![0.363V](images/day15-falstad-diode-0363V.png) |
+| **0.54V** | **0.611V** |
+| ![0.54V](images/day15-falstad-diode-054V.png) | ![0.611V](images/day15-falstad-diode-0611V.png) |
+| **0.717V** | **0.77V** |
+| ![0.717V](images/day15-falstad-diode-max.png) | ![0.77V](images/day15-falstad-diode-077V.png) |
 
 | 電圧 | 電流 | mA にそろえると |
 | --- | --- | --- |
@@ -227,9 +229,11 @@ Arduino 5V --> ＋レール --[電流計]--> j1 --> LED（f1 → e1）--> 抵抗
 <details>
 <summary>間違えたときの画面（クリックで開く）</summary>
 
-| 電流計が LED の横（15.2mA） | 電流計の両端が同じグループ（0.00A） | 抵抗の両足も同じグループ（0.00A） |
-| --- | --- | --- |
-| ![電流計が並列](images/day15-mistake-meter-parallel.png) | ![電流計が同じ行](images/day15-mistake-meter-same-row.png) | ![抵抗が同じ行](images/day15-mistake-resistor-same-row.png) |
+| 電流計が LED の横（15.2mA） | 電流計の両端が同じグループ（0.00A） |
+| --- | --- |
+| ![電流計が並列](images/day15-mistake-meter-parallel.png) | ![電流計が同じ行](images/day15-mistake-meter-same-row.png) |
+| **抵抗の両足も同じグループ（0.00A）** |  |
+| ![抵抗が同じ行](images/day15-mistake-resistor-same-row.png) |  |
 
 </details>
 
@@ -293,9 +297,11 @@ Arduino 5V --> ＋レール --[電流計]--> j1 --> LED（f1 → e1）--> 抵抗
 
 **成果物**
 
-| ベース 0.595V | ベース 0.657V | ベース 0.693V | ベース 0.657V・コレクタ 0.12V |
-| --- | --- | --- | --- |
-| ![0.595V](images/day16-npn-0595V.png) | ![0.657V](images/day16-npn-0657V.png) | ![0.693V](images/day16-npn-0693V.png) | ![飽和](images/day16-npn-saturation.png) |
+| ベース 0.595V | ベース 0.657V |
+| --- | --- |
+| ![0.595V](images/day16-npn-0595V.png) | ![0.657V](images/day16-npn-0657V.png) |
+| **ベース 0.693V** | **ベース 0.657V・コレクタ 0.12V** |
+| ![0.693V](images/day16-npn-0693V.png) | ![飽和](images/day16-npn-saturation.png) |
 
 | ベース電圧 | コレクタ電圧 | ベース電流 Ib | コレクタ電流 Ic | エミッタ電流 Ie | Ic ÷ Ib |
 | --- | --- | --- | --- | --- | --- |
@@ -323,9 +329,11 @@ Arduino 5V --> ＋レール --[電流計]--> j1 --> LED（f1 → e1）--> 抵抗
 
 **成果物**
 
-| 10kΩ・OFF | 10kΩ・ON | 1kΩ・OFF | 1kΩ・ON |
-| --- | --- | --- | --- |
-| ![10k OFF](images/day16-switch-10k-off.png) | ![10k ON](images/day16-switch-10k-on.png) | ![1k OFF](images/day16-switch-1k-off.png) | ![1k ON](images/day16-switch-1k-on.png) |
+| 10kΩ・OFF | 10kΩ・ON |
+| --- | --- |
+| ![10k OFF](images/day16-switch-10k-off.png) | ![10k ON](images/day16-switch-10k-on.png) |
+| **1kΩ・OFF** | **1kΩ・ON** |
+| ![1k OFF](images/day16-switch-1k-off.png) | ![1k ON](images/day16-switch-1k-on.png) |
 
 300Ω の下に写っている緑の輪は、Mac のポインタを目立たせる表示で、回路の部品ではない。
 

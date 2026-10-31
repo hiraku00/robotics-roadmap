@@ -666,11 +666,13 @@ LEDの「抵抗」は、流れる電流によって変わる。今回の 150Ω �
 
 電流計は「＋レール → j1」の間にはさんで、回路を流れる電流を測った。
 
-| 100Ω（5V） | 220Ω（5V） | 1kΩ（5V） |
-| --- | --- | --- |
-| ![100Ω](images/day4-resistor-100.png) | ![220Ω](images/day4-resistor-220.png) | ![1kΩ](images/day4-resistor-1k.png) |
-| **10kΩ（5V）** | **1MΩ（5V）** | **220Ω（3.3V）** |
-| ![10kΩ](images/day4-resistor-10k.png) | ![1MΩ](images/day4-resistor-1M.png) | ![3.3V](images/day4-3v3-220.png) |
+| 100Ω（5V） | 220Ω（5V） |
+| --- | --- |
+| ![100Ω](images/day4-resistor-100.png) | ![220Ω](images/day4-resistor-220.png) |
+| **1kΩ（5V）** | **10kΩ（5V）** |
+| ![1kΩ](images/day4-resistor-1k.png) | ![10kΩ](images/day4-resistor-10k.png) |
+| **1MΩ（5V）** | **220Ω（3.3V）** |
+| ![1MΩ](images/day4-resistor-1M.png) | ![3.3V](images/day4-3v3-220.png) |
 
 **測定値**
 
@@ -721,15 +723,19 @@ LEDの「抵抗」は、流れる電流によって変わる。今回の 150Ω �
 
 **B. 直列回路（LED 2個 ＋ 220Ω）**
 
-| 電圧（抵抗器・LED1・LED2） | LED1 の電流 | LED2 の電流 |
-| --- | --- | --- |
-| ![直列の電圧](images/day4-series-voltage.png) | ![LED1の電流](images/day4-series-led1-current.png) | ![LED2の電流](images/day4-series-led2-current.png) |
+| 電圧（抵抗器・LED1・LED2） | LED1 の電流 |
+| --- | --- |
+| ![直列の電圧](images/day4-series-voltage.png) | ![LED1の電流](images/day4-series-led1-current.png) |
+| **LED2 の電流** |  |
+| ![LED2の電流](images/day4-series-led2-current.png) |  |
 
 **C. 並列回路（LED ＋ 220Ω を2列）**
 
-| 各列の電圧 | 2列目の電流 | 合計の電流 | おまけ：LED 3個の並列 |
-| --- | --- | --- | --- |
-| ![並列の電圧](images/day4-parallel-voltage.png) | ![2列目の電流](images/day4-parallel-branch2-current.png) | ![合計の電流](images/day4-parallel-total-current.png) | ![3個の並列](images/day4-parallel-3leds.png) |
+| 各列の電圧 | 2列目の電流 |
+| --- | --- |
+| ![並列の電圧](images/day4-parallel-voltage.png) | ![2列目の電流](images/day4-parallel-branch2-current.png) |
+| **合計の電流** | **おまけ：LED 3個の並列** |
+| ![合計の電流](images/day4-parallel-total-current.png) | ![3個の並列](images/day4-parallel-3leds.png) |
 
 **測定値**
 
@@ -958,14 +964,24 @@ C. 並列回路
 
 電流は「上の段 → 下の段」と直列に通る。同じ段で2つ以上のスイッチを入れると、その段は並列になる。電流は **5V ÷ 全体の抵抗** で予想してから、左上の表示で答え合わせした。
 
-| スイッチ | 全体の抵抗 | 予想 | 結果 | 画面 |
-| --- | --- | --- | --- | --- |
-| 上 100 ＋ 下 200 | 300Ω | 16.7mA | **16.7mA** | ![](images/day5-falstad-100-200.png) |
-| 上 100 と 800（並列）＋ 下 200 | 88.9 + 200 = 288.9Ω | 17.3mA | **17.3mA** | ![](images/day5-falstad-100p800-200.png) |
-| 上 400 ＋ 下 200 | 600Ω | 8.3mA | **8.3mA** | ![](images/day5-falstad-400-200.png) |
-| 上 100 ＋ 下 600 | 700Ω | 7.1mA | **7.1mA** | ![](images/day5-falstad-100-600.png) |
-| 上 800 ＋ 下 600 | 1400Ω | 3.6mA | **3.6mA** | ![](images/day5-falstad-800-600.png) |
-| 上 100 ＋ 下の線（抵抗なし） | 100Ω | 50mA | **50mA** | ![](images/day5-falstad-100-wire.png) |
+| スイッチ | 全体の抵抗 | 予想 | 結果 |
+| --- | --- | --- | --- |
+| 上 100 ＋ 下 200 | 300Ω | 16.7mA | **16.7mA** |
+| 上 100 と 800（並列）＋ 下 200 | 88.9 + 200 = 288.9Ω | 17.3mA | **17.3mA** |
+| 上 400 ＋ 下 200 | 600Ω | 8.3mA | **8.3mA** |
+| 上 100 ＋ 下 600 | 700Ω | 7.1mA | **7.1mA** |
+| 上 800 ＋ 下 600 | 1400Ω | 3.6mA | **3.6mA** |
+| 上 100 ＋ 下の線（抵抗なし） | 100Ω | 50mA | **50mA** |
+
+**画面**（左上に電流が表示される）
+
+| 上 100 ＋ 下 200 | 上 100 と 800（並列）＋ 下 200 |
+| --- | --- |
+| ![上 100 ＋ 下 200](images/day5-falstad-100-200.png) | ![上 100 と 800（並列）＋ 下 200](images/day5-falstad-100p800-200.png) |
+| **上 400 ＋ 下 200** | **上 100 ＋ 下 600** |
+| ![上 400 ＋ 下 200](images/day5-falstad-400-200.png) | ![上 100 ＋ 下 600](images/day5-falstad-100-600.png) |
+| **上 800 ＋ 下 600** | **上 100 ＋ 下の線（抵抗なし）** |
+| ![上 800 ＋ 下 600](images/day5-falstad-800-600.png) | ![上 100 ＋ 下の線（抵抗なし）](images/day5-falstad-100-wire.png) |
 
 **学んだこと**
 

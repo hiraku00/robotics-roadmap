@@ -683,10 +683,13 @@ ERC が見つけられるのは、つなぎ忘れのピンや、電源の入れ�
 
 **成果物**
 
-| 直列（4日目） | 並列（4日目） | 分圧（8日目） |
-| --- | --- | --- |
-| ![直列](images/day11-series.png) | ![並列](images/day11-parallel.png) | ![分圧](images/day11-divider.png) |
-| ERC：違反 0 件 | ERC：違反 0 件 | ERC：違反 0 件 |
+| 直列（4日目） | 並列（4日目） |
+| --- | --- |
+| ![直列](images/day11-series.png) | ![並列](images/day11-parallel.png) |
+| ERC：違反 0 件 | ERC：違反 0 件 |
+| **分圧（8日目）** |  |
+| ![分圧](images/day11-divider.png) |  |
+| ERC：違反 0 件 |  |
 
 | 回路 | 部品 | つなぎ方 | プロジェクト |
 | --- | --- | --- | --- |
@@ -699,9 +702,11 @@ ERC が見つけられるのは、つなぎ忘れのピンや、電源の入れ�
 <details>
 <summary>ERC の画面と、最初に描いた LED 1個の直列（クリックで開く）</summary>
 
-| 直列 | 並列 | 分圧 |
-| --- | --- | --- |
-| ![直列のERC](images/day11-series-erc.png) | ![並列のERC](images/day11-parallel-erc.png) | ![分圧のERC](images/day11-divider-erc.png) |
+| 直列 | 並列 |
+| --- | --- |
+| ![直列のERC](images/day11-series-erc.png) | ![並列のERC](images/day11-parallel-erc.png) |
+| **分圧** |  |
+| ![分圧のERC](images/day11-divider-erc.png) |  |
 
 最初は直列として LED 1個（1・3日目の回路）を描いた。4日目に並列と比べたのは LED 2個の直列なので、D2 を足して描き直した。
 
@@ -982,9 +987,11 @@ KiCad は A4 の紙の枠に回路図を描くので、小さな回路は左上�
 
 **成果物**
 
-| 200µF・100Ω（τ = 20ms） | 200µF・200Ω（τ = 40ms） | 抵抗の最初の電流（200Ω） |
-| --- | --- | --- |
-| ![100Ω](images/day12-falstad-200uF-100ohm.png) | ![200Ω](images/day12-falstad-200uF-200ohm.png) | ![最初の電流](images/day12-falstad-200ohm-initial-current.png) |
+| 200µF・100Ω（τ = 20ms） | 200µF・200Ω（τ = 40ms） |
+| --- | --- |
+| ![100Ω](images/day12-falstad-200uF-100ohm.png) | ![200Ω](images/day12-falstad-200uF-200ohm.png) |
+| **抵抗の最初の電流（200Ω）** |  |
+| ![最初の電流](images/day12-falstad-200ohm-initial-current.png) |  |
 
 **結果**
 
