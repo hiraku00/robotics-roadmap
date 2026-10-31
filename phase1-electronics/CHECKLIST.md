@@ -110,10 +110,10 @@
 
 **15日目 LEDの抵抗を計算する** → [記録](week3/README.md#15日目-ledの抵抗を計算する)
 
-- [ ] 観察：[Falstad ダイオードの例題](https://www.falstad.com/circuit/e-diodevar.html)。一方向にしか電流が流れないことを確認（20分）
-- [ ] 読む：[DigiKey「LED用の適切な抵抗の選択」](https://forum.digikey.com/t/led/5558)。抵抗値と、抵抗に必要なワット数の求め方（20分）
-- [ ] 計算：5V電源、赤LED（Vf約2V）、10mAのときの抵抗値と消費電力を手で求める（20分）
-- [ ] 検証：Tinkercadで組み、電流計で10mA前後になるか確かめる（40分）
+- [x] 観察：[Falstad ダイオードの例題](https://www.falstad.com/circuit/e-diodevar.html)。一方向にしか電流が流れないことを確認（20分）
+- [x] 読む：[DigiKey「LED用の適切な抵抗の選択」](https://forum.digikey.com/t/led/5558)。抵抗値と、抵抗に必要なワット数の求め方（20分）
+- [x] 計算：5V電源、赤LED（Vf約2V）、10mAのときの抵抗値と消費電力を手で求める（20分）
+- [x] 検証：Tinkercadで組み、電流計で10mA前後になるか確かめる（40分）
 
 **16日目 トランジスタの仕組み** → [記録](week3/README.md#16日目-トランジスタの仕組み)
 
