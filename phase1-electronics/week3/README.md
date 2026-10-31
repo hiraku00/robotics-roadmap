@@ -328,6 +328,8 @@ Arduino 5V --> ＋レール --[電流計]--> j1 --> LED（f1 → e1）--> 抵抗
 | --- | --- | --- | --- |
 | ![10k OFF](images/day16-switch-10k-off.png) | ![10k ON](images/day16-switch-10k-on.png) | ![1k OFF](images/day16-switch-1k-off.png) | ![1k ON](images/day16-switch-1k-on.png) |
 
+300Ω の下に写っている緑の輪は、Mac のポインタを目立たせる表示で、回路の部品ではない。
+
 | ベース側の抵抗 | スイッチ | 300Ω の電流（= Ic） | 300Ω の電圧 | 残り（≈ C–E 間の電圧） |
 | --- | --- | --- | --- | --- |
 | 10kΩ | OFF | 497pA（≈ 0） | ≈ 0V | ≈ 5V |
