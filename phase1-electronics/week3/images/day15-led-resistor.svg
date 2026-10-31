@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" width="960" height="330" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="960" height="330" fill="#fff"/>
+<defs><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker></defs>
+<text x="480.0" y="38" font-size="24" font-weight="bold" text-anchor="middle" fill="#222">LED の抵抗の求め方（5V・赤LED・10mA）</text>
+<circle cx="80" cy="140" r="7" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="80" y="120" font-size="20" fill="#222" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M87,140 L250,140" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(290,140) rotate(0)"><line x1="-40" y1="0" x2="-25" y2="0" stroke="#222" stroke-width="3"/><rect x="-25" y="-9" width="50" height="18" fill="#fff" stroke="#e65100" stroke-width="3"/><line x1="25" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<path d="M330,140 L510,140" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(550,140) rotate(0)"><line x1="-40" y1="0" x2="-12" y2="0" stroke="#222" stroke-width="3"/><polygon points="-12,-14 -12,14 12,0" fill="#fff" stroke="#222" stroke-width="3"/><line x1="12" y1="-14" x2="12" y2="14" stroke="#222" stroke-width="3"/><line x1="12" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/><line x1="2" y1="-18" x2="12" y2="-30" stroke="#222" stroke-width="2" marker-end="url(#ak)"/><line x1="12" y1="-14" x2="22" y2="-26" stroke="#222" stroke-width="2" marker-end="url(#ak)"/></g>
+<path d="M590,140 L760,140 L760,150" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="760" y1="150" x2="760" y2="162" stroke="#222" stroke-width="3"/><line x1="744" y1="162" x2="776" y2="162" stroke="#222" stroke-width="3"/><line x1="750" y1="169" x2="770" y2="169" stroke="#222" stroke-width="3"/><line x1="756" y1="176" x2="764" y2="176" stroke="#222" stroke-width="3"/>
+<text x="290" y="115" font-size="18" fill="#e65100" text-anchor="middle" font-weight="bold">R = ?</text>
+<line x1="140" y1="120" x2="200" y2="120" stroke="#1565c0" stroke-width="3" marker-end="url(#ab)"/>
+<text x="170" y="110" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">10mA</text>
+<text x="530" y="98" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">赤LED</text>
+<path d="M100,180 v10 h400 v-10" fill="none" stroke="#e65100" stroke-width="2"/>
+<text x="300" y="212" font-size="16" fill="#e65100" text-anchor="middle" font-weight="bold">抵抗が使う：5 − 2 = 3V</text>
+<path d="M520,180 v10 h170 v-10" fill="none" stroke="#2e7d32" stroke-width="2"/>
+<text x="605" y="212" font-size="16" fill="#2e7d32" text-anchor="middle" font-weight="bold">LED が使う：約 2V</text>
+<text x="480" y="270" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">R = 抵抗が使う電圧 ÷ 電流 = 3V ÷ 0.01A = 300Ω</text>
+<text x="480" y="300" font-size="16" fill="#555" text-anchor="middle">抵抗の電力 = 3V × 0.01A = 0.03W（1/4W 抵抗で十分）</text>
+</svg>

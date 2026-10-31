@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="960" height="400" fill="#fff"/>
+<defs><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker></defs>
+<text x="480.0" y="38" font-size="24" font-weight="bold" text-anchor="middle" fill="#222">可変抵抗器（ボリューム）の中身：つまみで R1 と R2 の比を変える</text>
+<rect x="250" y="130" width="460" height="40" rx="6" fill="#fff" stroke="#222" stroke-width="3"/>
+<rect x="253" y="133" width="227" height="34" fill="#e8f0fb"/>
+<rect x="480" y="133" width="227" height="34" fill="#eaf5ea"/>
+<text x="365" y="157" font-size="20" fill="#1565c0" text-anchor="middle" font-weight="bold">R1</text>
+<text x="595" y="157" font-size="20" fill="#2e7d32" text-anchor="middle" font-weight="bold">R2</text>
+<path d="M150,150 L250,150" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M710,150 L810,150" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="150" cy="150" r="7" fill="#fff" stroke="#222" stroke-width="3"/><circle cx="810" cy="150" r="7" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="150" y="120" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">端子1</text>
+<text x="150" y="198" font-size="14" fill="#555" text-anchor="middle">電源（Vin）へ</text>
+<text x="810" y="120" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">端子3</text>
+<text x="810" y="198" font-size="14" fill="#555" text-anchor="middle">GND へ</text>
+<line x1="480" y1="260" x2="480" y2="178" stroke="#e65100" stroke-width="3" marker-end="url(#ao)"/>
+<circle cx="480" cy="260" r="7" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="480" y="292" font-size="17" fill="#e65100" text-anchor="middle" font-weight="bold">端子2（出力）</text>
+<text x="480" y="314" font-size="14" fill="#555" text-anchor="middle">= R1 と R2 のつなぎ目</text>
+<text x="560" y="230" font-size="15" fill="#e65100" text-anchor="middle">← つまみで左右に動く →</text>
+<text x="480" y="360" font-size="16" fill="#222" text-anchor="middle">つまみを右へ → R1 が長く、R2 が短く → 出力の電圧が下がる</text>
+<text x="480" y="385" font-size="14" fill="#555" text-anchor="middle">端子1–3 間の合計の抵抗は変わらない。変わるのは「比」だけ（8日目の ④）</text>
+</svg>

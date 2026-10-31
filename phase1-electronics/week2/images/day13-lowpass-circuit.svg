@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="960" height="440" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="960" height="440" fill="#fff"/>
+<defs><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker></defs>
+<text x="480.0" y="38" font-size="24" font-weight="bold" text-anchor="middle" fill="#222">RC ローパスフィルタの回路（Falstad の例題）</text>
+<g transform="translate(120,240) rotate(90)"><line x1="-40" y1="0" x2="-20" y2="0" stroke="#222" stroke-width="3"/><circle r="20" fill="#fff" stroke="#222" stroke-width="3"/><line x1="20" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g><path d="M108,240 C114,224 120,224 120,240 S126,256 132,240" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M120,200 L120,150 L260,150" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(300,150) rotate(0)"><line x1="-40" y1="0" x2="-25" y2="0" stroke="#222" stroke-width="3"/><rect x="-25" y="-9" width="50" height="18" fill="#fff" stroke="#222" stroke-width="3"/><line x1="25" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<path d="M340,150 L480,150" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="480" cy="150" r="5" fill="#222"/>
+<path d="M480,150 L640,150" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="640" cy="150" r="7" fill="#fff" stroke="#222" stroke-width="3"/>
+<path d="M480,150 L480,200" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(480,240) rotate(90)"><line x1="-40" y1="0" x2="-6" y2="0" stroke="#222" stroke-width="3"/><line x1="-6" y1="-18" x2="-6" y2="18" stroke="#222" stroke-width="4"/><line x1="6" y1="-18" x2="6" y2="18" stroke="#222" stroke-width="4"/><line x1="6" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<path d="M480,280 L480,330" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M120,280 L120,330 L480,330" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="300" y1="330" x2="300" y2="342" stroke="#222" stroke-width="3"/><line x1="284" y1="342" x2="316" y2="342" stroke="#222" stroke-width="3"/><line x1="290" y1="349" x2="310" y2="349" stroke="#222" stroke-width="3"/><line x1="296" y1="356" x2="304" y2="356" stroke="#222" stroke-width="3"/>
+<text x="40" y="120" font-size="15" fill="#222" text-anchor="start" font-weight="bold">入力の波（速さを変えられる）</text>
+<text x="300" y="128" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">R 187Ω</text>
+<text x="500" y="245" font-size="17" fill="#222" text-anchor="start" font-weight="bold">C 10µF</text>
+<text x="660" y="156" font-size="17" fill="#222" text-anchor="start" font-weight="bold">出力（out）</text>
+<line x1="370" y1="120" x2="460" y2="120" stroke="#2e7d32" stroke-width="3" marker-end="url(#ag)"/>
+<text x="370" y="110" font-size="15" fill="#2e7d32" text-anchor="start">ゆっくりな波 → 出力へ</text>
+<path d="M455,162 C440,190 440,230 462,250" fill="none" stroke="#c62828" stroke-width="3" marker-end="url(#ar)"/>
+<text x="430" y="220" font-size="15" fill="#c62828" text-anchor="end">速い波 → C を通って</text>
+<text x="430" y="242" font-size="15" fill="#c62828" text-anchor="end">GND へ逃げる</text>
+<rect x="600" y="210" width="330" height="110" rx="10" fill="#f4f6fb" stroke="#c5cbe0"/>
+<text x="615" y="240" font-size="16" fill="#222" text-anchor="start" font-weight="bold">境目（カットオフ周波数）</text>
+<text x="615" y="268" font-size="16" fill="#1565c0" text-anchor="start">fc = 1 ÷ (2π × R × C)</text>
+<text x="615" y="296" font-size="14.5" fill="#222" text-anchor="start">= 1 ÷ (6.28 × 187 × 0.00001) ≒ 85Hz</text>
+<text x="480" y="400" font-size="15" fill="#222" text-anchor="middle">コンデンサは「速い変化ほど通しやすい」（12日目の「交流は通す」）ので、</text>
+<text x="480" y="424" font-size="15" fill="#222" text-anchor="middle">速い波は出力に行かず、コンデンサから GND へ逃げてしまう</text>
+</svg>
