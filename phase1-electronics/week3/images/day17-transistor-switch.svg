@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="960" height="560" fill="#fff"/>
+<defs><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker></defs>
+<text x="480.0" y="38" font-size="24" font-weight="bold" text-anchor="middle" fill="#222">17日目：Arduino のピンで、9V の LED 3個をトランジスタで切り替える</text>
+<g transform="translate(110,290) rotate(90)"><line x1="-40" y1="0" x2="-6" y2="0" stroke="#222" stroke-width="3"/><line x1="-6" y1="-20" x2="-6" y2="20" stroke="#222" stroke-width="3"/><line x1="6" y1="-10" x2="6" y2="10" stroke="#222" stroke-width="6"/><line x1="6" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<path d="M110,250 L110,110 L190,110" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(230,110) rotate(0)"><line x1="-40" y1="0" x2="-25" y2="0" stroke="#222" stroke-width="3"/><rect x="-25" y="-9" width="50" height="18" fill="#fff" stroke="#222" stroke-width="3"/><line x1="25" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<path d="M270,110 L330,110" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(370,110) rotate(0)"><line x1="-40" y1="0" x2="-12" y2="0" stroke="#222" stroke-width="3"/><polygon points="-12,-14 -12,14 12,0" fill="#fff" stroke="#222" stroke-width="3"/><line x1="12" y1="-14" x2="12" y2="14" stroke="#222" stroke-width="3"/><line x1="12" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/><line x1="2" y1="-18" x2="12" y2="-30" stroke="#222" stroke-width="2" marker-end="url(#ak)"/><line x1="12" y1="-14" x2="22" y2="-26" stroke="#222" stroke-width="2" marker-end="url(#ak)"/></g>
+<path d="M410,110 L450,110" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(490,110) rotate(0)"><line x1="-40" y1="0" x2="-12" y2="0" stroke="#222" stroke-width="3"/><polygon points="-12,-14 -12,14 12,0" fill="#fff" stroke="#222" stroke-width="3"/><line x1="12" y1="-14" x2="12" y2="14" stroke="#222" stroke-width="3"/><line x1="12" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/><line x1="2" y1="-18" x2="12" y2="-30" stroke="#222" stroke-width="2" marker-end="url(#ak)"/><line x1="12" y1="-14" x2="22" y2="-26" stroke="#222" stroke-width="2" marker-end="url(#ak)"/></g>
+<path d="M530,110 L570,110" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(610,110) rotate(0)"><line x1="-40" y1="0" x2="-12" y2="0" stroke="#222" stroke-width="3"/><polygon points="-12,-14 -12,14 12,0" fill="#fff" stroke="#222" stroke-width="3"/><line x1="12" y1="-14" x2="12" y2="14" stroke="#222" stroke-width="3"/><line x1="12" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/><line x1="2" y1="-18" x2="12" y2="-30" stroke="#222" stroke-width="2" marker-end="url(#ak)"/><line x1="12" y1="-14" x2="22" y2="-26" stroke="#222" stroke-width="2" marker-end="url(#ak)"/></g>
+<path d="M650,110 L760,110 L760,268" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="700" y1="264" x2="700" y2="336" stroke="#222" stroke-width="5"/>
+<line x1="700" y1="284" x2="760" y2="268" stroke="#222" stroke-width="3"/>
+<line x1="700" y1="316" x2="758" y2="331" stroke="#222" stroke-width="3" marker-end="url(#ak)"/>
+<circle cx="735" cy="300" r="56" fill="none" stroke="#222" stroke-width="2"/>
+<path d="M760,332 L760,470" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M110,330 L110,470 L760,470" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(420,400) rotate(90)"><line x1="-40" y1="0" x2="-6" y2="0" stroke="#222" stroke-width="3"/><line x1="-6" y1="-20" x2="-6" y2="20" stroke="#222" stroke-width="3"/><line x1="6" y1="-10" x2="6" y2="10" stroke="#222" stroke-width="6"/><line x1="6" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<path d="M420,360 L420,300 L520,300" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(560,300) rotate(0)"><line x1="-40" y1="0" x2="-25" y2="0" stroke="#222" stroke-width="3"/><rect x="-25" y="-9" width="50" height="18" fill="#fff" stroke="#222" stroke-width="3"/><line x1="25" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<path d="M600,300 L700,300" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M420,440 L420,470" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="420" cy="470" r="5" fill="#222"/>
+<line x1="560" y1="470" x2="560" y2="482" stroke="#222" stroke-width="3"/><line x1="544" y1="482" x2="576" y2="482" stroke="#222" stroke-width="3"/><line x1="550" y1="489" x2="570" y2="489" stroke="#222" stroke-width="3"/><line x1="556" y1="496" x2="564" y2="496" stroke="#222" stroke-width="3"/>
+<text x="80" y="280" font-size="20" fill="#222" text-anchor="end" font-weight="bold">9V</text>
+<text x="80" y="303" font-size="14" fill="#555" text-anchor="end">電池</text>
+<text x="124" y="276" font-size="14" fill="#555" text-anchor="start">＋</text>
+<text x="124" y="318" font-size="14" fill="#555" text-anchor="start">−</text>
+<text x="398" y="390" font-size="18" fill="#1565c0" text-anchor="end" font-weight="bold">5V</text>
+<text x="398" y="412" font-size="13" fill="#1565c0" text-anchor="end">Arduino の 5V ピン</text>
+<text x="434" y="386" font-size="14" fill="#555" text-anchor="start">＋</text>
+<text x="434" y="428" font-size="14" fill="#555" text-anchor="start">−</text>
+<text x="230" y="88" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">Rc 300Ω</text>
+<text x="490" y="152" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">赤LED × 3（直列）</text>
+<text x="560" y="278" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">Rb 4.7kΩ</text>
+<text x="774" y="260" font-size="20" fill="#2e7d32" text-anchor="start" font-weight="bold">C</text>
+<text x="676" y="286" font-size="20" fill="#1565c0" text-anchor="end" font-weight="bold">B</text>
+<text x="774" y="356" font-size="20" fill="#c62828" text-anchor="start" font-weight="bold">E</text>
+<line x1="150" y1="140" x2="150" y2="200" stroke="#2e7d32" stroke-width="3" marker-end="url(#ag)"/>
+<text x="162" y="176" font-size="16" fill="#2e7d32" text-anchor="start" font-weight="bold">IC 10.0mA</text>
+<line x1="470" y1="322" x2="530" y2="322" stroke="#1565c0" stroke-width="3" marker-end="url(#ab)"/>
+<text x="470" y="346" font-size="16" fill="#1565c0" text-anchor="start" font-weight="bold">IB 0.914mA</text>
+<text x="590" y="512" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">共通の GND：9V の − と Arduino の GND をつなぐ（これがないとベースの電流が戻れない）</text>
+<rect x="830" y="90" width="115" height="300" rx="10" fill="#f4f6fb" stroke="#c5cbe0"/>
+<text x="887" y="120" font-size="15" fill="#2e7d32" text-anchor="middle" font-weight="bold">9V 側の輪</text>
+<text x="887" y="150" font-size="15" fill="#2e7d32" text-anchor="middle" font-weight="bold">LED を光らす</text>
+<text x="887" y="180" font-size="15" fill="#2e7d32" text-anchor="middle" font-weight="bold">10.0mA</text>
+<text x="887" y="210" font-size="15" fill="#555" text-anchor="middle" font-weight="bold"></text>
+<text x="887" y="240" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">Arduino 側</text>
+<text x="887" y="270" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">の輪</text>
+<text x="887" y="300" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">0.914mA</text>
+<text x="887" y="330" font-size="15" fill="#555" text-anchor="middle" font-weight="bold"></text>
+<text x="887" y="360" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">約 1/11</text>
+</svg>
