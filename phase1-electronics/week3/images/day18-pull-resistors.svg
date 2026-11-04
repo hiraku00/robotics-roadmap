@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="960" height="560" fill="#fff"/>
+<defs><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker></defs>
+<text x="480.0" y="38" font-size="24" font-weight="bold" text-anchor="middle" fill="#222">プルダウン・プルアップ・抵抗なし（フローティング）</text>
+<rect x="20" y="60" width="290" height="480" rx="10" fill="#fafbfd" stroke="#2e7d32" stroke-width="2"/>
+<text x="165" y="88" font-size="17" fill="#2e7d32" text-anchor="middle" font-weight="bold">プルダウン（18日目の演習）</text>
+<circle cx="130" cy="112" r="6" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="116" y="118" font-size="16" fill="#222" text-anchor="end" font-weight="bold">5V</text>
+<path d="M130,118 L130,130" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(130,170) rotate(90)"><line x1="-40" y1="0" x2="-16" y2="0" stroke="#222" stroke-width="3"/><circle cx="-16" cy="0" r="3.5" fill="#222"/><circle cx="18" cy="0" r="3.5" fill="#222"/><line x1="-16" y1="0" x2="14" y2="-18" stroke="#222" stroke-width="3"/><line x1="18" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<text x="152" y="176" font-size="15" fill="#222" text-anchor="start">ボタン</text>
+<path d="M130,210 L130,290" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="130" cy="250" r="5" fill="#222"/>
+<path d="M130,250 L250,250" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="256" cy="250" r="6" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="256" y="232" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">入力点</text>
+<text x="256" y="276" font-size="12" fill="#555" text-anchor="middle">（Arduino へ）</text>
+<g transform="translate(130,330) rotate(90)"><line x1="-40" y1="0" x2="-25" y2="0" stroke="#222" stroke-width="3"/><rect x="-25" y="-9" width="50" height="18" fill="#fff" stroke="#2e7d32" stroke-width="3"/><line x1="25" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<text x="152" y="336" font-size="15" fill="#222" text-anchor="start">10kΩ</text>
+<path d="M130,370 L130,385" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="130" y1="385" x2="130" y2="397" stroke="#222" stroke-width="3"/><line x1="114" y1="397" x2="146" y2="397" stroke="#222" stroke-width="3"/><line x1="120" y1="404" x2="140" y2="404" stroke="#222" stroke-width="3"/><line x1="126" y1="411" x2="134" y2="411" stroke="#222" stroke-width="3"/>
+<line x1="35" y1="430" x2="295" y2="430" stroke="#ddd"/>
+<text x="45" y="460" font-size="15" fill="#222" text-anchor="start" font-weight="bold">離す</text>
+<text x="100" y="460" font-size="15" fill="#2e7d32" text-anchor="start" font-weight="bold">0V（LOW）</text>
+<text x="45" y="490" font-size="15" fill="#222" text-anchor="start" font-weight="bold">押す</text>
+<text x="100" y="490" font-size="15" fill="#222" text-anchor="start">5V（HIGH）</text>
+<text x="165" y="522" font-size="12.5" fill="#555" text-anchor="middle">抵抗が入力点を GND へ「引き下げる」</text>
+<rect x="340" y="60" width="290" height="480" rx="10" fill="#fafbfd" stroke="#1565c0" stroke-width="2"/>
+<text x="485" y="88" font-size="17" fill="#1565c0" text-anchor="middle" font-weight="bold">プルアップ（MONOist の記事）</text>
+<circle cx="450" cy="112" r="6" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="436" y="118" font-size="16" fill="#222" text-anchor="end" font-weight="bold">5V</text>
+<path d="M450,118 L450,130" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(450,170) rotate(90)"><line x1="-40" y1="0" x2="-25" y2="0" stroke="#222" stroke-width="3"/><rect x="-25" y="-9" width="50" height="18" fill="#fff" stroke="#1565c0" stroke-width="3"/><line x1="25" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<text x="472" y="176" font-size="15" fill="#222" text-anchor="start">10kΩ</text>
+<path d="M450,210 L450,290" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="450" cy="250" r="5" fill="#222"/>
+<path d="M450,250 L570,250" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="576" cy="250" r="6" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="576" y="232" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">入力点</text>
+<text x="576" y="276" font-size="12" fill="#555" text-anchor="middle">（Arduino へ）</text>
+<g transform="translate(450,330) rotate(90)"><line x1="-40" y1="0" x2="-16" y2="0" stroke="#222" stroke-width="3"/><circle cx="-16" cy="0" r="3.5" fill="#222"/><circle cx="18" cy="0" r="3.5" fill="#222"/><line x1="-16" y1="0" x2="14" y2="-18" stroke="#222" stroke-width="3"/><line x1="18" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<text x="472" y="336" font-size="15" fill="#222" text-anchor="start">ボタン</text>
+<path d="M450,370 L450,385" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="450" y1="385" x2="450" y2="397" stroke="#222" stroke-width="3"/><line x1="434" y1="397" x2="466" y2="397" stroke="#222" stroke-width="3"/><line x1="440" y1="404" x2="460" y2="404" stroke="#222" stroke-width="3"/><line x1="446" y1="411" x2="454" y2="411" stroke="#222" stroke-width="3"/>
+<line x1="355" y1="430" x2="615" y2="430" stroke="#ddd"/>
+<text x="365" y="460" font-size="15" fill="#222" text-anchor="start" font-weight="bold">離す</text>
+<text x="420" y="460" font-size="15" fill="#1565c0" text-anchor="start" font-weight="bold">5V（HIGH）</text>
+<text x="365" y="490" font-size="15" fill="#222" text-anchor="start" font-weight="bold">押す</text>
+<text x="420" y="490" font-size="15" fill="#222" text-anchor="start">0V（LOW）</text>
+<text x="485" y="522" font-size="12.5" fill="#555" text-anchor="middle">抵抗が入力点を 5V へ「引き上げる」</text>
+<rect x="660" y="60" width="290" height="480" rx="10" fill="#fafbfd" stroke="#c62828" stroke-width="2"/>
+<text x="805" y="88" font-size="17" fill="#c62828" text-anchor="middle" font-weight="bold">抵抗なし（18日目の実験）</text>
+<circle cx="770" cy="112" r="6" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="756" y="118" font-size="16" fill="#222" text-anchor="end" font-weight="bold">5V</text>
+<path d="M770,118 L770,130" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(770,170) rotate(90)"><line x1="-40" y1="0" x2="-16" y2="0" stroke="#222" stroke-width="3"/><circle cx="-16" cy="0" r="3.5" fill="#222"/><circle cx="18" cy="0" r="3.5" fill="#222"/><line x1="-16" y1="0" x2="14" y2="-18" stroke="#222" stroke-width="3"/><line x1="18" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<text x="792" y="176" font-size="15" fill="#222" text-anchor="start">ボタン</text>
+<path d="M770,210 L770,250" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="770" cy="250" r="5" fill="#222"/>
+<path d="M770,250 L890,250" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="896" cy="250" r="6" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="896" y="232" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">入力点</text>
+<text x="896" y="276" font-size="12" fill="#555" text-anchor="middle">（Arduino へ）</text>
+<text x="770" y="320" font-size="40" fill="#c62828" text-anchor="middle" font-weight="bold">？</text>
+<text x="770" y="350" font-size="13" fill="#c62828" text-anchor="middle">GND にも</text>
+<text x="770" y="368" font-size="13" fill="#c62828" text-anchor="middle">つながっていない</text>
+<line x1="675" y1="430" x2="935" y2="430" stroke="#ddd"/>
+<text x="685" y="460" font-size="15" fill="#222" text-anchor="start" font-weight="bold">離す</text>
+<text x="740" y="460" font-size="15" fill="#c62828" text-anchor="start" font-weight="bold">決まらない（49.5mV）</text>
+<text x="685" y="490" font-size="15" fill="#222" text-anchor="start" font-weight="bold">押す</text>
+<text x="740" y="490" font-size="15" fill="#222" text-anchor="start">5V（HIGH）</text>
+<text x="805" y="522" font-size="12.5" fill="#555" text-anchor="middle">離すと入力点がどこにもつながらない</text>
+</svg>
