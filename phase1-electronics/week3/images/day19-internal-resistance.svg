@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="960" height="520" fill="#fff"/>
+<defs><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker></defs>
+<text x="480.0" y="38" font-size="24" font-weight="bold" text-anchor="middle" fill="#222">電池の内部抵抗：電流を流すほど、外に出る電圧（端子電圧）が下がる</text>
+<rect x="30" y="80" width="250" height="250" rx="12" fill="#fff8e1" stroke="#d4a017" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="155" y="105" font-size="15" fill="#8a6d00" text-anchor="middle" font-weight="bold">電池の中（見えない）</text>
+<g transform="translate(100,215) rotate(90)"><line x1="-40" y1="0" x2="-6" y2="0" stroke="#222" stroke-width="3"/><line x1="-6" y1="-20" x2="-6" y2="20" stroke="#222" stroke-width="3"/><line x1="6" y1="-10" x2="6" y2="10" stroke="#222" stroke-width="6"/><line x1="6" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<path d="M100,175 L100,140 L160,140" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(200,140) rotate(0)"><line x1="-40" y1="0" x2="-25" y2="0" stroke="#222" stroke-width="3"/><rect x="-25" y="-9" width="50" height="18" fill="#fff" stroke="#c62828" stroke-width="3"/><line x1="25" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<path d="M240,140 L330,140" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M100,255 L100,290 L330,290" stroke="#222" stroke-width="3" fill="none"/>
+<text x="70" y="212" font-size="20" fill="#222" text-anchor="end" font-weight="bold">E</text>
+<text x="70" y="234" font-size="15" fill="#555" text-anchor="end">6V</text>
+<text x="114" y="206" font-size="13" fill="#555" text-anchor="start">＋</text>
+<text x="114" y="246" font-size="13" fill="#555" text-anchor="start">−</text>
+<text x="200" y="172" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">内部抵抗 r 0.5Ω</text>
+<circle cx="330" cy="140" r="5" fill="#222"/>
+<circle cx="330" cy="290" r="5" fill="#222"/>
+<path d="M330,140 L400,140 L400,175" stroke="#222" stroke-width="3" fill="none"/>
+<g transform="translate(400,215) rotate(90)"><line x1="-40" y1="0" x2="-25" y2="0" stroke="#222" stroke-width="3"/><rect x="-25" y="-9" width="50" height="18" fill="#fff" stroke="#222" stroke-width="3"/><line x1="25" y1="0" x2="40" y2="0" stroke="#222" stroke-width="3"/></g>
+<path d="M400,255 L400,290 L330,290" stroke="#222" stroke-width="3" fill="none"/>
+<text x="418" y="220" font-size="15" fill="#222" text-anchor="start" font-weight="bold">負荷</text>
+<text x="418" y="240" font-size="13" fill="#555" text-anchor="start">100→10→2Ω</text>
+<line x1="345" y1="150" x2="345" y2="280" stroke="#1565c0" stroke-width="2.5" marker-end="url(#ab)"/>
+<text x="318" y="360" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">端子電圧 V（部品に届く電圧）</text>
+<text x="220" y="400" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">V = E − I × r = 6 − I × 0.5</text>
+<text x="220" y="430" font-size="13.5" fill="#555" text-anchor="middle">電流 I が増えると、r で消える電圧（I × r）が増える</text>
+<rect x="560" y="290.0" width="360" height="100.0" fill="#fdecea"/>
+<text x="572" y="380.0" font-size="13" fill="#c62828" text-anchor="start" font-weight="bold">マイコンがリセット（4.5V 未満）</text>
+<line x1="560" y1="90" x2="560" y2="390" stroke="#222" stroke-width="2"/><line x1="560" y1="390" x2="920" y2="390" stroke="#222" stroke-width="2"/>
+<text x="554" y="395.0" font-size="12.5" fill="#222" text-anchor="end">3.5V</text>
+<text x="554" y="295.0" font-size="12.5" fill="#222" text-anchor="end">4.5V</text>
+<line x1="560" y1="290.0" x2="920" y2="290.0" stroke="#bbb" stroke-dasharray="4 4"/>
+<text x="554" y="195.0" font-size="12.5" fill="#222" text-anchor="end">5.5V</text>
+<text x="554" y="145.0" font-size="12.5" fill="#222" text-anchor="end">6V</text>
+<line x1="560" y1="140.0" x2="920" y2="140.0" stroke="#bbb" stroke-dasharray="4 4"/>
+<text x="560.0" y="408" font-size="12.5" fill="#222" text-anchor="middle">0A</text>
+<text x="632.0" y="408" font-size="12.5" fill="#222" text-anchor="middle">1A</text>
+<text x="704.0" y="408" font-size="12.5" fill="#222" text-anchor="middle">2A</text>
+<text x="776.0" y="408" font-size="12.5" fill="#222" text-anchor="middle">3A</text>
+<text x="848.0" y="408" font-size="12.5" fill="#222" text-anchor="middle">4A</text>
+<text x="920.0" y="408" font-size="12.5" fill="#222" text-anchor="middle">5A</text>
+<text x="740.0" y="430" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">流れる電流 I</text>
+<text x="512" y="78" font-size="14" fill="#222" text-anchor="start" font-weight="bold">端子電圧 V</text>
+<line x1="560.0" y1="140.0" x2="920.0" y2="390.0" stroke="#1565c0" stroke-width="3"/>
+<circle cx="564.2984" cy="143.00000000000003" r="6" fill="#2e7d32"/>
+<text x="576.2984" y="133.00000000000003" font-size="13" fill="#2e7d32" text-anchor="start" font-weight="bold">100Ω：5.97V</text>
+<circle cx="601.112" cy="168.59999999999997" r="6" fill="#2e7d32"/>
+<text x="613.112" y="160.59999999999997" font-size="13" fill="#2e7d32" text-anchor="start" font-weight="bold">10Ω：5.71V</text>
+<circle cx="732.8" cy="260.0" r="6" fill="#2e7d32"/>
+<text x="742.8" y="248.0" font-size="13" fill="#2e7d32" text-anchor="start" font-weight="bold">2Ω：4.8V</text>
+<circle cx="776.0" cy="290.0" r="7" fill="#fff" stroke="#c62828" stroke-width="3"/>
+<text x="788.0" y="280.0" font-size="13" fill="#c62828" text-anchor="start" font-weight="bold">3A で 4.5V（境目）</text>
+<text x="480" y="480" font-size="14.5" fill="#222" text-anchor="middle" font-weight="bold">モーターが止まる（ロック）・動き出す → 大電流 → 端子電圧が下がる → マイコンがリセット（ブラウンアウト）</text>
+</svg>
