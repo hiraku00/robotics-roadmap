@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 640" width="1060" height="640" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="1060" height="640" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+</defs>
+<text x="530.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">22日目：測る点（P1〜P7）と、正常・故障①②③の電圧</text>
+<line x1="100" y1="290" x2="100" y2="324" stroke="#222" stroke-width="3"/><line x1="80" y1="324" x2="120" y2="324" stroke="#222" stroke-width="3"/><line x1="90" y1="336" x2="110" y2="336" stroke="#222" stroke-width="6"/><line x1="100" y1="336" x2="100" y2="370" stroke="#222" stroke-width="3"/>
+<text x="116" y="318" font-size="14" fill="#777" text-anchor="start">+</text>
+<text x="116" y="352" font-size="14" fill="#777" text-anchor="start">−</text>
+<text x="60" y="335" font-size="16" fill="#222" text-anchor="end" font-weight="bold">9V</text>
+<path d="M100,290 L100,90 L470,90" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="470" y1="90" x2="470" y2="105" stroke="#222" stroke-width="3"/><rect x="461" y="105" width="18" height="50" fill="#fff" stroke="#c62828" stroke-width="3"/><line x1="470" y1="155" x2="470" y2="170" stroke="#222" stroke-width="3"/>
+<text x="448" y="136" font-size="15" fill="#222" text-anchor="end">Rc 300Ω</text>
+<line x1="470" y1="170" x2="470" y2="198" stroke="#222" stroke-width="3"/><path d="M456,198 L484,198 L470,222 z" fill="#ffcdd2" stroke="#c62828" stroke-width="3"/><line x1="456" y1="222" x2="484" y2="222" stroke="#c62828" stroke-width="3"/><line x1="470" y1="222" x2="470" y2="250" stroke="#222" stroke-width="3"/>
+<line x1="488" y1="206" x2="504" y2="194" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<line x1="488" y1="218" x2="504" y2="206" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<text x="448" y="216" font-size="15" fill="#222" text-anchor="end">LED1</text>
+<line x1="470" y1="250" x2="470" y2="278" stroke="#222" stroke-width="3"/><path d="M456,278 L484,278 L470,302 z" fill="#ffcdd2" stroke="#c62828" stroke-width="3"/><line x1="456" y1="302" x2="484" y2="302" stroke="#c62828" stroke-width="3"/><line x1="470" y1="302" x2="470" y2="330" stroke="#222" stroke-width="3"/>
+<line x1="488" y1="286" x2="504" y2="274" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<line x1="488" y1="298" x2="504" y2="286" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<text x="448" y="296" font-size="15" fill="#222" text-anchor="end">LED2</text>
+<line x1="470" y1="330" x2="470" y2="358" stroke="#222" stroke-width="3"/><path d="M456,358 L484,358 L470,382 z" fill="#ffcdd2" stroke="#c62828" stroke-width="3"/><line x1="456" y1="382" x2="484" y2="382" stroke="#c62828" stroke-width="3"/><line x1="470" y1="382" x2="470" y2="410" stroke="#222" stroke-width="3"/>
+<line x1="488" y1="366" x2="504" y2="354" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<line x1="488" y1="378" x2="504" y2="366" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<text x="448" y="376" font-size="15" fill="#222" text-anchor="end">LED3</text>
+<circle cx="452" cy="460" r="34" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="400" y1="460" x2="440" y2="460" stroke="#222" stroke-width="3"/><line x1="440" y1="440" x2="440" y2="480" stroke="#222" stroke-width="5"/>
+<path d="M440,452 L470,432 L470,410" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M440,468 L470,488 L470,510" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M470,488 L457,486 L463,477 z" fill="#222"/>
+<text x="488" y="470" font-size="13" fill="#777" text-anchor="start">NPN</text>
+<path d="M470,510 L470,560" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M100,370 L100,560 L470,560" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M240,560 L240,575" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="224" y1="575" x2="256" y2="575" stroke="#222" stroke-width="3"/><line x1="230" y1="581" x2="250" y2="581" stroke="#222" stroke-width="3"/><line x1="236" y1="587" x2="244" y2="587" stroke="#222" stroke-width="3"/>
+<text x="252" y="600" font-size="14" fill="#777" text-anchor="start">GND（共通）</text>
+<rect x="150" y="440" width="110" height="40" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<text x="205" y="466" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">Arduino 5V</text>
+<path d="M205,480 L205,560" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="290" y1="460" x2="305" y2="460" stroke="#222" stroke-width="3"/><rect x="305" y="451" width="50" height="18" fill="#fff" stroke="#1565c0" stroke-width="3"/><line x1="355" y1="460" x2="370" y2="460" stroke="#222" stroke-width="3"/>
+<text x="330" y="440" font-size="14" fill="#1565c0" text-anchor="middle">Rb 4.7kΩ</text>
+<path d="M260,460 L290,460" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M370,460 L400,460" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="470" cy="90" r="5" fill="#e65100"/>
+<text x="484" y="95" font-size="15" fill="#e65100" text-anchor="start" font-weight="bold">P1</text>
+<circle cx="470" cy="170" r="5" fill="#e65100"/>
+<text x="484" y="175" font-size="15" fill="#e65100" text-anchor="start" font-weight="bold">P2</text>
+<circle cx="470" cy="250" r="5" fill="#e65100"/>
+<text x="484" y="255" font-size="15" fill="#e65100" text-anchor="start" font-weight="bold">P3</text>
+<circle cx="470" cy="330" r="5" fill="#e65100"/>
+<text x="484" y="335" font-size="15" fill="#e65100" text-anchor="start" font-weight="bold">P4</text>
+<circle cx="470" cy="410" r="5" fill="#e65100"/>
+<text x="484" y="415" font-size="15" fill="#e65100" text-anchor="start" font-weight="bold">P5 (C)</text>
+<circle cx="470" cy="510" r="5" fill="#e65100"/>
+<text x="484" y="530" font-size="15" fill="#e65100" text-anchor="start" font-weight="bold">E</text>
+<circle cx="400" cy="460" r="5" fill="#e65100"/>
+<text x="400" y="500" font-size="15" fill="#e65100" text-anchor="middle" font-weight="bold">P6 (B)</text>
+<circle cx="270" cy="460" r="5" fill="#e65100"/>
+<text x="270" y="430" font-size="15" fill="#e65100" text-anchor="middle" font-weight="bold">P7</text>
+<text x="670" y="66" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">正常</text>
+<text x="765" y="66" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">①Rb 100kΩ</text>
+<text x="860" y="66" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">②LED3 逆</text>
+<text x="965" y="66" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">③配線外し</text>
+<line x1="590" y1="74" x2="1030" y2="74" stroke="#bbb" stroke-width="1.5"/>
+<text x="598" y="95" font-size="13" fill="#e65100" text-anchor="start">P1</text>
+<text x="598" y="175" font-size="13" fill="#e65100" text-anchor="start">P2</text>
+<text x="598" y="255" font-size="13" fill="#e65100" text-anchor="start">P3</text>
+<text x="598" y="335" font-size="13" fill="#e65100" text-anchor="start">P4</text>
+<text x="598" y="415" font-size="13" fill="#e65100" text-anchor="start">P5</text>
+<text x="598" y="465" font-size="13" fill="#e65100" text-anchor="start">P6</text>
+<text x="598" y="515" font-size="13" fill="#e65100" text-anchor="start">E</text>
+<text x="670" y="95" font-size="15" fill="#222" text-anchor="middle">8.98</text>
+<text x="765" y="95" font-size="15" fill="#222" text-anchor="middle">8.99</text>
+<text x="860" y="95" font-size="15" fill="#222" text-anchor="middle">9.00</text>
+<text x="965" y="95" font-size="15" fill="#222" text-anchor="middle">9.00</text>
+<text x="670" y="175" font-size="15" fill="#222" text-anchor="middle">5.98</text>
+<text x="765" y="175" font-size="15" fill="#222" text-anchor="middle">6.07</text>
+<text x="860" y="175" font-size="15" fill="#222" text-anchor="middle">9.00</text>
+<text x="965" y="175" font-size="15" fill="#222" text-anchor="middle">9.00</text>
+<text x="670" y="255" font-size="15" fill="#222" text-anchor="middle">4.00</text>
+<text x="765" y="255" font-size="15" fill="#222" text-anchor="middle">4.09</text>
+<text x="860" y="255" font-size="15" fill="#222" text-anchor="middle">7.62</text>
+<text x="965" y="255" font-size="15" fill="#222" text-anchor="middle">7.62</text>
+<text x="670" y="335" font-size="15" fill="#222" text-anchor="middle">2.01</text>
+<text x="765" y="335" font-size="15" fill="#222" text-anchor="middle">2.11</text>
+<text x="860" y="335" font-size="15" fill="#222" text-anchor="middle">6.26</text>
+<text x="965" y="335" font-size="15" fill="#222" text-anchor="middle">6.26 / 0.00</text>
+<text x="670" y="415" font-size="15" fill="#222" text-anchor="middle">0.026</text>
+<text x="765" y="415" font-size="15" fill="#222" text-anchor="middle">0.127</text>
+<text x="860" y="415" font-size="15" fill="#222" text-anchor="middle">0.003</text>
+<text x="965" y="415" font-size="15" fill="#222" text-anchor="middle">0.003</text>
+<text x="670" y="465" font-size="15" fill="#222" text-anchor="middle">0.704</text>
+<text x="765" y="465" font-size="15" fill="#222" text-anchor="middle">約0.69</text>
+<text x="860" y="465" font-size="15" fill="#222" text-anchor="middle">0.683</text>
+<text x="965" y="465" font-size="15" fill="#222" text-anchor="middle">0.683</text>
+<text x="670" y="515" font-size="15" fill="#222" text-anchor="middle">0</text>
+<text x="765" y="515" font-size="15" fill="#222" text-anchor="middle">0</text>
+<text x="860" y="515" font-size="15" fill="#222" text-anchor="middle">0</text>
+<text x="965" y="515" font-size="15" fill="#222" text-anchor="middle">0</text>
+<rect x="820" y="320" width="80" height="24" rx="4" fill="none" stroke="#c62828" stroke-width="2"/>
+<rect x="905" y="320" width="120" height="24" rx="4" fill="none" stroke="#1565c0" stroke-width="2"/>
+<rect x="725" y="400" width="80" height="24" rx="4" fill="none" stroke="#e65100" stroke-width="2"/>
+<text x="965" y="352" font-size="11" fill="#1565c0" text-anchor="middle">LED2右足 / LED3左足</text>
+<line x1="590" y1="540" x2="1030" y2="540" stroke="#bbb" stroke-width="1.5"/>
+<text x="598" y="565" font-size="13" fill="#222" text-anchor="start">LED</text>
+<text x="598" y="590" font-size="13" fill="#222" text-anchor="start">IB</text>
+<text x="670" y="565" font-size="15" fill="#222" text-anchor="middle">10.0mA</text>
+<text x="670" y="590" font-size="15" fill="#222" text-anchor="middle">914µA</text>
+<text x="765" y="565" font-size="15" fill="#222" text-anchor="middle">9.71mA</text>
+<text x="765" y="590" font-size="15" fill="#222" text-anchor="middle">43.1µA</text>
+<text x="860" y="565" font-size="15" fill="#222" text-anchor="middle">0</text>
+<text x="860" y="590" font-size="15" fill="#222" text-anchor="middle">919µA</text>
+<text x="965" y="565" font-size="15" fill="#222" text-anchor="middle">0</text>
+<text x="965" y="590" font-size="15" fill="#222" text-anchor="middle">919µA</text>
+<rect x="725" y="573" width="80" height="24" rx="4" fill="none" stroke="#e65100" stroke-width="2"/>
+<text x="800" y="625" font-size="13" fill="#777" text-anchor="middle">単位は V（黒を GND に置き、赤で各点を測った）</text>
+</svg>
