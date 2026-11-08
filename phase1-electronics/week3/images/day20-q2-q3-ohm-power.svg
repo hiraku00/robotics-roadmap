@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="960" height="400" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+</defs>
+<text x="480.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">問2・問3：電流を出してから、電力を出して、定格と比べる</text>
+<path d="M100,130 L100,100 L300,100 L300,160" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M100,210 L100,320 L300,320 L300,240" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="100" y1="130" x2="100" y2="164" stroke="#222" stroke-width="3"/><line x1="80" y1="164" x2="120" y2="164" stroke="#222" stroke-width="3"/><line x1="90" y1="176" x2="110" y2="176" stroke="#222" stroke-width="6"/><line x1="100" y1="176" x2="100" y2="210" stroke="#222" stroke-width="3"/>
+<text x="116" y="158" font-size="14" fill="#777" text-anchor="start">+</text>
+<text x="116" y="192" font-size="14" fill="#777" text-anchor="start">−</text>
+<text x="70" y="175" font-size="18" fill="#222" text-anchor="end" font-weight="bold">12V</text>
+<line x1="300" y1="160" x2="300" y2="175" stroke="#222" stroke-width="3"/><rect x="291" y="175" width="18" height="50" fill="#fff" stroke="#c62828" stroke-width="3"/><line x1="300" y1="225" x2="300" y2="240" stroke="#222" stroke-width="3"/>
+<text x="320" y="195" font-size="18" fill="#222" text-anchor="start" font-weight="bold">2.4kΩ</text>
+<text x="320" y="218" font-size="14" fill="#777" text-anchor="start">＝ 2400Ω</text>
+<line x1="160" y1="88" x2="240" y2="88" stroke="#1565c0" stroke-width="3" marker-end="url(#ab)"/>
+<text x="200" y="75" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">I ＝ ?</text>
+<rect x="20" y="338" width="405" height="50" rx="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<text x="222" y="369" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">問2  I ＝ V ÷ R ＝ 12 ÷ 2400 ＝ 0.005A ＝ 5mA</text>
+<rect x="440" y="70" width="490" height="316" rx="10" fill="#fafafa" stroke="#ccc" stroke-width="2"/>
+<text x="685" y="100" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">問3  P ＝ V × I ＝ 12 × 0.005 ＝ 0.06W</text>
+<text x="470" y="150" font-size="15" fill="#222" text-anchor="start">抵抗が熱にする電力</text>
+<rect x="470" y="160" width="86" height="34" fill="#ffb74d"/>
+<text x="566" y="184" font-size="17" fill="#e65100" text-anchor="start" font-weight="bold">0.06W</text>
+<text x="470" y="240" font-size="15" fill="#222" text-anchor="start">抵抗が耐えられる電力（定格）</text>
+<rect x="470" y="250" width="360" height="34" fill="#a5d6a7"/>
+<text x="840" y="274" font-size="17" fill="#2e7d32" text-anchor="start" font-weight="bold">0.25W</text>
+<text x="470" y="310" font-size="14" fill="#777" text-anchor="start">1/4W ＝ 1 ÷ 4 ＝ 0.25W（小数に直して比べる）</text>
+<text x="685" y="350" font-size="15" fill="#2e7d32" text-anchor="middle" font-weight="bold">0.06W ＜ 0.25W → 1/4W の抵抗で足りる（約4倍の余裕）</text>
+</svg>
