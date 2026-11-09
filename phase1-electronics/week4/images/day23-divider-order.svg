@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 600" width="980" height="600" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="600" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">並べ方で逆になる：out の高さ ＝ 下の部品が取る段の高さ</text>
+<line x1="70" y1="452.4" x2="950" y2="452.4" stroke="#c62828" stroke-width="2" stroke-dasharray="8,5"/>
+<text x="950" y="444.4" font-size="13" fill="#c62828" text-anchor="end" font-weight="bold">0.7V（これより高いと ON）</text>
+<text x="62" y="505" font-size="13" fill="#777" text-anchor="end">0V</text>
+<text x="62" y="165" font-size="13" fill="#777" text-anchor="end">5V</text>
+<rect x="140" y="160" width="70" height="30.90909090909088" fill="#2e7d32" fill-opacity="0.35" stroke="#2e7d32"/>
+<rect x="140" y="190.90909090909088" width="70" height="309.0909090909091" fill="#777" fill-opacity="0.35" stroke="#777"/>
+<text x="175" y="134" font-size="12" fill="#222" text-anchor="middle">光センサー（上）</text>
+<text x="175" y="150" font-size="12" fill="#2e7d32" text-anchor="middle">1kΩ</text>
+<circle cx="210" cy="190.90909090909088" r="6" fill="#e65100"/>
+<text x="220" y="195.90909090909088" font-size="14" fill="#e65100" text-anchor="start" font-weight="bold">out 4.55V</text>
+<text x="175" y="524" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">明るい</text>
+<text x="175" y="544" font-size="11" fill="#222" text-anchor="middle">10kΩ（下）</text>
+<rect x="290" y="160" width="70" height="309.0909090909091" fill="#2e7d32" fill-opacity="0.35" stroke="#2e7d32"/>
+<rect x="290" y="469.0909090909091" width="70" height="30.909090909090907" fill="#777" fill-opacity="0.35" stroke="#777"/>
+<text x="325" y="134" font-size="12" fill="#222" text-anchor="middle">光センサー（上）</text>
+<text x="325" y="150" font-size="12" fill="#2e7d32" text-anchor="middle">100kΩ</text>
+<circle cx="360" cy="469.0909090909091" r="6" fill="#e65100"/>
+<text x="370" y="474.0909090909091" font-size="14" fill="#e65100" text-anchor="start" font-weight="bold">out 0.45V</text>
+<text x="325" y="524" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">暗い</text>
+<text x="325" y="544" font-size="11" fill="#222" text-anchor="middle">10kΩ（下）</text>
+<rect x="560" y="160" width="70" height="309.0909090909091" fill="#777" fill-opacity="0.35" stroke="#777"/>
+<rect x="560" y="469.0909090909091" width="70" height="30.909090909090907" fill="#2e7d32" fill-opacity="0.35" stroke="#2e7d32"/>
+<text x="595" y="134" font-size="12" fill="#222" text-anchor="middle">10kΩ（上）</text>
+<text x="595" y="150" font-size="12" fill="#2e7d32" text-anchor="middle"></text>
+<circle cx="630" cy="469.0909090909091" r="6" fill="#e65100"/>
+<text x="640" y="474.0909090909091" font-size="14" fill="#e65100" text-anchor="start" font-weight="bold">out 0.45V</text>
+<text x="595" y="524" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">明るい</text>
+<text x="595" y="544" font-size="11" fill="#222" text-anchor="middle">光センサー（下） 1kΩ</text>
+<rect x="710" y="160" width="70" height="30.90909090909088" fill="#777" fill-opacity="0.35" stroke="#777"/>
+<rect x="710" y="190.90909090909088" width="70" height="309.0909090909091" fill="#2e7d32" fill-opacity="0.35" stroke="#2e7d32"/>
+<text x="745" y="134" font-size="12" fill="#222" text-anchor="middle">10kΩ（上）</text>
+<text x="745" y="150" font-size="12" fill="#2e7d32" text-anchor="middle"></text>
+<circle cx="780" cy="190.90909090909088" r="6" fill="#e65100"/>
+<text x="790" y="195.90909090909088" font-size="14" fill="#e65100" text-anchor="start" font-weight="bold">out 4.55V</text>
+<text x="745" y="524" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">暗い</text>
+<text x="745" y="544" font-size="11" fill="#222" text-anchor="middle">光センサー（下） 100kΩ</text>
+<text x="250" y="72" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">SunFounder：明るいと ON（逆）</text>
+<text x="670" y="72" font-size="15" fill="#2e7d32" text-anchor="middle" font-weight="bold">今回：暗いと ON（やりたいこと）</text>
+<line x1="470" y1="70" x2="470" y2="550" stroke="#ddd" stroke-width="2" stroke-dasharray="6,6"/>
+<text x="490" y="588" font-size="12" fill="#777" text-anchor="middle">緑＝光センサー、灰＝10kΩ。光センサーの値（1kΩ・100kΩ）は説明用の例</text>
+</svg>
