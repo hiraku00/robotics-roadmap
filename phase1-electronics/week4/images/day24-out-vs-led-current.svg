@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" width="980" height="560" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="560" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">out の電圧と LED の電流：0.6V あたりを超えると流れはじめる</text>
+<rect x="120" y="103.0" width="312.0" height="357.0" fill="#eceff1"/>
+<rect x="432.0" y="103.0" width="156.0" height="357.0" fill="#fff8e1"/>
+<rect x="588.0" y="103.0" width="182.0" height="357.0" fill="#e8f5e9"/>
+<text x="276.0" y="256" font-size="14" fill="#777" text-anchor="middle" font-weight="bold">OFF（蛇口が閉まっている）</text>
+<text x="510.0" y="256" font-size="14" fill="#f57f17" text-anchor="middle" font-weight="bold">半開き</text>
+<text x="679.0" y="256" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">全開（飽和）</text>
+<path d="M120,460 L770.0,460" stroke="#222" stroke-width="2" fill="none"/>
+<path d="M120,460 L120,103.0" stroke="#222" stroke-width="2" fill="none"/>
+<text x="120" y="482" font-size="12" fill="#777" text-anchor="middle">0.0V</text>
+<text x="224.0" y="482" font-size="12" fill="#777" text-anchor="middle">0.2V</text>
+<text x="328.0" y="482" font-size="12" fill="#777" text-anchor="middle">0.4V</text>
+<text x="432.0" y="482" font-size="12" fill="#777" text-anchor="middle">0.6V</text>
+<text x="536.0" y="482" font-size="12" fill="#777" text-anchor="middle">0.8V</text>
+<text x="640.0" y="482" font-size="12" fill="#777" text-anchor="middle">1.0V</text>
+<text x="744.0" y="482" font-size="12" fill="#777" text-anchor="middle">1.2V</text>
+<text x="112" y="464" font-size="12" fill="#777" text-anchor="end">0mA</text>
+<text x="112" y="396" font-size="12" fill="#777" text-anchor="end">2mA</text>
+<text x="112" y="328" font-size="12" fill="#777" text-anchor="end">4mA</text>
+<text x="112" y="260" font-size="12" fill="#777" text-anchor="end">6mA</text>
+<text x="112" y="192" font-size="12" fill="#777" text-anchor="end">8mA</text>
+<text x="112" y="124" font-size="12" fill="#777" text-anchor="end">10mA</text>
+<text x="432.0" y="506" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">out の電圧（電圧計）</text>
+<text x="40" y="273.0" font-size="13" fill="#222" text-anchor="start">LED の</text>
+<text x="40" y="291.0" font-size="13" fill="#222" text-anchor="start">電流</text>
+<path d="M245.32,460 L276.0,460 L344.12,460 L454.36,414.78 L681.6,123.06" stroke="#e65100" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+<circle cx="245.32" cy="460" r="7" fill="#e65100"/>
+<circle cx="276.0" cy="460" r="7" fill="#e65100"/>
+<circle cx="344.12" cy="460" r="7" fill="#e65100"/>
+<circle cx="454.36" cy="414.78" r="7" fill="#e65100"/>
+<circle cx="681.6" cy="123.06" r="7" fill="#e65100"/>
+<text x="245.32" y="446" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">1</text>
+<text x="276.0" y="446" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">2</text>
+<text x="344.12" y="446" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">3</text>
+<text x="466.36" y="406.78" font-size="13" fill="#222" text-anchor="start" font-weight="bold">4：0.643V、1.33mA（ぼんやり）</text>
+<text x="669.6" y="149.06" font-size="13" fill="#222" text-anchor="end" font-weight="bold">5：1.08V、9.91mA</text>
+<text x="669.6" y="167.06" font-size="13" fill="#222" text-anchor="end">（はっきり点く）</text>
+<rect x="790" y="90" width="175" height="210" rx="10" fill="#fff" stroke="#bbb" stroke-width="2"/>
+<text x="800" y="116" font-size="14" fill="#222" text-anchor="start" font-weight="bold">番号＝光量</text>
+<text x="800" y="146" font-size="13" fill="#222" text-anchor="start">1 いちばん明るい</text>
+<text x="800" y="174" font-size="13" fill="#222" text-anchor="start">2 上から 1/4</text>
+<text x="800" y="202" font-size="13" fill="#222" text-anchor="start">3 真ん中</text>
+<text x="800" y="230" font-size="13" fill="#222" text-anchor="start">4 上から 3/4</text>
+<text x="800" y="258" font-size="13" fill="#222" text-anchor="start">5 いちばん暗い</text>
+<text x="800" y="290" font-size="11" fill="#777" text-anchor="start">点線は測った点をつないだだけ</text>
+</svg>

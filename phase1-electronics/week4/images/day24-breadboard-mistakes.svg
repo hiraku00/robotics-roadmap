@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 600" width="980" height="600" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="600" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">ブレッドボードのまちがい3つ：同じ行の穴は、中でつながっている</text>
+<rect x="30" y="60" width="300" height="520" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="180" y="90" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">① 光センサーの両足が同じ行</text>
+<text x="50" y="128" font-size="14" fill="#c62828" text-anchor="start" font-weight="bold">まちがい</text>
+<text x="50" y="368" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold">直したあと</text>
+<rect x="350" y="60" width="300" height="520" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="500" y="90" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">② out（1行目）が GND に直結</text>
+<text x="370" y="128" font-size="14" fill="#c62828" text-anchor="start" font-weight="bold">まちがい</text>
+<text x="370" y="368" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold">直したあと</text>
+<rect x="670" y="60" width="300" height="520" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="820" y="90" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">③ トランジスタの足が同じ行</text>
+<text x="690" y="128" font-size="14" fill="#c62828" text-anchor="start" font-weight="bold">まちがい</text>
+<text x="690" y="368" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold">直したあと</text>
+<rect x="110" y="158" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="130" cy="170" r="5" fill="#555"/>
+<circle cx="160" cy="170" r="5" fill="#555"/>
+<circle cx="190" cy="170" r="5" fill="#555"/>
+<circle cx="220" cy="170" r="5" fill="#555"/>
+<circle cx="250" cy="170" r="5" fill="#555"/>
+<text x="102" y="175" font-size="13" fill="#777" text-anchor="end">1行目</text>
+<rect x="110" y="198" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="130" cy="210" r="5" fill="#555"/>
+<circle cx="160" cy="210" r="5" fill="#555"/>
+<circle cx="190" cy="210" r="5" fill="#555"/>
+<circle cx="220" cy="210" r="5" fill="#555"/>
+<circle cx="250" cy="210" r="5" fill="#555"/>
+<text x="102" y="215" font-size="13" fill="#777" text-anchor="end">2行目</text>
+<path d="M170,170 C170,140 200,140 200,170" stroke="#2e7d32" stroke-width="4" fill="none"/>
+<text x="180" y="250" font-size="12" fill="#222" text-anchor="middle">両足とも1行目 → 中でつながり</text>
+<text x="180" y="268" font-size="12" fill="#c62828" text-anchor="middle" font-weight="bold">光センサーが「ただの線」になる</text>
+<rect x="110" y="398" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="130" cy="410" r="5" fill="#555"/>
+<circle cx="160" cy="410" r="5" fill="#555"/>
+<circle cx="190" cy="410" r="5" fill="#555"/>
+<circle cx="220" cy="410" r="5" fill="#555"/>
+<circle cx="250" cy="410" r="5" fill="#555"/>
+<text x="102" y="415" font-size="13" fill="#777" text-anchor="end">1行目</text>
+<rect x="110" y="438" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="130" cy="450" r="5" fill="#555"/>
+<circle cx="160" cy="450" r="5" fill="#555"/>
+<circle cx="190" cy="450" r="5" fill="#555"/>
+<circle cx="220" cy="450" r="5" fill="#555"/>
+<circle cx="250" cy="450" r="5" fill="#555"/>
+<text x="102" y="455" font-size="13" fill="#777" text-anchor="end">2行目</text>
+<path d="M170,410 C140,430 140,430 170,450" stroke="#2e7d32" stroke-width="4" fill="none"/>
+<text x="180" y="495" font-size="12" fill="#222" text-anchor="middle">1行目と2行目にまたがる</text>
+<text x="180" y="513" font-size="12" fill="#2e7d32" text-anchor="middle" font-weight="bold">→ 光センサーの両端が別々の点</text>
+<rect x="430" y="158" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="450" cy="170" r="5" fill="#555"/>
+<circle cx="480" cy="170" r="5" fill="#555"/>
+<circle cx="510" cy="170" r="5" fill="#555"/>
+<circle cx="540" cy="170" r="5" fill="#555"/>
+<circle cx="570" cy="170" r="5" fill="#555"/>
+<text x="422" y="175" font-size="13" fill="#777" text-anchor="end">1行目</text>
+<path d="M450,170 L390,230" stroke="#222" stroke-width="3" fill="none"/>
+<text x="380" y="248" font-size="13" fill="#222" text-anchor="start" font-weight="bold">GND</text>
+<text x="540" y="150" font-size="11" fill="#777" text-anchor="middle">10kΩ・Rb もここ</text>
+<text x="500" y="280" font-size="12" fill="#222" text-anchor="middle">out が GND と同じ 0V に固定</text>
+<text x="500" y="298" font-size="12" fill="#c62828" text-anchor="middle" font-weight="bold">→ 暗くても ON にならない</text>
+<rect x="430" y="398" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="450" cy="410" r="5" fill="#555"/>
+<circle cx="480" cy="410" r="5" fill="#555"/>
+<circle cx="510" cy="410" r="5" fill="#555"/>
+<circle cx="540" cy="410" r="5" fill="#555"/>
+<circle cx="570" cy="410" r="5" fill="#555"/>
+<text x="422" y="415" font-size="13" fill="#777" text-anchor="end">1行目</text>
+<rect x="430" y="438" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="450" cy="450" r="5" fill="#555"/>
+<circle cx="480" cy="450" r="5" fill="#555"/>
+<circle cx="510" cy="450" r="5" fill="#555"/>
+<circle cx="540" cy="450" r="5" fill="#555"/>
+<circle cx="570" cy="450" r="5" fill="#555"/>
+<text x="422" y="455" font-size="13" fill="#777" text-anchor="end">2行目</text>
+<path d="M450,450 L390,510" stroke="#222" stroke-width="3" fill="none"/>
+<text x="380" y="528" font-size="13" fill="#222" text-anchor="start" font-weight="bold">GND</text>
+<path d="M510,410 C480,430 480,430 510,450" stroke="#2e7d32" stroke-width="4" fill="none"/>
+<text x="550" y="430" font-size="11" fill="#2e7d32" text-anchor="start">光センサー</text>
+<text x="540" y="390" font-size="11" fill="#e65100" text-anchor="middle" font-weight="bold">1行目 ＝ out</text>
+<text x="500" y="560" font-size="12" fill="#2e7d32" text-anchor="middle" font-weight="bold">GND につなぐのは光センサーの反対側だけ</text>
+<rect x="750" y="188" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="770" cy="200" r="5" fill="#555"/>
+<circle cx="800" cy="200" r="5" fill="#555"/>
+<circle cx="830" cy="200" r="5" fill="#555"/>
+<circle cx="860" cy="200" r="5" fill="#555"/>
+<circle cx="890" cy="200" r="5" fill="#555"/>
+<text x="742" y="205" font-size="13" fill="#777" text-anchor="end">6行目</text>
+<path d="M800,160 L800,200" stroke="#222" stroke-width="3" fill="none"/>
+<text x="800" y="152" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">C</text>
+<path d="M830,160 L830,200" stroke="#222" stroke-width="3" fill="none"/>
+<text x="830" y="152" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">B</text>
+<path d="M860,160 L860,200" stroke="#222" stroke-width="3" fill="none"/>
+<text x="860" y="152" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">E</text>
+<text x="820" y="250" font-size="12" fill="#c62828" text-anchor="middle" font-weight="bold">C・B・E が全部つながる（ショート）</text>
+<text x="820" y="268" font-size="12" fill="#222" text-anchor="middle">症状：明るくても点きっぱなしになる</text>
+<rect x="750" y="398" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="770" cy="410" r="5" fill="#555"/>
+<circle cx="800" cy="410" r="5" fill="#555"/>
+<circle cx="830" cy="410" r="5" fill="#555"/>
+<circle cx="860" cy="410" r="5" fill="#555"/>
+<circle cx="890" cy="410" r="5" fill="#555"/>
+<text x="742" y="415" font-size="13" fill="#777" text-anchor="end">6行目</text>
+<path d="M890,410 L920,410" stroke="#222" stroke-width="3" fill="none"/>
+<text x="928" y="415" font-size="13" fill="#222" text-anchor="start" font-weight="bold">C</text>
+<rect x="750" y="438" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="770" cy="450" r="5" fill="#555"/>
+<circle cx="800" cy="450" r="5" fill="#555"/>
+<circle cx="830" cy="450" r="5" fill="#555"/>
+<circle cx="860" cy="450" r="5" fill="#555"/>
+<circle cx="890" cy="450" r="5" fill="#555"/>
+<text x="742" y="455" font-size="13" fill="#777" text-anchor="end">7行目</text>
+<path d="M890,450 L920,450" stroke="#222" stroke-width="3" fill="none"/>
+<text x="928" y="455" font-size="13" fill="#222" text-anchor="start" font-weight="bold">B</text>
+<rect x="750" y="478" width="160" height="24" rx="12" fill="#e0e0e0"/>
+<circle cx="770" cy="490" r="5" fill="#555"/>
+<circle cx="800" cy="490" r="5" fill="#555"/>
+<circle cx="830" cy="490" r="5" fill="#555"/>
+<circle cx="860" cy="490" r="5" fill="#555"/>
+<circle cx="890" cy="490" r="5" fill="#555"/>
+<text x="742" y="495" font-size="13" fill="#777" text-anchor="end">8行目</text>
+<path d="M890,490 L920,490" stroke="#222" stroke-width="3" fill="none"/>
+<text x="928" y="495" font-size="13" fill="#222" text-anchor="start" font-weight="bold">E</text>
+<text x="820" y="530" font-size="12" fill="#2e7d32" text-anchor="middle" font-weight="bold">足をそれぞれ別の行に（回転させる）</text>
+<text x="820" y="548" font-size="12" fill="#2e7d32" text-anchor="middle" font-weight="bold">またはブレッドボードの外に置く</text>
+</svg>
