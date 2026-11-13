@@ -176,10 +176,10 @@
 
 **25日目 はんだ付けの座学** → [記録](week4/README.md#25日目-はんだ付けの座学)
 
-- [ ] 読む：[RSコンポーネンツ「はんだ付けとは？方法や注意点」](https://jp.rs-online.com/web/content/discovery/ideas-and-advice/how-to-solder-guide)。安全、こて先の種類、はんだ除去（30分）
-- [ ] 読む：[RSコンポーネンツ「マニュアルはんだ付けのツボ」](https://jp.rs-online.com/web/content/discovery/ideas-and-advice/solders-guide)。良いはんだと、イモはんだなど不良の見分け方（25分）
-- [ ] 読む：[MONOist マイクロマウスで始める組み込み開発入門(2) 3ページ目](https://monoist.itmedia.co.jp/mn/spv/1206/07/news003_3.html)。秒数を数えながら進める手順（10分）
-- [ ] メモ：実機を買ったときに使う「はんだ付けの手順」と「不良の見分け方」を自分用に1枚にまとめる（20分）
+- [x] 読む：[RSコンポーネンツ「はんだ付けとは？方法や注意点」](https://jp.rs-online.com/web/content/discovery/ideas-and-advice/how-to-solder-guide)。安全、こて先の種類、はんだ除去（30分）
+- [x] 読む：[RSコンポーネンツ「マニュアルはんだ付けのツボ」](https://jp.rs-online.com/web/content/discovery/ideas-and-advice/solders-guide)。良いはんだと、イモはんだなど不良の見分け方（25分）
+- [x] 読む：[MONOist マイクロマウスで始める組み込み開発入門(2) 3ページ目](https://monoist.itmedia.co.jp/mn/spv/1206/07/news003_3.html)。秒数を数えながら進める手順（10分）
+- [x] メモ：実機を買ったときに使う「はんだ付けの手順」と「不良の見分け方」を自分用に1枚にまとめる（20分）
 
 **26日目 GitHubで公開** → [記録](week4/README.md#26日目-githubで公開)
 

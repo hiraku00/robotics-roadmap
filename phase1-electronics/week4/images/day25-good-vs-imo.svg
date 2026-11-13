@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 530" width="980" height="530" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="530" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">良いはんだ と イモはんだ（横から切った断面）</text>
+<rect x="80" y="300" width="340" height="40" fill="#c8e6c9" stroke="#689f38" stroke-width="2"/>
+<rect x="230" y="300" width="40" height="40" fill="#fff"/>
+<rect x="190" y="292" width="40" height="8" fill="#ff9800"/><rect x="270" y="292" width="40" height="8" fill="#ff9800"/>
+<rect x="244" y="150" width="12" height="215" fill="#9e9e9e"/>
+<text x="410" y="330" font-size="12" fill="#558b2f" text-anchor="end">基板</text>
+<text x="330" y="288" font-size="12" fill="#e65100" text-anchor="start">ランド（銅）</text>
+<text x="262" y="165" font-size="12" fill="#777" text-anchor="start">リード（部品の足）</text>
+<rect x="560" y="300" width="340" height="40" fill="#c8e6c9" stroke="#689f38" stroke-width="2"/>
+<rect x="710" y="300" width="40" height="40" fill="#fff"/>
+<rect x="670" y="292" width="40" height="8" fill="#ff9800"/><rect x="750" y="292" width="40" height="8" fill="#ff9800"/>
+<rect x="724" y="150" width="12" height="215" fill="#9e9e9e"/>
+<text x="890" y="330" font-size="12" fill="#558b2f" text-anchor="end">基板</text>
+<text x="810" y="288" font-size="12" fill="#e65100" text-anchor="start">ランド（銅）</text>
+<text x="742" y="165" font-size="12" fill="#777" text-anchor="start">リード（部品の足）</text>
+<path d="M180,292 Q240,285 244,200 L256,200 Q260,285 320,292 Z" fill="#b0bec5" stroke="#546e7a" stroke-width="2"/>
+<rect x="232" y="300" width="12" height="40" fill="#b0bec5"/><rect x="256" y="300" width="12" height="40" fill="#b0bec5"/>
+<text x="250" y="100" font-size="18" fill="#2e7d32" text-anchor="middle" font-weight="bold">良いはんだ</text>
+<ellipse cx="730" cy="248" rx="58" ry="40" fill="#b0bec5" stroke="#546e7a" stroke-width="2"/>
+<rect x="724" y="180" width="12" height="130" fill="#9e9e9e"/>
+<line x1="672" y1="290" x2="788" y2="290" stroke="#c62828" stroke-width="2" stroke-dasharray="4,3"/>
+<text x="730" y="100" font-size="18" fill="#c62828" text-anchor="middle" font-weight="bold">イモはんだ</text>
+<text x="250" y="400" font-size="14" fill="#2e7d32" text-anchor="middle">✓ すそがなだらかに広がる（富士山の形）</text>
+<text x="250" y="426" font-size="14" fill="#2e7d32" text-anchor="middle">✓ リード・ランドとなじんでいる</text>
+<text x="250" y="452" font-size="14" fill="#2e7d32" text-anchor="middle">✓ 穴の中まで流れ込んでいる</text>
+<text x="730" y="400" font-size="14" fill="#c62828" text-anchor="middle">✗ 表面にボテッと玉のようにのる</text>
+<text x="730" y="426" font-size="14" fill="#c62828" text-anchor="middle">✗ ランドとのあいだがなじんでいない（赤の点線）</text>
+<text x="730" y="452" font-size="14" fill="#c62828" text-anchor="middle">✗ → 電気が通らない・部品が取れる</text>
+<text x="490" y="505" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">原因：リードとランドが温まる前にはんだを当てた／表面が酸化していた</text>
+</svg>
