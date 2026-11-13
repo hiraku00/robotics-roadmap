@@ -27,6 +27,19 @@
 | 第21週 | カメラのキャリブレーション、ピンホールモデル、点群の基礎 | 内蔵カメラのキャリブレーション結果、色の付いた物の 3D 位置の推定。照明を変えて壊れたときの記録と直し方 |
 | 第22週 | MoveIt 2（アームの動作計画） | シミュレーションのアームでのピック＆プレース。道をふさいで失敗させたときの記録 |
 
+## 補助教材：Principles of Robot Autonomy（自律スタックの見方）
+
+英語の教科書 [PoRA](https://porabook.com/book/) から、その週に対応する章の要点だけを読み、[Colab の演習](https://porabook.com/exercises/)を1〜2本動かします。制御の週は、スタンフォードの講義 AA203「Optimal and Learning-Based Control」（[講義動画](https://porabook.com/lectures/)）も対応します。使い方は[トップの README](../README.md#自律スタックの見方補助教材principles-of-robot-autonomy)。
+
+| 週 | 自律スタックの箱 | PoRA の章 | Colab の演習（例） | 当てはめること |
+| --- | --- | --- | --- | --- |
+| 第18週 | 制御・状態推定 | 3 Closed-Loop Control & Trajectory Tracking、11 Introduction to Localization and Filtering | PID Control、Discrete Bayes、Kalman Filter | PID が「推定した状態」を入力にしていること。カルマンフィルタは状態推定の箱 |
+| 第19週 | 制御 | 2 Open-Loop Control & Trajectory Optimization、3 Closed-Loop Control | Cartpole Iterative LQR、Linear MPC | 計画（軌道を作る）と制御（軌道に追従する）の分け方 |
+| 第20週 | （対応する章なし） | 運動学は Modern Robotics を使う | なし | アームの逆運動学が、計画と制御のあいだで何を受け渡すか |
+| 第21週 | 認識 | 6 Camera Models and Calibration、7 Stereo Vision and Structure From Motion、8 Classical Methods for Perception | Camera Intrinsics、SIFT Feature Matching、ICP | 画像の1点を 3D 位置に変えた結果が、状態推定や計画にどう渡るか |
+| 第22週 | 計画 | 4 Motion Planning | RRT、PRM Star | MoveIt 2 の動作計画が、サンプリング（ランダムに点を置く）で道を探していること |
+| 余裕があれば | 状態推定 | 12 Approximate Filters、15 Sensor Fusion and Object Tracking | EKF/UKF Range Bearing、Kalman Sensor Fusion | フェーズ2の相補フィルタ（IMU）と、カルマンフィルタの違い |
+
 ## 元記事の教材（英語）
 
 - [Understanding PID Control（MATLAB Tech Talks）](https://www.mathworks.com/videos/series/understanding-pid-control.html)

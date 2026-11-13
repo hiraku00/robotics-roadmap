@@ -30,6 +30,17 @@
 | ② 自律移動・モバイルロボット | 求人の数が一番多い | ROS 2、Nav2、SLAM、画像処理、センサーフュージョン、C++ |
 | ③ 組み込み・メカトロニクス・システム統合 | すぐ働きたい。業務委託も含む | ファームウェア、モーター制御、リアルタイム処理、PLC、機能安全、システム統合 |
 
+## 補助教材：Principles of Robot Autonomy（自律スタックの見方）
+
+英語の教科書 [PoRA](https://porabook.com/book/) から、その週に対応する章の要点だけを読み、[Colab の演習](https://porabook.com/exercises/)を1〜2本動かします。使い方は[トップの README](../README.md#自律スタックの見方補助教材principles-of-robot-autonomy)。
+
+| 週 | 自律スタックの箱 | PoRA の章 | Colab の演習（例） | 当てはめること |
+| --- | --- | --- | --- | --- |
+| 第23週 | 学習 → 判断・制御 | 19 Imitation Learning | なし | ACT の方策が、自律スタックのどの箱を置きかえているか（計画と制御をまとめて学習している） |
+| 第24週 | 学習 | 17 Sequential Decision Making and Dynamic Programming、18 Reinforcement Learning（VLA の前に 9・10 の深層学習の章も） | Policy Iteration、Advantage Actor Critic、CNN | 報酬を変えると何が変わるか。強化学習と模倣学習の違い |
+| 第25週 | 全体 | Prospects | なし | 6ヶ月で作ったものを全部つないだ「自分の自律スタック図」を1枚にし、ポートフォリオの構成図にする |
+| 6ヶ月のあと | 全体 | 全章 | 全40本 | ①ロボット学習 か ②自律移動 を選んだら、PoRA を頭から通して読むのを次の教科書にする |
+
 ## 元記事の教材（英語）
 
 - [LeRobot ドキュメント](https://huggingface.co/docs/lerobot/index)、[LeRobot リポジトリ](https://github.com/huggingface/lerobot)

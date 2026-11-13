@@ -33,6 +33,18 @@ ROS 2（ロボットのソフトを小さなプログラムに分けてつなぐ
 | 第16週 | ros2_control と diff_drive_controller（左右の車輪の速さの差で曲がる台車の制御） | キーボードで動かせる台車と、指定した距離を進むアクションサーバー（途中経過と取り消しつき） |
 | 第17週 | SLAM Toolbox（走りながら地図を作る）と Nav2（自律移動） | 自分で作った地図の中を、目的地まで自律走行する画面録画 |
 
+## 補助教材：Principles of Robot Autonomy（自律スタックの見方）
+
+英語の教科書 [PoRA](https://porabook.com/book/) から、その週に対応する章の要点だけを読み、[Colab の演習](https://porabook.com/exercises/)を1〜2本動かします。いちばん大事なのは、作ったものを「自律スタック」（センサー → 認識 → 状態推定 → 判断・計画 → 制御 → モーター）のどの箱かに当てはめることです。使い方は[トップの README](../README.md#自律スタックの見方補助教材principles-of-robot-autonomy)。
+
+| 週 | 自律スタックの箱 | PoRA の章 | Colab の演習（例） | 当てはめること |
+| --- | --- | --- | --- | --- |
+| 第13週の前 | 全体 | Preface、Robot Autonomy Software（講義 AA174A の Lecture 2「The Robot Operating System (ROS)」も） | なし | ros2_ws の room_sim（`/scan` を出す）と brain（`/cmd_vel` を出す）を、自律スタックの図に描く |
+| 第13週 | 判断 | 16 Finite State Machines | なし | brain の「進む・減速・曲がる」を状態機械（状態と、切り替わる条件の図）として描き直す |
+| 第15週 | センサー | 5 Introduction to Robot Sensors | なし | Gazebo の LiDAR・カメラが、どのトピックに何の形のデータを出すか |
+| 第16週 | 制御・モデル | 1 Modeling Robot Dynamics | Nonholonomic Wheeled Robot Dynamics | diff_drive_controller の台車は、真横には動けない（ノンホロノミック）こと |
+| 第17週 | 状態推定・計画 | 4 Motion Planning、13 Robot Localization、14 SLAM | A Star、RRT、Particle Filter Localization、EKF SLAM、Pose Graph SLAM | Nav2 の中の「地図・自己位置・経路計画・経路追従」が、それぞれどの箱か |
+
 ## 元記事の教材（英語）
 
 - [ROS 2 Jazzy 公式チュートリアル](https://docs.ros.org/en/jazzy/Tutorials.html)
