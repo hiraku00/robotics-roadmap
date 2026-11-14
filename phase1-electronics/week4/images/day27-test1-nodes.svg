@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 640" width="980" height="640" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="640" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">テスト1：ボタンを押す・離すで、OUT の電圧はどう変わるか</text>
+<path d="M60,110 L400,110" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M60,520 L400,520" stroke="#222" stroke-width="3" fill="none"/>
+<text x="60" y="100" font-size="15" fill="#c62828" text-anchor="start" font-weight="bold">5V</text>
+<text x="60" y="544" font-size="14" fill="#222" text-anchor="start" font-weight="bold">GND（0V）</text>
+<path d="M100,110 L100,125" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M100,225 L100,240" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="100" cy="125" r="4" fill="#222"/>
+<circle cx="100" cy="225" r="4" fill="#222"/>
+<path d="M101,125 L101,225" stroke="#2e7d32" stroke-width="4" fill="none"/>
+<path d="M100,240 L100,280" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="100" cy="280" r="6" fill="#e65100"/>
+<text x="88" y="285" font-size="15" fill="#e65100" text-anchor="end" font-weight="bold">OUT</text>
+<text x="88" y="305" font-size="15" fill="#e65100" text-anchor="end" font-weight="bold">5V</text>
+<path d="M100,280 L100,340" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="100" y1="340" x2="100" y2="355" stroke="#222" stroke-width="3"/><rect x="91" y="355" width="18" height="50" fill="#fff" stroke="#c62828" stroke-width="3"/><line x1="100" y1="405" x2="100" y2="420" stroke="#222" stroke-width="3"/>
+<text x="82" y="386" font-size="13" fill="#222" text-anchor="end" font-weight="bold">10kΩ</text>
+<path d="M100,420 L100,520" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M100,280 L160,280" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="160" y1="280" x2="175" y2="280" stroke="#222" stroke-width="3"/><rect x="175" y="271" width="50" height="18" fill="#fff" stroke="#1565c0" stroke-width="3"/><line x1="225" y1="280" x2="240" y2="280" stroke="#222" stroke-width="3"/>
+<text x="200" y="262" font-size="13" fill="#1565c0" text-anchor="middle" font-weight="bold">1kΩ</text>
+<path d="M240,280 L270,280 L270,400 L330,400" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="382" cy="400" r="34" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="330" y1="400" x2="370" y2="400" stroke="#222" stroke-width="3"/><line x1="370" y1="380" x2="370" y2="420" stroke="#222" stroke-width="5"/>
+<path d="M370,392 L400,372 L400,350" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M370,408 L400,428 L400,450" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M400,428 L387,426 L393,417 z" fill="#222"/>
+<text x="318" y="390" font-size="13" fill="#1565c0" text-anchor="start" font-weight="bold">B</text>
+<path d="M400,110 L400,150" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="400" y1="150" x2="400" y2="165" stroke="#222" stroke-width="3"/><rect x="391" y="165" width="18" height="50" fill="#fff" stroke="#c62828" stroke-width="3"/><line x1="400" y1="215" x2="400" y2="230" stroke="#222" stroke-width="3"/>
+<text x="418" y="196" font-size="13" fill="#222" text-anchor="start" font-weight="bold">300Ω</text>
+<path d="M400,230 L400,260" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="400" y1="260" x2="400" y2="288" stroke="#222" stroke-width="3"/><path d="M386,288 L414,288 L400,312 z" fill="#ffcdd2" stroke="#c62828" stroke-width="3"/><line x1="386" y1="312" x2="414" y2="312" stroke="#c62828" stroke-width="3"/><line x1="400" y1="312" x2="400" y2="340" stroke="#222" stroke-width="3"/>
+<line x1="418" y1="296" x2="434" y2="284" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<line x1="418" y1="308" x2="434" y2="296" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<path d="M400,340 L400,350" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M400,450 L400,520" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="150" y1="300" x2="255" y2="300" stroke="#1565c0" stroke-width="3" marker-end="url(#ab)"/>
+<text x="205" y="325" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">4.3mA</text>
+<line x1="114" y1="300" x2="114" y2="450" stroke="#2e7d32" stroke-width="2" marker-end="url(#ag)"/>
+<text x="120" y="470" font-size="12" fill="#2e7d32" text-anchor="start" font-weight="bold">0.5mA</text>
+<text x="120" y="486" font-size="11" fill="#2e7d32" text-anchor="start">（GNDへ）</text>
+<circle cx="430" cy="300" r="26" fill="#ffeb3b" fill-opacity="0.35"/>
+<text x="440" y="345" font-size="12" fill="#e65100" text-anchor="start" font-weight="bold">点く</text>
+<path d="M540,110 L880,110" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M540,520 L880,520" stroke="#222" stroke-width="3" fill="none"/>
+<text x="540" y="100" font-size="15" fill="#c62828" text-anchor="start" font-weight="bold">5V</text>
+<text x="540" y="544" font-size="14" fill="#222" text-anchor="start" font-weight="bold">GND（0V）</text>
+<path d="M580,110 L580,125" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M580,225 L580,240" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="580" cy="125" r="4" fill="#222"/>
+<circle cx="580" cy="225" r="4" fill="#222"/>
+<path d="M580,125 L602,220" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M580,240 L580,280" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="580" cy="280" r="6" fill="#e65100"/>
+<text x="568" y="285" font-size="15" fill="#e65100" text-anchor="end" font-weight="bold">OUT</text>
+<text x="568" y="305" font-size="15" fill="#e65100" text-anchor="end" font-weight="bold">0V</text>
+<path d="M580,280 L580,340" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="580" y1="340" x2="580" y2="355" stroke="#222" stroke-width="3"/><rect x="571" y="355" width="18" height="50" fill="#fff" stroke="#c62828" stroke-width="3"/><line x1="580" y1="405" x2="580" y2="420" stroke="#222" stroke-width="3"/>
+<text x="562" y="386" font-size="13" fill="#222" text-anchor="end" font-weight="bold">10kΩ</text>
+<path d="M580,420 L580,520" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M580,280 L640,280" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="640" y1="280" x2="655" y2="280" stroke="#222" stroke-width="3"/><rect x="655" y="271" width="50" height="18" fill="#fff" stroke="#1565c0" stroke-width="3"/><line x1="705" y1="280" x2="720" y2="280" stroke="#222" stroke-width="3"/>
+<text x="680" y="262" font-size="13" fill="#1565c0" text-anchor="middle" font-weight="bold">1kΩ</text>
+<path d="M720,280 L750,280 L750,400 L810,400" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="862" cy="400" r="34" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="810" y1="400" x2="850" y2="400" stroke="#222" stroke-width="3"/><line x1="850" y1="380" x2="850" y2="420" stroke="#222" stroke-width="5"/>
+<path d="M850,392 L880,372 L880,350" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M850,408 L880,428 L880,450" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M880,428 L867,426 L873,417 z" fill="#222"/>
+<text x="798" y="390" font-size="13" fill="#1565c0" text-anchor="start" font-weight="bold">B</text>
+<path d="M880,110 L880,150" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="880" y1="150" x2="880" y2="165" stroke="#222" stroke-width="3"/><rect x="871" y="165" width="18" height="50" fill="#fff" stroke="#c62828" stroke-width="3"/><line x1="880" y1="215" x2="880" y2="230" stroke="#222" stroke-width="3"/>
+<text x="898" y="196" font-size="13" fill="#222" text-anchor="start" font-weight="bold">300Ω</text>
+<path d="M880,230 L880,260" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="880" y1="260" x2="880" y2="288" stroke="#222" stroke-width="3"/><path d="M866,288 L894,288 L880,312 z" fill="#ffcdd2" stroke="#c62828" stroke-width="3"/><line x1="866" y1="312" x2="894" y2="312" stroke="#c62828" stroke-width="3"/><line x1="880" y1="312" x2="880" y2="340" stroke="#222" stroke-width="3"/>
+<line x1="898" y1="296" x2="914" y2="284" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<line x1="898" y1="308" x2="914" y2="296" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<path d="M880,340 L880,350" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M880,450 L880,520" stroke="#222" stroke-width="3" fill="none"/>
+<line x1="594" y1="300" x2="594" y2="345" stroke="#e65100" stroke-width="2" marker-end="url(#ao)"/>
+<text x="920" y="330" font-size="12" fill="#777" text-anchor="start" font-weight="bold">消えている</text>
+<text x="600" y="470" font-size="12" fill="#e65100" text-anchor="start">10kΩ が GND へ</text>
+<text x="600" y="486" font-size="12" fill="#e65100" text-anchor="start">引っぱる</text>
+<text x="230" y="80" font-size="16" fill="#2e7d32" text-anchor="middle" font-weight="bold">押したとき：ボタン ＝ ただの線</text>
+<text x="710" y="80" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">離したとき：ボタン ＝ 切れた線</text>
+<line x1="490" y1="70" x2="490" y2="560" stroke="#ddd" stroke-width="2" stroke-dasharray="6,6"/>
+<text x="230" y="585" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">ベース電流 ＝ (5 − 0.7) ÷ 1kΩ ＝ 4.3mA → LED 点く</text>
+<text x="230" y="610" font-size="13" fill="#1565c0" text-anchor="middle">（測定 4.27mA）</text>
+<text x="710" y="585" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">OUT ＝ 0V → ベース電流 0 → LED 消える</text>
+<text x="710" y="610" font-size="13" fill="#222" text-anchor="middle">（測定 0.00A）</text>
+</svg>
