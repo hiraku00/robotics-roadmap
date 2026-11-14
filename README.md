@@ -243,7 +243,7 @@ flowchart LR
 | 動画 | 大きいので置かない。YouTube の限定公開などにしてリンクだけ書く | 各週の README |
 | ROS 2 | ros2_ws に置き、このリポジトリからはリンクする | [hiraku00/ros2_ws](https://github.com/hiraku00/ros2_ws) |
 
-Tinkercad の共有リンクは、回路の「共有」から「リンクを知っている人は誰でも表示可能」にして取得します。
+Tinkercad の共有リンクは、回路を開いて右上の「**送信先**」（英語の画面では「Share」）から取得します（26日目に確認）。
 
 ## リポジトリの構成
 
