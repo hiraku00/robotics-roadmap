@@ -10,9 +10,9 @@
 
 **29日目 LEDとシリアルモニタ** → [記録](week5/README.md#29日目-ledとシリアルモニタ)
 
-- [ ] 読む・組む：[1.1 ハロー、LED！](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_blinking_led.html)（40分）
-- [ ] 読む・組む：[3.0 シリアルモニタ](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_serial_monitor.html)。値を画面に出す方法は、この先ずっとデバッグの主な道具になります（40分）
-- [ ] 記録：`setup()` と `loop()` の役割を自分の言葉で2行
+- [x] 読む・組む：[1.1 ハロー、LED！](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_blinking_led.html)（40分）
+- [x] 読む・組む：[3.0 シリアルモニタ](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_serial_monitor.html)。値を画面に出す方法は、この先ずっとデバッグの主な道具になります（40分）
+- [x] 記録：`setup()` と `loop()` の役割を自分の言葉で2行
 
 **30日目 ボタンを読む** → [記録](week5/README.md#30日目-ボタンを読む)
 

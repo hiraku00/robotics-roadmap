@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 460" width="980" height="460" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="460" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">シリアル通信：Arduino が1文字ずつ送り、パソコンの画面に出す</text>
+<rect x="30" y="70" width="280" height="250" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="170" y="100" font-size="15" fill="#00796b" text-anchor="middle" font-weight="bold">Arduino（送る側）</text>
+<rect x="46" y="116" width="248" height="92" rx="6" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+<text x="58" y="140" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">Serial.begin(9600);</text>
+<text x="58" y="164" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">Serial.println(number);</text>
+<text x="58" y="188" font-size="12.5" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">Serial.println("Hello world");</text>
+<text x="170" y="236" font-size="13" fill="#222" text-anchor="middle">ピン1（TX）から出ていく</text>
+<text x="170" y="258" font-size="13" fill="#777" text-anchor="middle">ピン0（RX）は受け取る側</text>
+<text x="170" y="292" font-size="13" fill="#c62828" text-anchor="middle" font-weight="bold">→ ピン0・1には何もつながない</text>
+<path d="M310,195 L668,195" fill="none" stroke="#1565c0" stroke-width="4" marker-end="url(#ab)"/>
+<text x="490" y="100" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">USBケーブル</text>
+<text x="490" y="122" font-size="13" fill="#222" text-anchor="middle">println(100) は、5文字を順番に送る</text>
+<rect x="372" y="140" width="40" height="40" rx="5" fill="#fff" stroke="#1565c0" stroke-width="1.5"/>
+<text x="392" y="166" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" font-family="Menlo, Consolas, monospace">1</text>
+<rect x="420" y="140" width="40" height="40" rx="5" fill="#fff" stroke="#1565c0" stroke-width="1.5"/>
+<text x="440" y="166" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" font-family="Menlo, Consolas, monospace">0</text>
+<rect x="468" y="140" width="40" height="40" rx="5" fill="#fff" stroke="#1565c0" stroke-width="1.5"/>
+<text x="488" y="166" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" font-family="Menlo, Consolas, monospace">0</text>
+<rect x="516" y="140" width="40" height="40" rx="5" fill="#fff3e0" stroke="#1565c0" stroke-width="1.5"/>
+<text x="536" y="166" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" font-family="Menlo, Consolas, monospace">\r</text>
+<rect x="564" y="140" width="40" height="40" rx="5" fill="#fff3e0" stroke="#1565c0" stroke-width="1.5"/>
+<text x="584" y="166" font-size="15" fill="#222" text-anchor="middle" font-weight="bold" font-family="Menlo, Consolas, monospace">\n</text>
+<text x="490" y="226" font-size="13" fill="#e65100" text-anchor="middle">\r \n ＝「改行しなさい」の合図（ln ＝ line、行）</text>
+<text x="490" y="262" font-size="13" fill="#222" text-anchor="middle">速さ 9600 ＝ 1秒に 9600 ビット</text>
+<text x="490" y="284" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">送る側と受ける側で、同じ速さにする</text>
+<rect x="670" y="70" width="280" height="250" rx="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<text x="810" y="100" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">パソコン（受ける側）</text>
+<rect x="690" y="116" width="240" height="150" rx="6" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+<text x="702" y="138" font-size="12" fill="#555" text-anchor="start">シリアルモニタ</text>
+<text x="706" y="162" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">100</text>
+<text x="706" y="183" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">Hello world</text>
+<text x="706" y="204" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">100</text>
+<text x="706" y="225" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">Hello world</text>
+<text x="706" y="246" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">100</text>
+<text x="810" y="296" font-size="13" fill="#222" text-anchor="middle">0.1秒ごとに2行ずつ増える</text>
+<rect x="30" y="340" width="920" height="100" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="50" y="368" font-size="14" fill="#222" text-anchor="start">たとえ：Arduino には画面も声もない。シリアル通信は、Arduino からパソコンへの「実況中継」。</text>
+<text x="50" y="394" font-size="14" fill="#222" text-anchor="start">「いま変数の値はいくつか」「いまコードのどこを通ったか」を文字で知らせてもらう。</text>
+<text x="50" y="420" font-size="14" fill="#222" text-anchor="start">話す速さ（9600）がそろっていないと、聞き取れずに文字化けする（実機の Arduino IDE では自分で合わせる）。</text>
+</svg>

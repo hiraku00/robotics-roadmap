@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" width="980" height="520" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="520" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">コードのピン番号と、線をつないだピンが合っていないと点かない</text>
+<rect x="30" y="60" width="450" height="440" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="50" y="92" font-size="15" fill="#c62828" text-anchor="start" font-weight="bold">まちがい：コードはピン13、回路はピン9</text>
+<rect x="50" y="108" width="410" height="62" rx="6" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+<text x="62" y="132" font-size="13" fill="#555" text-anchor="start">最初から入っているコード（ブロック）</text>
+<text x="62" y="156" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">digitalWrite(LED_BUILTIN, HIGH);  ＝13番</text>
+<rect x="50" y="220" width="150" height="250" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="125" y="250" font-size="14" fill="#00796b" text-anchor="middle" font-weight="bold">Arduino UNO</text>
+<path d="M90,170 L90,290 L158,298" fill="none" stroke="#e65100" stroke-width="3" marker-end="url(#ao)"/>
+<circle cx="175" cy="300" r="14" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+<text x="175" y="305" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">13</text>
+<circle cx="175" cy="370" r="14" fill="#eee" stroke="#9e9e9e" stroke-width="2"/>
+<text x="175" y="375" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">9</text>
+<circle cx="175" cy="440" r="14" fill="#eee" stroke="#222" stroke-width="2"/>
+<text x="175" y="445" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">G</text>
+<text x="125" y="445" font-size="12" fill="#555" text-anchor="middle">GND</text>
+<path d="M189,300 L258,300" fill="none" stroke="#e65100" stroke-width="2.5" marker-end="url(#ao)"/>
+<circle cx="275" cy="300" r="13" fill="#ffb74d" stroke="#222" stroke-width="1.5"/>
+<text x="275" y="305" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">L</text>
+<text x="298" y="296" font-size="13" fill="#222" text-anchor="start">基板の小さなLED「L」</text>
+<text x="298" y="316" font-size="14" fill="#e65100" text-anchor="start" font-weight="bold">点滅する</text>
+<path d="M189,370 L230,370" fill="none" stroke="#9e9e9e" stroke-width="2.5"/>
+<path d="M230,370 L235.8,361 L247.5,379 L259.2,361 L270.8,379 L282.5,361 L294.2,379 L300,370" fill="none" stroke="#9e9e9e" stroke-width="2.5"/>
+<text x="265" y="354" font-size="12" fill="#222" text-anchor="middle">220Ω</text>
+<path d="M300,370 L340,370" fill="none" stroke="#9e9e9e" stroke-width="2.5"/>
+<path d="M340,356 L340,384 L366,370 z" fill="#e0e0e0" stroke="#222" stroke-width="2"/>
+<path d="M366,356 L366,384" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M366,370 L440,370 L440,440 L191,440" fill="none" stroke="#9e9e9e" stroke-width="2.5" marker-end="url(#ax)"/>
+<text x="215" y="402" font-size="13" fill="#777" text-anchor="start" font-weight="bold">ピン9は 0V のまま</text>
+<text x="215" y="424" font-size="14" fill="#777" text-anchor="start" font-weight="bold">→ LED は消えたまま</text>
+<rect x="500" y="60" width="450" height="440" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="520" y="92" font-size="15" fill="#2e7d32" text-anchor="start" font-weight="bold">直したあと：コードも回路もピン9</text>
+<rect x="520" y="108" width="410" height="62" rx="6" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+<text x="532" y="132" font-size="13" fill="#555" text-anchor="start">打ちなおしたコード（文字）</text>
+<text x="532" y="156" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">const int ledPin = 9;  digitalWrite(ledPin, HIGH);</text>
+<rect x="520" y="220" width="150" height="250" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="595" y="250" font-size="14" fill="#00796b" text-anchor="middle" font-weight="bold">Arduino UNO</text>
+<path d="M560,170 L560,360 L628,368" fill="none" stroke="#c62828" stroke-width="3" marker-end="url(#ar)"/>
+<circle cx="645" cy="300" r="14" fill="#eee" stroke="#9e9e9e" stroke-width="2"/>
+<text x="645" y="305" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">13</text>
+<circle cx="645" cy="370" r="14" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+<text x="645" y="375" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">9</text>
+<circle cx="645" cy="440" r="14" fill="#eee" stroke="#222" stroke-width="2"/>
+<text x="645" y="445" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">G</text>
+<text x="595" y="445" font-size="12" fill="#555" text-anchor="middle">GND</text>
+<path d="M659,300 L728,300" fill="none" stroke="#9e9e9e" stroke-width="2.5" marker-end="url(#ax)"/>
+<circle cx="745" cy="300" r="13" fill="#e0e0e0" stroke="#222" stroke-width="1.5"/>
+<text x="745" y="305" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">L</text>
+<text x="768" y="296" font-size="13" fill="#222" text-anchor="start">基板の小さなLED「L」</text>
+<text x="768" y="316" font-size="14" fill="#777" text-anchor="start" font-weight="bold">消えている</text>
+<path d="M659,370 L700,370" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<path d="M700,370 L705.8,361 L717.5,379 L729.2,361 L740.8,379 L752.5,361 L764.2,379 L770,370" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="735" y="354" font-size="12" fill="#222" text-anchor="middle">220Ω</text>
+<path d="M770,370 L810,370" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<path d="M810,356 L810,384 L836,370 z" fill="#ef5350" stroke="#222" stroke-width="2"/>
+<path d="M836,356 L836,384" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M822,350 L832,336" fill="none" stroke="#c62828" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M834,350 L844,336" fill="none" stroke="#c62828" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M836,370 L910,370 L910,440 L661,440" fill="none" stroke="#c62828" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="685" y="402" font-size="13" fill="#c62828" text-anchor="start" font-weight="bold">ピン9が 5V と 0V を交互に出す</text>
+<text x="685" y="424" font-size="14" fill="#c62828" text-anchor="start" font-weight="bold">→ LED が点滅する</text>
+</svg>
