@@ -16,9 +16,9 @@
 
 **30日目 ボタンを読む** → [記録](week5/README.md#30日目-ボタンを読む)
 
-- [ ] 読む：[MONOist 俺流！組み込み用語解説(5) GPIO](https://monoist.itmedia.co.jp/mn/spv/2408/29/news034.html)（20分）
-- [ ] 読む・組む：[3.1 ボタンの値を読む](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_button.html)。第3週のプルダウン抵抗がそのまま出てきます（40分）
-- [ ] 読む・組む：[5.3 ステート変更の検出](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_state_change.html)。「押している間」ではなく「押した瞬間」を数える（40分）
+- [x] 読む：[MONOist 俺流！組み込み用語解説(5) GPIO](https://monoist.itmedia.co.jp/mn/spv/2408/29/news034.html)（20分）
+- [x] 読む・組む：[3.1 ボタンの値を読む](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_button.html)。第3週のプルダウン抵抗がそのまま出てきます（40分）
+- [x] 読む・組む：[5.3 ステート変更の検出](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_state_change.html)。「押している間」ではなく「押した瞬間」を数える（40分）
 
 **31日目 PWMとアナログ入力** → [記録](week5/README.md#31日目-pwmとアナログ入力)
 

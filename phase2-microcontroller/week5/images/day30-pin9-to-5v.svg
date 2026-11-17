@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" width="980" height="520" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="520" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">5.3 で最初にまちがえた配線：ピン9を LED ではなく 5V の列につないでいた</text>
+<rect x="30" y="60" width="450" height="440" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="50" y="92" font-size="15" fill="#c62828" text-anchor="start" font-weight="bold">まちがい：ピン9 → ＋の列（5V）</text>
+<rect x="50" y="120" width="140" height="250" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="120" y="148" font-size="13" fill="#00796b" text-anchor="middle" font-weight="bold">Arduino UNO</text>
+<circle cx="180" cy="190" r="13" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="150" y="195" font-size="12" fill="#555" text-anchor="middle">5V</text>
+<circle cx="180" cy="260" r="13" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="150" y="265" font-size="12" fill="#555" text-anchor="middle">9</text>
+<circle cx="180" cy="330" r="13" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="150" y="335" font-size="12" fill="#555" text-anchor="middle">GND</text>
+<path d="M193,190 L280,190" fill="none" stroke="#c62828" stroke-width="3"/>
+<rect x="280" y="160" width="22" height="130" rx="4" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+<text x="315" y="150" font-size="12" fill="#c62828" text-anchor="start" font-weight="bold">＋の列（5V）</text>
+<path d="M193,260 L280,260" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="215" y="322" font-size="13.5" fill="#c62828" text-anchor="start" font-weight="bold">ピン9が 5V と直結</text>
+<text x="215" y="344" font-size="13" fill="#c62828" text-anchor="start" font-weight="bold">→ LOW にした瞬間にショート</text>
+<text x="66" y="412" font-size="12" fill="#777" text-anchor="start" font-weight="bold">GND</text>
+<path d="M100,420 L105.8,411 L117.5,429 L129.2,411 L140.8,429 L152.5,411 L164.2,429 L170,420" fill="none" stroke="#9e9e9e" stroke-width="2.5"/>
+<text x="135" y="404" font-size="12" fill="#777" text-anchor="middle">220Ω</text>
+<path d="M170,420 L200,420" fill="none" stroke="#9e9e9e" stroke-width="2.5"/>
+<path d="M200,406 L200,434 L226,420 z" fill="#e0e0e0" stroke="#222" stroke-width="2"/>
+<path d="M226,406 L226,434" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M226,420 L270,420" fill="none" stroke="#9e9e9e" stroke-width="2.5"/>
+<text x="276" y="425" font-size="12" fill="#777" text-anchor="start" font-weight="bold">GND</text>
+<text x="66" y="462" font-size="13" fill="#777" text-anchor="start" font-weight="bold">LED と抵抗は、両端が GND。ピン9に届いていない</text>
+<rect x="500" y="60" width="450" height="440" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="520" y="92" font-size="15" fill="#2e7d32" text-anchor="start" font-weight="bold">直したあと：ピン9 → 220Ω → LED → GND</text>
+<rect x="520" y="120" width="140" height="250" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="590" y="148" font-size="13" fill="#00796b" text-anchor="middle" font-weight="bold">Arduino UNO</text>
+<circle cx="650" cy="190" r="13" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="620" y="195" font-size="12" fill="#555" text-anchor="middle">5V</text>
+<circle cx="650" cy="260" r="13" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="620" y="265" font-size="12" fill="#555" text-anchor="middle">9</text>
+<circle cx="650" cy="330" r="13" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="620" y="335" font-size="12" fill="#555" text-anchor="middle">GND</text>
+<path d="M663,190 L750,190" fill="none" stroke="#c62828" stroke-width="3"/>
+<rect x="750" y="160" width="22" height="56" rx="4" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+<text x="785" y="150" font-size="12" fill="#c62828" text-anchor="start" font-weight="bold">＋の列（5V）</text>
+<path d="M663,260 L700,260" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M700,260 L705.8,251 L717.5,269 L729.2,251 L740.8,269 L752.5,251 L764.2,269 L770,260" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="735" y="244" font-size="12" fill="#222" text-anchor="middle">220Ω</text>
+<path d="M770,260 L800,260" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M800,246 L800,274 L826,260 z" fill="#ef5350" stroke="#222" stroke-width="2"/>
+<path d="M826,246 L826,274" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M812,240 L822,226" fill="none" stroke="#c62828" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M824,240 L834,226" fill="none" stroke="#c62828" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M826,260 L900,260 L900,330 L663,330" fill="none" stroke="#c62828" stroke-width="3" marker-end="url(#ar)"/>
+<text x="536" y="412" font-size="13.5" fill="#c62828" text-anchor="start" font-weight="bold">ピン9が 5V と 0V を交互に出す</text>
+<text x="536" y="436" font-size="13.5" fill="#c62828" text-anchor="start" font-weight="bold">→ LED が点く／消える</text>
+</svg>

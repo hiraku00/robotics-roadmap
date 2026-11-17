@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" width="980" height="560" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="560" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">GPIO：出力は「書く」、入力は「読む」</text>
+<rect x="30" y="60" width="440" height="250" rx="10" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="250" y="90" font-size="15" fill="#e65100" text-anchor="middle" font-weight="bold">出力（OUTPUT）：ピンから電圧を出す</text>
+<rect x="50" y="110" width="130" height="60" rx="6" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+<text x="115" y="135" font-size="13" fill="#555" text-anchor="middle">コード</text>
+<text x="115" y="156" font-size="11.5" fill="#222" text-anchor="middle" font-family="Menlo, Consolas, monospace">digitalWrite(9,HIGH)</text>
+<path d="M180,140 L250,140" fill="none" stroke="#e65100" stroke-width="3" marker-end="url(#ao)"/>
+<rect x="252" y="110" width="80" height="60" rx="6" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="292" y="146" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">ピン9</text>
+<path d="M332,140 L400,140" fill="none" stroke="#e65100" stroke-width="3" marker-end="url(#ao)"/>
+<text x="436" y="136" font-size="18" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<text x="436" y="158" font-size="12" fill="#c62828" text-anchor="middle">（HIGH）</text>
+<text x="250" y="205" font-size="13" fill="#222" text-anchor="middle">コードが決める  →  ピンの電圧が変わる  →  LED などが動く</text>
+<text x="250" y="232" font-size="13" fill="#555" text-anchor="middle">HIGH ＝ 5V　／　LOW ＝ 0V（29日目）</text>
+<text x="250" y="262" font-size="13" fill="#555" text-anchor="middle">使い道：LED、ブザー、モーター（のスイッチ）</text>
+<rect x="510" y="60" width="440" height="250" rx="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<text x="730" y="90" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">入力（INPUT）：ピンの電圧を聞く</text>
+<text x="545" y="146" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">外の電圧</text>
+<text x="545" y="166" font-size="12" fill="#555" text-anchor="middle">0V か 5V</text>
+<path d="M590,140 L660,140" fill="none" stroke="#1565c0" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="662" y="110" width="80" height="60" rx="6" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="702" y="146" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">ピン2</text>
+<path d="M742,140 L800,140" fill="none" stroke="#1565c0" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="802" y="110" width="130" height="60" rx="6" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+<text x="867" y="135" font-size="13" fill="#555" text-anchor="middle">コード</text>
+<text x="867" y="156" font-size="11.5" fill="#222" text-anchor="middle" font-family="Menlo, Consolas, monospace">digitalRead(2)</text>
+<text x="730" y="205" font-size="13" fill="#222" text-anchor="middle">外の電圧が決める  →  コードが 0 か 1 として読む</text>
+<text x="730" y="232" font-size="13" fill="#555" text-anchor="middle">しきい値より高ければ 1、低ければ 0</text>
+<text x="730" y="262" font-size="13" fill="#555" text-anchor="middle">使い道：ボタン、スイッチ、センサー</text>
+<text x="490" y="350" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">入力ピンは、電圧が「しきい値」より高いか低いかで、0 と 1 に分ける</text>
+<rect x="90" y="430" width="459.2" height="44" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<rect x="549.2" y="430" width="340.8" height="44" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+<text x="319.6" y="458" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">LOW  →  0 と読む</text>
+<text x="719.6" y="458" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">HIGH  →  1 と読む</text>
+<text x="90" y="496" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">0V</text>
+<text x="890" y="496" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">5V</text>
+<text x="549.2" y="496" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">約 2.87V（しきい値）</text>
+<path d="M549.2,424 L549.2,480" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="5,4"/>
+<path d="M94,408 L94,426" fill="none" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#ag)"/>
+<text x="102" y="402" font-size="12.5" fill="#2e7d32" text-anchor="start" font-weight="bold">押していない（10kΩ で GND につながる）＝ 0V</text>
+<path d="M886,408 L886,426" fill="none" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#ag)"/>
+<text x="878" y="402" font-size="12.5" fill="#2e7d32" text-anchor="end" font-weight="bold">押した ＝ 5V</text>
+<text x="490" y="530" font-size="12" fill="#555" text-anchor="middle">しきい値 約2.87V は、MONOist 記事にある Atmega328（Arduino UNO のマイコン）が 5V で動くときの値。正確な値はデータシートで確かめる</text>
+</svg>
