@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 470" width="980" height="470" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="470" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">INPUT_PULLUP：プルアップ抵抗が Arduino の中にある</text>
+<rect x="30" y="60" width="450" height="390" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="46" y="88" font-size="15" fill="#e65100" text-anchor="start" font-weight="bold">外付けのプルアップ（記事の図2）</text>
+<rect x="260" y="110" width="200" height="250" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2.5"/>
+<text x="360" y="134" font-size="13" fill="#00796b" text-anchor="middle" font-weight="bold">Arduino の中</text>
+<circle cx="260" cy="240" r="6" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="274" y="228" font-size="13" fill="#222" text-anchor="start" font-weight="bold">ピン2</text>
+<path d="M254,240 L180,240" fill="none" stroke="#c62828" stroke-width="3"/>
+<circle cx="180" cy="240" r="5" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M180,240 L180,260" fill="none" stroke="#1565c0" stroke-width="3"/>
+<path d="M180,260 L180,278" fill="none" stroke="#1565c0" stroke-width="3"/>
+<path d="M180,312 L180,330" fill="none" stroke="#1565c0" stroke-width="3"/>
+<circle cx="180" cy="278" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<circle cx="180" cy="312" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M180,278 L202,300" fill="none" stroke="#222" stroke-width="3"/>
+<path d="M180,330 L180,350" fill="none" stroke="#1565c0" stroke-width="3"/>
+<text x="180" y="370" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">GND</text>
+<text x="214" y="306" font-size="13" fill="#222" text-anchor="start" font-weight="bold">ボタン</text>
+<path d="M180,240 L180,200" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M180,130 L171,135.8 L189,147.5 L171,159.2 L189,170.8 L171,182.5 L189,194.2 L180,200" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<path d="M180,120 L180,130" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="180" y="112" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<text x="200" y="170" font-size="13" fill="#222" text-anchor="start" font-weight="bold">10kΩ</text>
+<text x="46" y="420" font-size="13" fill="#222" text-anchor="start" font-weight="bold">離す＝1（5V に引っぱられる）　押す＝0（GND と直結）</text>
+<rect x="500" y="60" width="450" height="390" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="516" y="88" font-size="15" fill="#2e7d32" text-anchor="start" font-weight="bold">INPUT_PULLUP（中の抵抗を使う）</text>
+<rect x="730" y="110" width="200" height="250" rx="10" fill="#e0f2f1" stroke="#00796b" stroke-width="2.5"/>
+<text x="830" y="134" font-size="13" fill="#00796b" text-anchor="middle" font-weight="bold">Arduino の中</text>
+<circle cx="730" cy="240" r="6" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="744" y="228" font-size="13" fill="#222" text-anchor="start" font-weight="bold">ピン2</text>
+<path d="M724,240 L650,240" fill="none" stroke="#c62828" stroke-width="3"/>
+<circle cx="650" cy="240" r="5" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M650,240 L650,260" fill="none" stroke="#1565c0" stroke-width="3"/>
+<path d="M650,260 L650,278" fill="none" stroke="#1565c0" stroke-width="3"/>
+<path d="M650,312 L650,330" fill="none" stroke="#1565c0" stroke-width="3"/>
+<circle cx="650" cy="278" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<circle cx="650" cy="312" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M650,278 L672,300" fill="none" stroke="#222" stroke-width="3"/>
+<path d="M650,330 L650,350" fill="none" stroke="#1565c0" stroke-width="3"/>
+<text x="650" y="370" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">GND</text>
+<text x="684" y="306" font-size="13" fill="#222" text-anchor="start" font-weight="bold">ボタン</text>
+<text x="890" y="156" font-size="13" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M890,162 L890,172" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M890,172 L881,176.7 L899,186.0 L881,195.3 L899,204.7 L881,214.0 L899,223.3 L890,228" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<path d="M890,228 L890,240" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M890,240 L736,240" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="874" y="205" font-size="12" fill="#222" text-anchor="end" font-weight="bold">内蔵の抵抗</text>
+<text x="516" y="130" font-size="13" fill="#222" text-anchor="start">外付けの抵抗は</text>
+<text x="516" y="150" font-size="13" fill="#2e7d32" text-anchor="start" font-weight="bold">要らない</text>
+<text x="516" y="420" font-size="13" fill="#222" text-anchor="start" font-weight="bold">離す＝1（5V に引っぱられる）　押す＝0（GND と直結）</text>
+</svg>

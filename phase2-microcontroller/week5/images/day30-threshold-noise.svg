@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" width="980" height="540" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="540" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">電圧はぴったり 0V・5V にならない。だから「しきい値」で 0 と 1 に分ける</text>
+<rect x="100" y="97.19999999999999" width="830" height="80.96000000000001" fill="#ffebee"/>
+<rect x="100" y="178.16" width="830" height="104.64000000000001" fill="#e3f2fd"/>
+<path d="M100,178.16 L930,178.16" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6,5"/>
+<text x="924" y="171.16" font-size="13" fill="#222" text-anchor="end" font-weight="bold">しきい値 約 2.87V</text>
+<text x="90" y="115" font-size="14" fill="#c62828" text-anchor="end" font-weight="bold">5V</text>
+<text x="90" y="275" font-size="14" fill="#1565c0" text-anchor="end" font-weight="bold">0V</text>
+<text x="110" y="115.19999999999999" font-size="13" fill="#c62828" text-anchor="start" font-weight="bold">ここより上なら HIGH（1）</text>
+<text x="110" y="198.16" font-size="13" fill="#1565c0" text-anchor="start" font-weight="bold">ここより下なら LOW（0）</text>
+<path d="M100,264.1 L105,255.7 L110,273.6 L115,279.6 L120,270.4 L125,262.7 L130,276.3 L135,270.9 L140,259.2 L145,263.8 L150,279.6 L155,273.4 L160,264.6 L165,268.6 L170,279.3 L175,259.7 L180,261.6 L185,274.3 L190,279.6 L195,263.2 L200,269.2 L205,272.9 L210,271.2 L215,252.4 L220,274.2 L225,279.6 L230,277.8 L235,258.3 L240,274.8 L245,267.0 L250,262.5 L255,260.6 L260,279.6 L265,277.4 L270,266.3 L275,257.9 L280,275.9 L285,259.9 L290,267.6 L295,277.8 L300,279.6 L305,260.1 L310,259.0 L315,263.7 L320,276.3 L325,261.7 L330,279.6 L335,279.6 L340,273.2 L345,246.7 L350,266.5 L355,274.0 L360,116.2 L365,107.9 L370,125.4 L375,110.0 L380,100.4 L385,100.4 L390,122.6 L395,117.2 L400,111.6 L405,111.1 L410,117.7 L415,100.4 L420,100.4 L425,114.9 L430,127.1 L435,126.0 L440,124.6 L445,130.4 L450,125.0 L455,112.7 L460,129.0 L465,143.5 L470,114.4 L475,100.9 L480,109.9 L485,113.6 L490,100.4 L495,104.7 L500,121.7 L505,120.4 L510,100.6 L515,106.3 L520,114.5 L525,108.8 L530,100.4 L535,117.3 L540,121.1 L545,109.9 L550,100.4 L555,116.3 L560,109.5 L565,102.3 L570,104.5 L575,127.7 L580,112.5 L585,103.8 L590,103.5 L595,117.9 L600,100.4 L605,106.8 L610,118.1 L615,127.4 L620,100.4 L625,103.4 L630,107.4 L635,113.6 L640,100.4 L645,121.9 L650,122.5 L655,112.2 L660,100.4 L665,110.3 L670,110.8 L675,112.8 L680,108.4 L685,129.4 L690,108.2 L695,100.4 L700,254.7 L705,279.6 L710,272.2 L715,274.2 L720,274.3 L725,279.3 L730,250.7 L735,258.0 L740,274.2 L745,279.6 L750,267.1 L755,273.1 L760,271.3 L765,264.2 L770,250.6 L775,276.5 L780,279.6 L785,260.4 L790,244.3 L795,256.4 L800,266.5 L805,259.3 L810,266.5 L815,279.6 L820,277.4 L825,261.0 L830,263.5 L835,274.1 L840,263.9 L845,264.0 L850,279.6 L855,279.6 L860,262.7 L865,259.1 L870,274.4 L875,271.0 L880,262.9 L885,271.8 L890,279.6 L895,267.9 L900,259.1 L905,268.1 L910,278.2 L915,261.9 L920,267.9 L925,279.4 L930,279.6" fill="none" stroke="#e65100" stroke-width="2.5"/>
+<text x="106" y="300" font-size="13" fill="#e65100" text-anchor="start" font-weight="bold">実際の電圧（ノイズで少しゆれる）</text>
+<path d="M100,310 L930,310" fill="none" stroke="#9e9e9e" stroke-width="1"/>
+<text x="90" y="370" font-size="16" fill="#c62828" text-anchor="end" font-weight="bold">1</text>
+<text x="90" y="430" font-size="16" fill="#1565c0" text-anchor="end" font-weight="bold">0</text>
+<path d="M100,425 L360,425 L360,365 L700,365 L700,425 L930,425" fill="none" stroke="#222" stroke-width="4"/>
+<text x="230.0" y="415" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">0</text>
+<text x="530.0" y="355" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">1</text>
+<text x="815.0" y="415" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">0</text>
+<text x="106" y="345" font-size="13" fill="#222" text-anchor="start" font-weight="bold">digitalRead が返す値</text>
+<path d="M360,110 L360,440" fill="none" stroke="#9e9e9e" stroke-width="1.2" stroke-dasharray="4,5"/>
+<path d="M700,110 L700,440" fill="none" stroke="#9e9e9e" stroke-width="1.2" stroke-dasharray="4,5"/>
+<rect x="30" y="465" width="920" height="60" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="490" y="492" font-size="13.5" fill="#222" text-anchor="middle">電圧が少しゆれても、しきい値をまたがないかぎり、読む値は変わらない。たとえ：水位の線。水面がゆれても「線より上なら満タン」</text>
+<text x="490" y="514" font-size="13.5" fill="#222" text-anchor="middle">もし「ちょうど 5V のときだけ 1」にすると、4.9V でも 0 と読んでしまい、ゆれるたびに 0 と 1 が入れかわってしまう</text>
+</svg>

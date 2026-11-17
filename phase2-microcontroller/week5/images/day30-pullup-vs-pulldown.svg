@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 790" width="980" height="790" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="790" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">プルアップ と プルダウン：抵抗とボタンの上下が入れかわっているだけ</text>
+<text x="255" y="66" font-size="17" fill="#e65100" text-anchor="middle" font-weight="bold">プルアップ（記事の図2）</text>
+<text x="725" y="66" font-size="17" fill="#2e7d32" text-anchor="middle" font-weight="bold">プルダウン（3.1・今日の回路）</text>
+<rect x="30" y="80" width="450" height="320" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="46" y="106" font-size="15" fill="#555" text-anchor="start" font-weight="bold">ボタンを離している</text>
+<text x="110" y="138" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<text x="110" y="388" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">GND（0V）</text>
+<path d="M110,150 L110,162" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M110,238 L110,250" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M110,250 L110,262" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<path d="M110,338 L110,350" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<path d="M110,162 L101,168.3 L119,181.0 L101,193.7 L119,206.3 L101,219.0 L119,231.7 L110,238" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="132" y="206" font-size="13" fill="#222" text-anchor="start" font-weight="bold">10kΩ</text>
+<path d="M110,262 L110,280" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<path d="M110,320 L110,338" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<circle cx="110" cy="280" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<circle cx="110" cy="320" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M110,280 L132,308" fill="none" stroke="#222" stroke-width="3"/>
+<text x="144" y="306" font-size="13" fill="#222" text-anchor="start" font-weight="bold">ボタン</text>
+<circle cx="110" cy="250" r="5" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M110,250 L285,250" fill="none" stroke="#c62828" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="288" y="220" width="170" height="60" rx="6" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="373" y="244" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">ピン2</text>
+<text x="373" y="268" font-size="17" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<text x="220" y="315" font-size="12.5" fill="#222" text-anchor="start">ボタンは開いている</text>
+<text x="220" y="337" font-size="12.5" fill="#222" text-anchor="start">10kΩで 5V に引っぱる</text>
+<text x="220" y="359" font-size="12.5" fill="#222" text-anchor="start" font-weight="bold">→ HIGH → 画面 1</text>
+<rect x="500" y="80" width="450" height="320" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="516" y="106" font-size="15" fill="#555" text-anchor="start" font-weight="bold">ボタンを離している</text>
+<text x="580" y="138" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<text x="580" y="388" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">GND（0V）</text>
+<path d="M580,150 L580,162" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<path d="M580,238 L580,250" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<path d="M580,250 L580,262" fill="none" stroke="#1565c0" stroke-width="3"/>
+<path d="M580,338 L580,350" fill="none" stroke="#1565c0" stroke-width="3"/>
+<path d="M580,162 L580,180" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<path d="M580,220 L580,238" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<circle cx="580" cy="180" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<circle cx="580" cy="220" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M580,180 L602,208" fill="none" stroke="#222" stroke-width="3"/>
+<text x="614" y="206" font-size="13" fill="#222" text-anchor="start" font-weight="bold">ボタン</text>
+<path d="M580,262 L571,268.3 L589,281.0 L571,293.7 L589,306.3 L571,319.0 L589,331.7 L580,338" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="602" y="306" font-size="13" fill="#222" text-anchor="start" font-weight="bold">10kΩ</text>
+<circle cx="580" cy="250" r="5" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M580,250 L755,250" fill="none" stroke="#1565c0" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="758" y="220" width="170" height="60" rx="6" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="843" y="244" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">ピン2</text>
+<text x="843" y="268" font-size="17" fill="#1565c0" text-anchor="middle" font-weight="bold">0V</text>
+<text x="690" y="315" font-size="12.5" fill="#222" text-anchor="start">ボタンは開いている</text>
+<text x="690" y="337" font-size="12.5" fill="#222" text-anchor="start">10kΩで GND に引っぱる</text>
+<text x="690" y="359" font-size="12.5" fill="#222" text-anchor="start" font-weight="bold">→ LOW → 画面 0</text>
+<rect x="30" y="410" width="450" height="320" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="46" y="436" font-size="15" fill="#c62828" text-anchor="start" font-weight="bold">ボタンを押している</text>
+<text x="110" y="468" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<text x="110" y="718" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">GND（0V）</text>
+<path d="M110,480 L110,492" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<path d="M110,568 L110,580" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<path d="M110,580 L110,592" fill="none" stroke="#1565c0" stroke-width="3"/>
+<path d="M110,668 L110,680" fill="none" stroke="#1565c0" stroke-width="3"/>
+<path d="M110,492 L101,498.3 L119,511.0 L101,523.7 L119,536.3 L101,549.0 L119,561.7 L110,568" fill="none" stroke="#9e9e9e" stroke-width="2.5"/>
+<text x="132" y="536" font-size="13" fill="#222" text-anchor="start" font-weight="bold">10kΩ</text>
+<path d="M110,592 L110,610" fill="none" stroke="#1565c0" stroke-width="3"/>
+<path d="M110,650 L110,668" fill="none" stroke="#1565c0" stroke-width="3"/>
+<circle cx="110" cy="610" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<circle cx="110" cy="650" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M110,610 L110,650" fill="none" stroke="#1565c0" stroke-width="3"/>
+<text x="144" y="636" font-size="13" fill="#222" text-anchor="start" font-weight="bold">ボタン</text>
+<circle cx="110" cy="580" r="5" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M110,580 L285,580" fill="none" stroke="#1565c0" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="288" y="550" width="170" height="60" rx="6" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="373" y="574" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">ピン2</text>
+<text x="373" y="598" font-size="17" fill="#1565c0" text-anchor="middle" font-weight="bold">0V</text>
+<text x="220" y="645" font-size="12.5" fill="#222" text-anchor="start">ボタンが GND と直結</text>
+<text x="220" y="667" font-size="12.5" fill="#222" text-anchor="start">（強い線が勝つ）</text>
+<text x="220" y="689" font-size="12.5" fill="#222" text-anchor="start" font-weight="bold">→ LOW → 画面 0</text>
+<rect x="500" y="410" width="450" height="320" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="516" y="436" font-size="15" fill="#c62828" text-anchor="start" font-weight="bold">ボタンを押している</text>
+<text x="580" y="468" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<text x="580" y="718" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">GND（0V）</text>
+<path d="M580,480 L580,492" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M580,568 L580,580" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M580,580 L580,592" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<path d="M580,668 L580,680" fill="none" stroke="#9e9e9e" stroke-width="3"/>
+<path d="M580,492 L580,510" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M580,550 L580,568" fill="none" stroke="#c62828" stroke-width="3"/>
+<circle cx="580" cy="510" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<circle cx="580" cy="550" r="4" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M580,510 L580,550" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="614" y="536" font-size="13" fill="#222" text-anchor="start" font-weight="bold">ボタン</text>
+<path d="M580,592 L571,598.3 L589,611.0 L571,623.7 L589,636.3 L571,649.0 L589,661.7 L580,668" fill="none" stroke="#9e9e9e" stroke-width="2.5"/>
+<text x="602" y="636" font-size="13" fill="#222" text-anchor="start" font-weight="bold">10kΩ</text>
+<circle cx="580" cy="580" r="5" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M580,580 L755,580" fill="none" stroke="#c62828" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="758" y="550" width="170" height="60" rx="6" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="843" y="574" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">ピン2</text>
+<text x="843" y="598" font-size="17" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<text x="690" y="645" font-size="12.5" fill="#222" text-anchor="start">ボタンが 5V と直結</text>
+<text x="690" y="667" font-size="12.5" fill="#222" text-anchor="start">（強い線が勝つ）</text>
+<text x="690" y="689" font-size="12.5" fill="#222" text-anchor="start" font-weight="bold">→ HIGH → 画面 1</text>
+<rect x="30" y="742" width="920" height="36" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="490" y="766" font-size="13" fill="#222" text-anchor="middle">赤＝5V につながっている道、青＝GND につながっている道。どちらも「弱いひも（10kΩ）」と「強い線（ボタン）」の勝負で、強いほうが勝つ</text>
+</svg>
