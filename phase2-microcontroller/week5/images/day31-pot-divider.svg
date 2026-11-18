@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 600" width="980" height="600" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="600" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">可変抵抗器は、つまみで「上の抵抗」と「下の抵抗」の割合が変わる分圧回路（8日目）</text>
+<rect x="30" y="60" width="300" height="430" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="180" y="88" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">つまみ：GND 側の端</text>
+<text x="120" y="126" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M120,136 L120,150" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M120,150 L111,166.7 L129,200.0 L111,233.3 L129,266.7 L111,300.0 L129,333.3 L120,350.0" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<circle cx="120" cy="350.0" r="5" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M120,350 L120,370" fill="none" stroke="#1565c0" stroke-width="3"/>
+<text x="120" y="392" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">GND（0V）</text>
+<text x="146" y="255.0" font-size="13" fill="#c62828" text-anchor="start" font-weight="bold">上 250kΩ</text>
+<text x="106" y="355.0" font-size="13" fill="#1565c0" text-anchor="end" font-weight="bold">下 0Ω（線）</text>
+<path d="M120,350.0 L205,350.0" fill="none" stroke="#e65100" stroke-width="3" marker-end="url(#ao)"/>
+<rect x="208" y="310.0" width="110" height="80" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+<text x="263" y="334.0" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">A0</text>
+<text x="263" y="356.0" font-size="15" fill="#e65100" text-anchor="middle" font-weight="bold">0V</text>
+<text x="263" y="378.0" font-size="14" fill="#222" text-anchor="middle" font-weight="bold" font-family="Menlo, Consolas, monospace">画面 0</text>
+<rect x="340" y="60" width="300" height="430" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="490" y="88" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">つまみ：真ん中</text>
+<text x="430" y="126" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M430,136 L430,150" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M430,150 L421,158.3 L439,175.0 L421,191.7 L439,208.3 L421,225.0 L439,241.7 L430,250.0" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<circle cx="430" cy="250.0" r="5" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M430,250.0 L421,258.3 L439,275.0 L421,291.7 L439,308.3 L421,325.0 L439,341.7 L430,350.0" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<path d="M430,350 L430,370" fill="none" stroke="#1565c0" stroke-width="3"/>
+<text x="430" y="392" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">GND（0V）</text>
+<text x="456" y="205.0" font-size="13" fill="#c62828" text-anchor="start" font-weight="bold">上 125kΩ</text>
+<text x="456" y="305.0" font-size="13" fill="#1565c0" text-anchor="start" font-weight="bold">下 125kΩ</text>
+<path d="M430,250.0 L515,250.0" fill="none" stroke="#e65100" stroke-width="3" marker-end="url(#ao)"/>
+<rect x="518" y="210.0" width="110" height="80" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+<text x="573" y="234.0" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">A0</text>
+<text x="573" y="256.0" font-size="15" fill="#e65100" text-anchor="middle" font-weight="bold">約 2.5V</text>
+<text x="573" y="278.0" font-size="14" fill="#222" text-anchor="middle" font-weight="bold" font-family="Menlo, Consolas, monospace">画面 511</text>
+<rect x="650" y="60" width="300" height="430" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="800" y="88" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">つまみ：5V 側の端</text>
+<text x="740" y="126" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M740,136 L740,150" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M740,150 L740,150" fill="none" stroke="#c62828" stroke-width="3"/>
+<circle cx="740" cy="150.0" r="5" fill="#222" stroke="#222" stroke-width="2"/>
+<path d="M740,150.0 L731,166.7 L749,200.0 L731,233.3 L749,266.7 L731,300.0 L749,333.3 L740,350.0" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<path d="M740,350 L740,370" fill="none" stroke="#1565c0" stroke-width="3"/>
+<text x="740" y="392" font-size="14" fill="#1565c0" text-anchor="middle" font-weight="bold">GND（0V）</text>
+<text x="726" y="155" font-size="13" fill="#c62828" text-anchor="end" font-weight="bold">上 0Ω（線）</text>
+<text x="766" y="255.0" font-size="13" fill="#1565c0" text-anchor="start" font-weight="bold">下 250kΩ</text>
+<path d="M740,150.0 L825,150.0" fill="none" stroke="#e65100" stroke-width="3" marker-end="url(#ao)"/>
+<rect x="828" y="110.0" width="110" height="80" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+<text x="883" y="134.0" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">A0</text>
+<text x="883" y="156.0" font-size="15" fill="#e65100" text-anchor="middle" font-weight="bold">5V</text>
+<text x="883" y="178.0" font-size="14" fill="#222" text-anchor="middle" font-weight="bold" font-family="Menlo, Consolas, monospace">画面 1023</text>
+<text x="490" y="525" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">A0 の電圧 ＝ 5V × 下の抵抗 ÷（上の抵抗 ＋ 下の抵抗）　　画面の数字 ＝ 電圧 ÷ 5V × 1023</text>
+<text x="490" y="550" font-size="12.5" fill="#555" text-anchor="middle">250kΩ は Tinkercad の可変抵抗器の初期値。分圧は抵抗の「比」で決まるので、値が10kΩでも同じ数字になる（計算。電圧は測っていない）</text>
+<text x="490" y="574" font-size="12.5" fill="#555" text-anchor="middle">0・511・1023 は、シリアルモニタに出た数字（Tinkercad）。電圧は、その数字から計算した値</text>
+</svg>

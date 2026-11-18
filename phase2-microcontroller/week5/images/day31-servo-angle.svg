@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 470" width="980" height="470" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="470" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">サーボの腕の向き：停止中の絵は「縦」。実行中は、コードの角度に動く</text>
+<rect x="30" y="60" width="225" height="280" rx="10" fill="#f3f3f3" stroke="#ddd" stroke-width="2"/>
+<text x="142" y="88" font-size="16" fill="#777" text-anchor="middle" font-weight="bold">停止中</text>
+<text x="142" y="108" font-size="12" fill="#555" text-anchor="middle" font-family="Menlo, Consolas, monospace">（コードの指示なし）</text>
+<circle cx="142" cy="205" r="60" fill="#e3f2fd" stroke="#1565c0" stroke-width="2.5"/>
+<path d="M142.0,283.0 L142.0,127.0" fill="none" stroke="#9e9e9e" stroke-width="9"/>
+<circle cx="142" cy="205" r="9" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="142" y="322" font-size="14" fill="#777" text-anchor="middle" font-weight="bold">初期の絵。縦</text>
+<rect x="265" y="60" width="225" height="280" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="377" y="88" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">0度</text>
+<text x="377" y="108" font-size="12" fill="#555" text-anchor="middle" font-family="Menlo, Consolas, monospace">画面 0 -&gt; 0</text>
+<circle cx="377" cy="205" r="60" fill="#e3f2fd" stroke="#1565c0" stroke-width="2.5"/>
+<path d="M377.0,283.0 L377.0,127.0" fill="none" stroke="#2e7d32" stroke-width="9"/>
+<circle cx="377" cy="205" r="9" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="377" y="322" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">縦</text>
+<rect x="500" y="60" width="225" height="280" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="612" y="88" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">89度</text>
+<text x="612" y="108" font-size="12" fill="#555" text-anchor="middle" font-family="Menlo, Consolas, monospace">画面 511 -&gt; 89</text>
+<circle cx="612" cy="205" r="60" fill="#e3f2fd" stroke="#1565c0" stroke-width="2.5"/>
+<path d="M534.0118797778015,206.36128770210811 L689.9881202221985,203.63871229789189" fill="none" stroke="#2e7d32" stroke-width="9"/>
+<circle cx="612" cy="205" r="9" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="612" y="322" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">横</text>
+<rect x="735" y="60" width="225" height="280" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="847" y="88" font-size="16" fill="#222" text-anchor="middle" font-weight="bold">180度</text>
+<text x="847" y="108" font-size="12" fill="#555" text-anchor="middle" font-family="Menlo, Consolas, monospace">画面 1023 -&gt; 180</text>
+<circle cx="847" cy="205" r="60" fill="#e3f2fd" stroke="#1565c0" stroke-width="2.5"/>
+<path d="M847.0,127.0 L847.0,283.0" fill="none" stroke="#2e7d32" stroke-width="9"/>
+<circle cx="847" cy="205" r="9" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="847" y="322" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">縦</text>
+<text x="490" y="370" font-size="13.5" fill="#222" text-anchor="middle" font-weight="bold">腕（ホーン）は、上下（左右）が対称な形に見えるので、0度と180度は、どちらも縦で同じ形に見える</text>
+<text x="490" y="394" font-size="12.5" fill="#555" text-anchor="middle">0度と180度で反対向きになっているか（長い腕が上か下か）は、スクリーンショットでは読みきれなかった。腕の絵は、向きの目安</text>
+<text x="490" y="420" font-size="13" fill="#222" text-anchor="middle">停止中の「縦」は、部品を置いたときの絵で、何度かを表すものではない。つまみが端でないとき、縦から少しずれて見えるのは、正しい動き</text>
+<text x="490" y="446" font-size="12.5" fill="#555" text-anchor="middle">（89度が横に見えたのは、Tinkercad の画面で確かめた。0度・180度が縦に見えたのも、画面で確かめた）</text>
+</svg>

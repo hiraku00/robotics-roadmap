@@ -22,9 +22,9 @@
 
 **31日目 PWMとアナログ入力** → [記録](week5/README.md#31日目-pwmとアナログ入力)
 
-- [ ] 読む・組む：[2.1 フェージング](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_fading.html)。PWMでLEDの明るさを変える（30分）
-- [ ] 読む・組む：[4.1 ノブを回す](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_turn_the_knob.html)と[5.6 マッピング](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_map.html)。可変抵抗（分圧）の値0〜1023を、PWMの0〜255に変換する（50分）
-- [ ] 記録：「可変抵抗は第2週の分圧回路そのもの」であることを回路図で確認
+- [x] 読む・組む：[2.1 フェージング](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_fading.html)。PWMでLEDの明るさを変える（30分）
+- [x] 読む・組む：[4.1 ノブを回す](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_turn_the_knob.html)と[5.6 マッピング](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_map.html)。可変抵抗（分圧）の値0〜1023を、PWMの0〜255に変換する（50分）
+- [x] 記録：「可変抵抗は第2週の分圧回路そのもの」であることを回路図で確認
 
 **32日目 millis() で待たない処理** → [記録](week5/README.md#32日目-millis-で待たない処理)
 

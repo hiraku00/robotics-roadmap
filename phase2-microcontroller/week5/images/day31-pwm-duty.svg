@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 640" width="980" height="640" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="640" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">PWM：ピンは 5V と 0V のどちらかしか出さない。5V の時間の割合で、平均の強さが決まる</text>
+<rect x="20" y="66" width="940" height="88" rx="6" fill="#fafafa" stroke="#eee" stroke-width="1.5"/>
+<text x="36" y="102" font-size="14" fill="#222" text-anchor="start" font-weight="bold" font-family="Menlo, Consolas, monospace">analogWrite(9, 0)</text>
+<text x="36" y="126" font-size="13" fill="#555" text-anchor="start">0 ÷ 255 ＝ 0%</text>
+<path d="M290,134 L290,134 L390,134 L390,134 L490,134 L490,134 L590,134 L590,134 L690,134" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="282" y="91" font-size="12" fill="#c62828" text-anchor="end" font-weight="bold">5V</text>
+<text x="282" y="139" font-size="12" fill="#1565c0" text-anchor="end" font-weight="bold">0V</text>
+<text x="710" y="110" font-size="13" fill="#222" text-anchor="start">平均</text>
+<text x="710" y="132" font-size="16" fill="#c62828" text-anchor="start" font-weight="bold">0V</text>
+<text x="800" y="104" font-size="12" fill="#555" text-anchor="start">LED の明るさ</text>
+<rect x="800" y="112" width="140" height="20" fill="#eee" stroke="#bbb" stroke-width="1.5" rx="4"/>
+<rect x="800" y="112" width="0.0" height="20" fill="#ef5350" rx="4"/>
+<rect x="20" y="162" width="940" height="88" rx="6" fill="#fff" stroke="#eee" stroke-width="1.5"/>
+<text x="36" y="198" font-size="14" fill="#222" text-anchor="start" font-weight="bold" font-family="Menlo, Consolas, monospace">analogWrite(9, 64)</text>
+<text x="36" y="222" font-size="13" fill="#555" text-anchor="start">64 ÷ 255 ＝ 25%</text>
+<path d="M290,230 L290,182 L315.0980392156863,182 L315.0980392156863,230 L390,230 L390,182 L415.0980392156863,182 L415.0980392156863,230 L490,230 L490,182 L515.0980392156863,182 L515.0980392156863,230 L590,230 L590,182 L615.0980392156863,182 L615.0980392156863,230 L690,230" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="282" y="187" font-size="12" fill="#c62828" text-anchor="end" font-weight="bold">5V</text>
+<text x="282" y="235" font-size="12" fill="#1565c0" text-anchor="end" font-weight="bold">0V</text>
+<text x="710" y="206" font-size="13" fill="#222" text-anchor="start">平均</text>
+<text x="710" y="228" font-size="16" fill="#c62828" text-anchor="start" font-weight="bold">約 1.25V</text>
+<text x="800" y="200" font-size="12" fill="#555" text-anchor="start">LED の明るさ</text>
+<rect x="800" y="208" width="140" height="20" fill="#eee" stroke="#bbb" stroke-width="1.5" rx="4"/>
+<rect x="800" y="208" width="35.1" height="20" fill="#ef5350" rx="4"/>
+<rect x="20" y="258" width="940" height="88" rx="6" fill="#fafafa" stroke="#eee" stroke-width="1.5"/>
+<text x="36" y="294" font-size="14" fill="#222" text-anchor="start" font-weight="bold" font-family="Menlo, Consolas, monospace">analogWrite(9, 128)</text>
+<text x="36" y="318" font-size="13" fill="#555" text-anchor="start">128 ÷ 255 ＝ 50%</text>
+<path d="M290,326 L290,278 L340.19607843137254,278 L340.19607843137254,326 L390,326 L390,278 L440.19607843137254,278 L440.19607843137254,326 L490,326 L490,278 L540.1960784313726,278 L540.1960784313726,326 L590,326 L590,278 L640.1960784313726,278 L640.1960784313726,326 L690,326" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="282" y="283" font-size="12" fill="#c62828" text-anchor="end" font-weight="bold">5V</text>
+<text x="282" y="331" font-size="12" fill="#1565c0" text-anchor="end" font-weight="bold">0V</text>
+<text x="710" y="302" font-size="13" fill="#222" text-anchor="start">平均</text>
+<text x="710" y="324" font-size="16" fill="#c62828" text-anchor="start" font-weight="bold">約 2.5V</text>
+<text x="800" y="296" font-size="12" fill="#555" text-anchor="start">LED の明るさ</text>
+<rect x="800" y="304" width="140" height="20" fill="#eee" stroke="#bbb" stroke-width="1.5" rx="4"/>
+<rect x="800" y="304" width="70.3" height="20" fill="#ef5350" rx="4"/>
+<rect x="20" y="354" width="940" height="88" rx="6" fill="#fff" stroke="#eee" stroke-width="1.5"/>
+<text x="36" y="390" font-size="14" fill="#222" text-anchor="start" font-weight="bold" font-family="Menlo, Consolas, monospace">analogWrite(9, 192)</text>
+<text x="36" y="414" font-size="13" fill="#555" text-anchor="start">192 ÷ 255 ＝ 75%</text>
+<path d="M290,422 L290,374 L365.29411764705884,374 L365.29411764705884,422 L390,422 L390,374 L465.29411764705884,374 L465.29411764705884,422 L490,422 L490,374 L565.2941176470588,374 L565.2941176470588,422 L590,422 L590,374 L665.2941176470588,374 L665.2941176470588,422 L690,422" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="282" y="379" font-size="12" fill="#c62828" text-anchor="end" font-weight="bold">5V</text>
+<text x="282" y="427" font-size="12" fill="#1565c0" text-anchor="end" font-weight="bold">0V</text>
+<text x="710" y="398" font-size="13" fill="#222" text-anchor="start">平均</text>
+<text x="710" y="420" font-size="16" fill="#c62828" text-anchor="start" font-weight="bold">約 3.76V</text>
+<text x="800" y="392" font-size="12" fill="#555" text-anchor="start">LED の明るさ</text>
+<rect x="800" y="400" width="140" height="20" fill="#eee" stroke="#bbb" stroke-width="1.5" rx="4"/>
+<rect x="800" y="400" width="105.4" height="20" fill="#ef5350" rx="4"/>
+<rect x="20" y="450" width="940" height="88" rx="6" fill="#fafafa" stroke="#eee" stroke-width="1.5"/>
+<text x="36" y="486" font-size="14" fill="#222" text-anchor="start" font-weight="bold" font-family="Menlo, Consolas, monospace">analogWrite(9, 255)</text>
+<text x="36" y="510" font-size="13" fill="#555" text-anchor="start">255 ÷ 255 ＝ 100%</text>
+<path d="M290,470 L690,470" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="282" y="475" font-size="12" fill="#c62828" text-anchor="end" font-weight="bold">5V</text>
+<text x="282" y="523" font-size="12" fill="#1565c0" text-anchor="end" font-weight="bold">0V</text>
+<text x="710" y="494" font-size="13" fill="#222" text-anchor="start">平均</text>
+<text x="710" y="516" font-size="16" fill="#c62828" text-anchor="start" font-weight="bold">5V</text>
+<text x="800" y="488" font-size="12" fill="#555" text-anchor="start">LED の明るさ</text>
+<rect x="800" y="496" width="140" height="20" fill="#eee" stroke="#bbb" stroke-width="1.5" rx="4"/>
+<rect x="800" y="496" width="140.0" height="20" fill="#ef5350" rx="4"/>
+<text x="490" y="572" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">ピンの電圧が本当に 2.5V になるわけではない。5V の時間と 0V の時間が半分ずつで、LED には平均の明るさに見える</text>
+<text x="490" y="598" font-size="12.5" fill="#555" text-anchor="middle">（1秒に約 490回の切りかえで、目では点滅が見えない。数字は記事外で、確かめていない）</text>
+<text x="490" y="624" font-size="13" fill="#222" text-anchor="middle">平均電圧 ＝ 5V × value ÷ 255（計算。電圧は測っていない）</text>
+</svg>
