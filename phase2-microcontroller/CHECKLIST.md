@@ -28,9 +28,9 @@
 
 **32日目 millis() で待たない処理** → [記録](week5/README.md#32日目-millis-で待たない処理)
 
-- [ ] 読む・組む：[5.4 インターバル](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_interval.html)（40分）
-- [ ] 改造：29日目のLED点滅を `delay()` なしで書き直し、点滅しながらボタンも反応するようにする（50分）
-- [ ] 記録：`delay()` を使うとボタンが反応しなくなる理由を1行
+- [x] 読む・組む：[5.4 インターバル](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_interval.html)（40分）
+- [x] 改造：29日目のLED点滅を `delay()` なしで書き直し、点滅しながらボタンも反応するようにする（50分）
+- [x] 記録：`delay()` を使うとボタンが反応しなくなる理由を1行
 
 **33日目 割り込み** → [記録](week5/README.md#33日目-割り込み)
 

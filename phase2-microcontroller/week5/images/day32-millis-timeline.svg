@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" width="980" height="520" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="520" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">millis()：待たずに、時刻の差だけを調べる。調べる回数は、とても多い</text>
+<path d="M90,250 L920,250" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ak)"/>
+<text x="920" y="278" font-size="12.5" fill="#222" text-anchor="end">時間（ミリ秒）</text>
+<path d="M110,240 L110,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M126,240 L126,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M142,240 L142,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M158,240 L158,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M174,240 L174,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M190,240 L190,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M206,240 L206,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M222,240 L222,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M238,240 L238,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M254,240 L254,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M270,240 L270,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M286,240 L286,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M302,240 L302,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M318,240 L318,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M334,240 L334,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M350,240 L350,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M366,240 L366,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M382,240 L382,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M398,240 L398,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M414,240 L414,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M430,240 L430,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M446,240 L446,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M462,240 L462,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M478,240 L478,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M494,240 L494,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M510,240 L510,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M526,240 L526,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M542,240 L542,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M558,240 L558,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M574,240 L574,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M590,240 L590,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M606,240 L606,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M622,240 L622,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M638,240 L638,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M654,240 L654,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M670,240 L670,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M686,240 L686,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M702,240 L702,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M718,240 L718,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M734,240 L734,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M750,240 L750,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M766,240 L766,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M782,240 L782,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M798,240 L798,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M814,240 L814,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M830,240 L830,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M846,240 L846,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M862,240 L862,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M878,240 L878,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<path d="M894,240 L894,250" fill="none" stroke="#9e9e9e" stroke-width="1.5"/>
+<text x="90" y="228" font-size="13" fill="#555" text-anchor="start" font-weight="bold">loop() が1周するたび（とても速く、何度も回る）</text>
+<path d="M250,240 L250,120" fill="none" stroke="#c62828" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="172" y="70" width="156" height="46" rx="6" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+<text x="250" y="90" font-size="13.5" fill="#c62828" text-anchor="middle" font-weight="bold">音を出す ①</text>
+<text x="250" y="108" font-size="11.5" fill="#555" text-anchor="middle">previousMillis を更新</text>
+<path d="M500,240 L500,120" fill="none" stroke="#c62828" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="422" y="70" width="156" height="46" rx="6" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+<text x="500" y="90" font-size="13.5" fill="#c62828" text-anchor="middle" font-weight="bold">音を出す ②</text>
+<text x="500" y="108" font-size="11.5" fill="#555" text-anchor="middle">previousMillis を更新</text>
+<path d="M750,240 L750,120" fill="none" stroke="#c62828" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="672" y="70" width="156" height="46" rx="6" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+<text x="750" y="90" font-size="13.5" fill="#c62828" text-anchor="middle" font-weight="bold">音を出す ③</text>
+<text x="750" y="108" font-size="11.5" fill="#555" text-anchor="middle">previousMillis を更新</text>
+<path d="M254,300 L496,300" fill="none" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#ag)"/>
+<path d="M496,300 L254,300" fill="none" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#ag)"/>
+<text x="375.0" y="322" font-size="12.5" fill="#2e7d32" text-anchor="middle" font-weight="bold">interval（次の音までの待ち時間）</text>
+<text x="375.0" y="342" font-size="12" fill="#555" text-anchor="middle">この間も、loop() は止まらず回る</text>
+<path d="M504,300 L746,300" fill="none" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#ag)"/>
+<path d="M746,300 L504,300" fill="none" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#ag)"/>
+<text x="625.0" y="322" font-size="12.5" fill="#2e7d32" text-anchor="middle" font-weight="bold">interval（次の音までの待ち時間）</text>
+<text x="625.0" y="342" font-size="12" fill="#555" text-anchor="middle">この間も、loop() は止まらず回る</text>
+<text x="90" y="395" font-size="14" fill="#222" text-anchor="start" font-weight="bold">毎回の周回で、やっていること</text>
+<text x="90" y="420" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">①  currentMillis ＝ いまの時刻</text>
+<text x="90" y="442" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">②  currentMillis − previousMillis ≧ interval なら、音を出す（そうでなければ、何もしない）</text>
+<text x="90" y="464" font-size="13" fill="#222" text-anchor="start" font-family="Menlo, Consolas, monospace">③  ボタンを読んで、LED を動かす（毎周回。待ち時間のあいだも）</text>
+<rect x="30" y="478" width="920" height="36" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="490" y="502" font-size="13.5" fill="#222" text-anchor="middle">たとえ：電子レンジの前で待ちつづけず、ときどき時計を見に行く。そのあいだ、ほかの用事ができる</text>
+</svg>
