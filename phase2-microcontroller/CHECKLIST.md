@@ -34,8 +34,8 @@
 
 **33日目 割り込み** → [記録](week5/README.md#33日目-割り込み)
 
-- [ ] 読む・組む：[5.13 割り込み](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_interrupt.html)。UNOで割り込みが使えるのはピン2と3だけ、割り込み関数は短く書く、の2点を押さえる（60分）
-- [ ] 実験：ボタンの読み取りを、通常の読み取り（30日目）と割り込みで比べ、`delay(1000)` が入っているときの反応の違いを確かめる（30分）
+- [x] 読む・組む：[5.13 割り込み](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_interrupt.html)。UNOで割り込みが使えるのはピン2と3だけ、割り込み関数は短く書く、の2点を押さえる（60分）
+- [x] 実験：ボタンの読み取りを、通常の読み取り（30日目）と割り込みで比べ、`delay(1000)` が入っているときの反応の違いを確かめる（30分）
 
 **34日目 反応時間ゲーム（筆者の課題）** → [記録](week5/README.md#34日目-反応時間ゲーム筆者の課題)
 
