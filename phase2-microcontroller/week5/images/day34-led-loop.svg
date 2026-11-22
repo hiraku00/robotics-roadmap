@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 440" width="980" height="440" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="440" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">LED は、電気の通り道が一周しないと光らない：GND につながっていなかった</text>
+<rect x="30" y="60" width="450" height="320" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="46" y="90" font-size="15" fill="#c62828" text-anchor="start" font-weight="bold">まちがい：LED の先が行き止まり</text>
+<rect x="50" y="120" width="90" height="50" rx="6" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="95" y="150" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">ピン7</text>
+<path d="M140,145 L180,145" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M180,145 L185.8,136 L197.5,154 L209.2,136 L220.8,154 L232.5,136 L244.2,154 L250,145" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="215" y="128" font-size="12" fill="#222" text-anchor="middle">220Ω</text>
+<path d="M250,145 L280,145" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M280,131 L280,159 L306,145 z" fill="#e0e0e0" stroke="#222" stroke-width="2"/>
+<path d="M306,131 L306,159" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M306,145 L340,145" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="346" y="150" font-size="14" fill="#c62828" text-anchor="start" font-weight="bold">× 行き止まり</text>
+<text x="255" y="215" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">電気が戻れないので、光らない</text>
+<text x="255" y="340" font-size="12.5" fill="#555" text-anchor="middle">曲がった足が、抵抗と反対側にあるように見えた</text>
+<rect x="500" y="60" width="450" height="320" rx="10" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+<text x="516" y="90" font-size="15" fill="#2e7d32" text-anchor="start" font-weight="bold">直した：LED の先が GND につながる</text>
+<rect x="520" y="120" width="90" height="50" rx="6" fill="#e0f2f1" stroke="#00796b" stroke-width="2"/>
+<text x="565" y="150" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">ピン7</text>
+<path d="M610,145 L650,145" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M650,145 L655.8,136 L667.5,154 L679.2,136 L690.8,154 L702.5,136 L714.2,154 L720,145" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="685" y="128" font-size="12" fill="#222" text-anchor="middle">220Ω</text>
+<path d="M720,145 L750,145" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M750,131 L750,159 L776,145 z" fill="#ef5350" stroke="#222" stroke-width="2"/>
+<path d="M776,131 L776,159" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M762,125 L772,111" fill="none" stroke="#c62828" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M774,125 L784,111" fill="none" stroke="#c62828" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M776,145 L810,145" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M810,145 L860,145 L860,260" fill="none" stroke="#c62828" stroke-width="3"/>
+<rect x="800" y="262" width="120" height="40" rx="6" fill="#eeeeee" stroke="#757575" stroke-width="2"/>
+<text x="860" y="288" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">− の列（GND）</text>
+<text x="725" y="215" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">ピンから GND まで、一周する</text>
+<text x="725" y="340" font-size="12.5" fill="#555" text-anchor="middle">LED の向き：曲がった足＝ピン側、まっすぐな足＝GND 側</text>
+<rect x="30" y="392" width="920" height="36" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="490" y="416" font-size="13" fill="#222" text-anchor="middle">記事の図は、LED の足を、上の − の列に直接さしている。Tinkercad では、足の先に短い線をつないで、− の列へ</text>
+</svg>
