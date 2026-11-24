@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 450" width="980" height="450" font-family="Hiragino Sans, Noto Sans JP, sans-serif">
+<rect width="980" height="450" fill="#fff"/>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+</defs>
+<text x="490.0" y="36" font-size="22" fill="#222" text-anchor="middle" font-weight="bold">ベース電流と、モーターが回るか：Tinkercad では、4.3mA は回らず、6.9mA は回った</text>
+<path d="M90,230 L890,230" fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#ak)"/>
+<path d="M90.0,224 L90.0,236" fill="none" stroke="#222" stroke-width="1.5"/>
+<text x="90.0" y="258" font-size="12" fill="#555" text-anchor="middle">3mA</text>
+<path d="M223.33333333333331,224 L223.33333333333331,236" fill="none" stroke="#222" stroke-width="1.5"/>
+<text x="223.33333333333331" y="258" font-size="12" fill="#555" text-anchor="middle">4mA</text>
+<path d="M356.66666666666663,224 L356.66666666666663,236" fill="none" stroke="#222" stroke-width="1.5"/>
+<text x="356.66666666666663" y="258" font-size="12" fill="#555" text-anchor="middle">5mA</text>
+<path d="M490.0,224 L490.0,236" fill="none" stroke="#222" stroke-width="1.5"/>
+<text x="490.0" y="258" font-size="12" fill="#555" text-anchor="middle">6mA</text>
+<path d="M623.3333333333333,224 L623.3333333333333,236" fill="none" stroke="#222" stroke-width="1.5"/>
+<text x="623.3333333333333" y="258" font-size="12" fill="#555" text-anchor="middle">7mA</text>
+<path d="M756.6666666666667,224 L756.6666666666667,236" fill="none" stroke="#222" stroke-width="1.5"/>
+<text x="756.6666666666667" y="258" font-size="12" fill="#555" text-anchor="middle">8mA</text>
+<path d="M890.0,224 L890.0,236" fill="none" stroke="#222" stroke-width="1.5"/>
+<text x="890.0" y="258" font-size="12" fill="#555" text-anchor="middle">9mA</text>
+<rect x="263.3333333333333" y="180" width="346.6666666666667" height="100" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5" stroke-dasharray="5,4" rx="4"/>
+<text x="436.66666666666663" y="296" font-size="12.5" fill="#e65100" text-anchor="middle" font-weight="bold">Tinkercad の境目は、この間</text>
+<path d="M206.0,186 L206.0,222" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="3,3"/>
+<circle cx="206.0" cy="230" r="8" fill="#c62828" stroke="#222" stroke-width="1.5"/>
+<rect x="144.0" y="146" width="124" height="42" rx="6" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+<text x="206.0" y="164" font-size="12.5" fill="#222" text-anchor="middle" font-weight="bold">1111Ω（3.9mA）</text>
+<text x="206.0" y="181" font-size="11.5" fill="#c62828" text-anchor="middle" font-weight="bold">記事の実機：回らない</text>
+<path d="M263.3333333333333,131 L263.3333333333333,222" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="3,3"/>
+<circle cx="263.3333333333333" cy="230" r="8" fill="#c62828" stroke="#222" stroke-width="1.5"/>
+<rect x="201.33333333333331" y="91" width="124" height="42" rx="6" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+<text x="263.3333333333333" y="109" font-size="12.5" fill="#222" text-anchor="middle" font-weight="bold">1kΩ（4.3mA）</text>
+<text x="263.3333333333333" y="126" font-size="11.5" fill="#c62828" text-anchor="middle" font-weight="bold">Tinkercad：回らない</text>
+<path d="M530.0,186 L530.0,222" fill="none" stroke="#2e7d32" stroke-width="2" stroke-dasharray="3,3"/>
+<circle cx="530.0" cy="230" r="8" fill="#2e7d32" stroke="#222" stroke-width="1.5"/>
+<rect x="468.0" y="146" width="124" height="42" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<text x="530.0" y="164" font-size="12.5" fill="#222" text-anchor="middle" font-weight="bold">680Ω（6.3mA）</text>
+<text x="530.0" y="181" font-size="11.5" fill="#2e7d32" text-anchor="middle" font-weight="bold">記事の実機：回る</text>
+<path d="M607.3333333333333,131 L607.3333333333333,222" fill="none" stroke="#2e7d32" stroke-width="2" stroke-dasharray="3,3"/>
+<circle cx="607.3333333333333" cy="230" r="8" fill="#2e7d32" stroke="#222" stroke-width="1.5"/>
+<rect x="545.3333333333333" y="91" width="124" height="42" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<text x="607.3333333333333" y="109" font-size="12.5" fill="#222" text-anchor="middle" font-weight="bold">625Ω（6.9mA）</text>
+<text x="607.3333333333333" y="126" font-size="11.5" fill="#2e7d32" text-anchor="middle" font-weight="bold">Tinkercad：回る</text>
+<path d="M756.6666666666667,186 L756.6666666666667,222" fill="none" stroke="#2e7d32" stroke-width="2" stroke-dasharray="3,3"/>
+<circle cx="756.6666666666667" cy="230" r="8" fill="#2e7d32" stroke="#222" stroke-width="1.5"/>
+<rect x="694.6666666666667" y="146" width="124" height="42" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<text x="756.6666666666667" y="164" font-size="12.5" fill="#222" text-anchor="middle" font-weight="bold">記事の計算</text>
+<text x="756.6666666666667" y="181" font-size="11.5" fill="#2e7d32" text-anchor="middle" font-weight="bold">5V ÷ 8mA（800mA 用）</text>
+<text x="490" y="360" font-size="12.5" fill="#222" text-anchor="middle">ベース電流 ＝（5V − 0.7V）÷ ベース抵抗（計算）。記事の計算（5V ÷ 8mA）は、0.7V を引かない</text>
+<rect x="30" y="385" width="920" height="50" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="490" y="408" font-size="13.5" fill="#222" text-anchor="middle" font-weight="bold">ベース電流が小さいと、コレクタに流せる電流が足りず、始動できない。小さくしすぎると、回らない</text>
+<text x="490" y="428" font-size="12" fill="#555" text-anchor="middle">（Tinkercad の部品は、記事の 2SC2120-Y と FA-130RA とは別物。境目の値は、部品によってちがう）</text>
+</svg>
