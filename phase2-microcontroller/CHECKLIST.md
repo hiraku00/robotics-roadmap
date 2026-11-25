@@ -60,9 +60,9 @@
 
 **37日目 逆起電力とPWMの速度制御** → [記録](week6/README.md#37日目-逆起電力とpwmの速度制御)
 
-- [ ] 読む：[MONOist モーター制御(4) 困ったら読みたいTips](https://monoist.itmedia.co.jp/mn/spv/1603/04/news042_2.html)のダイオードによる逆起電力対策（20分）
-- [ ] 読む：[MONOist モーター制御(5) PWMでマブチモーターを制御する](https://monoist.itmedia.co.jp/mn/articles/1604/11/news014.html)（全5ページ、40分）
-- [ ] 組む：36日目の回路にダイオードを足し、`analogWrite()` で5段階の速度にする。PWMの値と回転の速さの関係を表にする（筆者の課題の前半）（40分）
+- [x] 読む：[MONOist モーター制御(4) 困ったら読みたいTips](https://monoist.itmedia.co.jp/mn/spv/1603/04/news042_2.html)のダイオードによる逆起電力対策（20分）
+- [x] 読む：[MONOist モーター制御(5) PWMでマブチモーターを制御する](https://monoist.itmedia.co.jp/mn/articles/1604/11/news014.html)（全5ページ、40分）
+- [x] 組む：36日目の回路にダイオードを足し、`analogWrite()` で5段階の速度にする。PWMの値と回転の速さの関係を表にする（筆者の課題の前半）（40分）
 
 **38日目 Hブリッジで向きを変える** → [記録](week6/README.md#38日目-hブリッジで向きを変える)
 
