@@ -66,9 +66,9 @@
 
 **38日目 Hブリッジで向きを変える** → [記録](week6/README.md#38日目-hブリッジで向きを変える)
 
-- [ ] 読む：[SunFounder ESP32「4.1 モーター」](https://docs.sunfounder.com/projects/esp32-starter-kit/ja/latest/arduino/basic_projects/ar_motor.html)。L293Dで正転・逆転・停止、さらにPWMで加減速する流れ（30分）
-- [ ] 組む：TinkercadのArduino UNOとL293Dで同じ動きを作る。2本の入力の組み合わせで向きが決まり、イネーブルのPWMで速さが決まる（60分）
-- [ ] 注意：筆者はL298NやL293Dのような古いドライバは発熱と電圧ロスが大きく、実機ではTB6612FNGやDRV8833を勧めています。シミュレーションでは仕組みの理解に使います
+- [x] 読む：[SunFounder ESP32「4.1 モーター」](https://docs.sunfounder.com/projects/esp32-starter-kit/ja/latest/arduino/basic_projects/ar_motor.html)。L293Dで正転・逆転・停止、さらにPWMで加減速する流れ（30分）
+- [x] 組む：TinkercadのArduino UNOとL293Dで同じ動きを作る。2本の入力の組み合わせで向きが決まり、イネーブルのPWMで速さが決まる（60分）
+- [x] 注意：筆者はL298NやL293Dのような古いドライバは発熱と電圧ロスが大きく、実機ではTB6612FNGやDRV8833を勧めています。シミュレーションでは仕組みの理解に使います
 
 **39日目 サーボモーター** → [記録](week6/README.md#39日目-サーボモーター)
 
