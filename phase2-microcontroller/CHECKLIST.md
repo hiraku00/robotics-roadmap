@@ -72,9 +72,9 @@
 
 **39日目 サーボモーター** → [記録](week6/README.md#39日目-サーボモーター)
 
-- [ ] 読む・組む：[SunFounder 3in1「5.5 内蔵ライブラリの使用」](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_use_internal_library.html)。Servoライブラリで0〜180度に動かす（40分）
-- [ ] 改造：可変抵抗の値（第5週の `map()`）でサーボの角度を決める（40分）
-- [ ] 記録：サーボは内部で角度を自分で合わせる（閉ループ）が、外からは角度が分からない、という違いを1行
+- [x] 読む・組む：[SunFounder 3in1「5.5 内蔵ライブラリの使用」](https://docs.sunfounder.com/projects/3in1-kit-v2/ja/latest/basic_project/ar_use_internal_library.html)。Servoライブラリで0〜180度に動かす（40分）
+- [x] 改造：可変抵抗の値（第5週の `map()`）でサーボの角度を決める（40分）
+- [x] 記録：サーボは内部で角度を自分で合わせる（閉ループ）が、外からは角度が分からない、という違いを1行
 
 **40日目 エンコーダで「ちょうど1回転」（筆者の課題の後半）** → [記録](week6/README.md#40日目-エンコーダでちょうど1回転筆者の課題の後半)
 
